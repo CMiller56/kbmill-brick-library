@@ -14,7 +14,7 @@ Each brick is a finished, handoffable unit: rich Markdown + machine sidecars + e
 
 ## Hard corpus on the desk
 
-![VectorForge Pro timeline — Skolnik_Radar (Introduction to Radar Systems)](docs/desk-skolnik-hard-corpus.png)
+![VectorForge Pro timeline — Skolnik_Radar (Introduction to Radar Systems)](docs/desk-skolnik-no-chrome.png)
 
 **Skolnik-class radar PDF on the Pro desk** (~2.8k chunks): timeline, quality rings on hollow/garble clips, problem strip, and chunk inspector on real extract mess (dual-stream / debris still visible in places).  
 
