@@ -4,13 +4,17 @@ Public collection of **portable knowledge bricks** — bounded, self-contained p
 
 **Why these bricks exist:** These KBs are published to **demonstrate the range of VF Pro capabilities** — different source shapes (technical PDF papers, multi-site wiki/HTML ops docs, large parameter references, protocol XML, GitBook-style hardware manuals) turned into honest, drop-in packages. The library is a living sample set, not a product dump of the workbench itself.
 
+Most RAG failures are not model failures. They are data-preparation failures — garbled extraction, broken structure, silent hollow pages, and unbounded dumps that force the model to guess.
+
+These bricks exist to demonstrate the opposite approach: bounded, residual-honest, craft-aware packages so a model (especially a local or air-gapped one) receives clean semantic units, known limits, and explicit routing instead of garbage mixed with gold.
+
 These are not unbounded RAG dumps.  
 Each brick is a finished, handoffable unit: rich Markdown + machine sidecars + embeddings + craft notes, ready for local use, air-gapped environments, or any tool that can read the package.
 
 
 ## Hard corpus on the desk
 
-![VectorForge Pro timeline — Skolnik_Radar (Introduction to Radar Systems)](docs/skolnik-desk-hard-corpus.png)
+![VectorForge Pro timeline — Skolnik_Radar (Introduction to Radar Systems)](docs/desk-skolnik-hard-corpus.png)
 
 **Skolnik-class radar PDF on the Pro desk** (~2.8k chunks): timeline, quality rings on hollow/garble clips, problem strip, and chunk inspector on real extract mess (dual-stream / debris still visible in places).  
 
