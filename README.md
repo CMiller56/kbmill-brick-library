@@ -52,6 +52,7 @@ Bricks are sized to stay human-scale. **Design guidance** is roughly **hundreds 
 | Brick | Description | Status |
 |-------|-------------|--------|
 | [Advanced_Rockets](bricks/Advanced_Rockets/) | Advanced chemical rocket engines (Haidn / RTO-EN-AVT-150 educational notes) | **v1 portable ZIP** |
+| [Ranger_Handbook_SH_21_76](bricks/Ranger_Handbook_SH_21_76/) | US Army Ranger Handbook SH 21-76 (2000) — field manual / residual-honest PDF brick | **v1 portable ZIP** |
 | [ArduPilot_Plane](bricks/ArduPilot_Plane/) | Plane operations / wiki-oriented facet | **v1 portable ZIP** |
 | [ArduPilot_Plane_Params](bricks/ArduPilot_Plane_Params/) | Plane parameters reference facet | **v1 portable ZIP** |
 | [ArduPilot_MAVLink](bricks/ArduPilot_MAVLink/) | MAVLink protocol facet | **v1 portable ZIP** |
@@ -62,7 +63,7 @@ Bricks are sized to stay human-scale. **Design guidance** is roughly **hundreds 
 
 Each brick folder has `*_portable.zip` + `LIBRARY_CARD.md` (purpose, rights, residual notes, load tips). Machine index: [`catalog.json`](catalog.json).
 
-**Not affiliated with or endorsed by** the ArduPilot, CubePilot, DroneCAN, or UAVCAN projects. Source documentation remains under **upstream licenses** — see each card. ArduPilot wiki-class material is typically **CC BY-SA**; derived bricks should keep **attribution + ShareAlike** on that content. Cards state the brick’s license position explicitly. These packs are derived retrieval bricks for tinkerers and integrators.
+**Not affiliated with or endorsed by** the US Army, DoD, ArduPilot, CubePilot, DroneCAN, or UAVCAN projects. Source documentation remains under **upstream licenses** — see each card. ArduPilot wiki-class material is typically **CC BY-SA**; derived bricks should keep **attribution + ShareAlike** on that content. Cards state the brick’s license position explicitly. These packs are derived retrieval bricks for tinkerers and integrators.
 
 This first wave uses only external / open technical sources. Nothing proprietary or unscreened is published here.
 
