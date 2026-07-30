@@ -12,6 +12,7 @@ No account. No cloud dependency. Chat LLM is **not** bundled.
 | Technical PDF paper | **[Advanced_Rockets](bricks/Advanced_Rockets/)** |
 
 Index: [`catalog.json`](catalog.json). Rights + residual: each brick’s `LIBRARY_CARD.md`.
+**Contract:** [BRICK_SPEC.md](BRICK_SPEC.md).
 
 ## 2. Unzip
 

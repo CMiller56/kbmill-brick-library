@@ -31,6 +31,13 @@ Ten minutes of reading beats any claim that “bricks retrieve well.” If a hit
 
 ---
 
+## Brick contract
+
+**[BRICK_SPEC.md](BRICK_SPEC.md)** — public package contract: required files, chunk fields, RAG eligibility (`muted` / `exclude_from_rag`), size bands, multi-brick composition, and loader checklist.  
+Load how-to: [GETTING_STARTED.md](GETTING_STARTED.md) · matrix sketch: [PORTABILITY.md](PORTABILITY.md).
+
+---
+
 ## What is a knowledge brick?
 
 A **knowledge brick** is a portable, versionable unit of technical knowledge designed to stay honest and usable over time.
