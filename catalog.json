@@ -100,6 +100,19 @@
       "has_handoff": true
     },
     {
+      "name": "FM_3_90_Tactics",
+      "title": "FM 3-90 Tactics (2001)",
+      "chunks": 1070,
+      "zip": "bricks/FM_3_90_Tactics/FM_3_90_Tactics_portable.zip",
+      "size_bytes": 8580425,
+      "card": "bricks/FM_3_90_Tactics/LIBRARY_CARD.md",
+      "family": "doctrine",
+      "rights_class": "us_government",
+      "residual_one_liner": "Large FM; figure shells muted via gov_fm magazine; residual soft craft may remain",
+      "search_smoke": "PASS",
+      "has_handoff": true
+    },
+    {
       "name": "Ranger_Handbook_SH_21_76",
       "title": "Ranger Handbook (SH 21-76, 2000)",
       "chunks": 324,
