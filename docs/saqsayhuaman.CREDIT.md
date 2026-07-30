@@ -1,6 +1,6 @@
 # Image credit — Sacsayhuamán
 
-**File:** `saqsayhuaman.jpg` (1200×675, 16:9)
+**File:** `saqsayhuaman.jpg` (native 1920×2560, original aspect)
 
 **Source:** [Sacsayhuaman (pixinn.net).jpg](https://commons.wikimedia.org/wiki/File:Sacsayhuaman_(pixinn.net).jpg) on Wikimedia Commons  
 
@@ -8,4 +8,4 @@
 
 **License:** [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)  
 
-**Modifications:** Landscape 16:9 crop + resize for README banner (derivative under CC BY-SA).
+**Modifications:** JPEG re-encode for repo only (same dimensions/aspect as Commons file; no crop).
