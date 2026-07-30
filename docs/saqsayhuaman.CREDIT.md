@@ -1,6 +1,6 @@
 # Image credit — Sacsayhuamán
 
-**File:** `saqsayhuaman.jpg` (operator web-small)
+**File:** `saqsayhuaman.jpg`
 
 **Source:** [Sacsayhuaman (pixinn.net).jpg](https://commons.wikimedia.org/wiki/File:Sacsayhuaman_(pixinn.net).jpg) on Wikimedia Commons  
 
@@ -8,4 +8,4 @@
 
 **License:** [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)  
 
-**Modifications:** Resized/cropped for README (operator `…small.jpg`); derivative under CC BY-SA.
+**Modifications:** Operator resize; **canvas white padding auto-trimmed** so the file bounds match the photo (derivative under CC BY-SA).
