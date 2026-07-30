@@ -1,6 +1,6 @@
 # Image credit — Sacsayhuamán
 
-**File:** `saqsayhuaman.jpg` (web-encoded from Commons original; dimensions preserved)
+**File:** `saqsayhuaman.jpg`
 
 **Source:** [Sacsayhuaman (pixinn.net).jpg](https://commons.wikimedia.org/wiki/File:Sacsayhuaman_(pixinn.net).jpg) on Wikimedia Commons  
 
@@ -8,4 +8,4 @@
 
 **License:** [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)  
 
-**Modifications:** Re-encoded/compressed for web delivery (no intentional crop).
+**Modifications:** Web re-encode and crop for README layout (derivative under CC BY-SA).
