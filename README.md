@@ -43,7 +43,7 @@ Fitted stone units, not a poured slab — the same bet as knowledge bricks: boun
 
 Load how-to: [GETTING_STARTED.md](GETTING_STARTED.md) · matrix sketch: [PORTABILITY.md](PORTABILITY.md).
 
-<sub>Photo: [Christophe Meneboeuf](https://www.xtof.photo) · [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) · via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sacsayhuaman_(pixinn.net).jpg) (tight crop, full content width; credit: [docs/saqsayhuaman.CREDIT.md](docs/saqsayhuaman.CREDIT.md))</sub>
+<sub>Photo: [Christophe Meneboeuf](https://www.xtof.photo) · [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) · via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sacsayhuaman_(pixinn.net).jpg) (resized for web; credit: [docs/saqsayhuaman.CREDIT.md](docs/saqsayhuaman.CREDIT.md))</sub>
 
 ---
 
