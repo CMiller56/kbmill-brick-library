@@ -108,7 +108,22 @@
       "card": "bricks/Ranger_Handbook_SH_21_76/LIBRARY_CARD.md",
       "family": "military_doctrine",
       "rights_class": "us_government_work",
-      "residual_one_liner": "324 chunks; ~47 figure-shell/plot muted off RAG; F1 promote gate; US Army SH 21-76 (2000) public domain package",
+      "residual_one_liner": "324 chunks; ~47 figure-shell/plot muted off RAG; F1 promote gate; US Army SH 21-76 (2000) public domain package \u00b7 sibling TC 3-21.76 (2017)",
+      "search_smoke": "PASS",
+      "has_handoff": true,
+      "has_embeddings": true,
+      "sibling": "Ranger_Handbook_TC_3_21_76"
+    },
+    {
+      "name": "Ranger_Handbook_TC_3_21_76",
+      "title": "Ranger Handbook (TC 3-21.76, 2017)",
+      "chunks": 509,
+      "zip": "bricks/Ranger_Handbook_TC_3_21_76/Ranger_Handbook_TC_3_21_76_portable.zip",
+      "size_bytes": 36061577,
+      "card": "bricks/Ranger_Handbook_TC_3_21_76/LIBRARY_CARD.md",
+      "family": "military_doctrine",
+      "rights_class": "us_government_work",
+      "residual_one_liner": "509 chunks; ~116 figure/plot muted; soft multi_section yellows; sibling SH 21-76 (2000); smoke PASS",
       "search_smoke": "PASS",
       "has_handoff": true,
       "has_embeddings": true

@@ -52,7 +52,8 @@ Bricks are sized to stay human-scale. **Design guidance** is roughly **hundreds 
 | Brick | Description | Status |
 |-------|-------------|--------|
 | [Advanced_Rockets](bricks/Advanced_Rockets/) | Advanced chemical rocket engines (Haidn / RTO-EN-AVT-150 educational notes) | **v1 portable ZIP** |
-| [Ranger_Handbook_SH_21_76](bricks/Ranger_Handbook_SH_21_76/) | US Army Ranger Handbook SH 21-76 (2000) — field manual / residual-honest PDF brick | **v1 portable ZIP** |
+| [Ranger_Handbook_SH_21_76](bricks/Ranger_Handbook_SH_21_76/) | US Army Ranger Handbook **SH 21-76 (2000)** — historical student handbook; pair with TC 3-21.76 (2017) | **v1 portable ZIP** |
+| [Ranger_Handbook_TC_3_21_76](bricks/Ranger_Handbook_TC_3_21_76/) | US Army Ranger Handbook **TC 3-21.76 (2017)** — modern TC edition; pair with SH 21-76 (2000) | **v1 portable ZIP** |
 | [ArduPilot_Plane](bricks/ArduPilot_Plane/) | Plane operations / wiki-oriented facet | **v1 portable ZIP** |
 | [ArduPilot_Plane_Params](bricks/ArduPilot_Plane_Params/) | Plane parameters reference facet | **v1 portable ZIP** |
 | [ArduPilot_MAVLink](bricks/ArduPilot_MAVLink/) | MAVLink protocol facet | **v1 portable ZIP** |

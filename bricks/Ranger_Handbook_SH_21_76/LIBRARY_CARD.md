@@ -5,7 +5,8 @@
 **Muted / exclude_from_rag:** 47  
 **Package:** `Ranger_Handbook_SH_21_76_portable.zip` (5447 KB)  
 **Search smoke:** PASS
-**Public gallery:** intended **yes** (US Government work)
+**Public gallery:** **yes** (US Government work)  
+**Sibling brick:** [`Ranger_Handbook_TC_3_21_76`](../Ranger_Handbook_TC_3_21_76/) — TC 3-21.76 (2017) modern TC edition
 
 ## Purpose
 
