@@ -67,6 +67,7 @@ Bricks are sized to stay human-scale. **Design guidance** is roughly **hundreds 
 
 | Brick | Description | Status |
 |-------|-------------|--------|
+| [ST_31_91B_SF_Medical](bricks/ST_31_91B_SF_Medical/) | US Army **ST 31-91B** Special Forces Medical Handbook (historical; not clinical advice) | **v1 portable ZIP** |
 | [FM_3_90_Tactics](bricks/FM_3_90_Tactics/) | US Army **FM 3-90 Tactics (2001)** — offensive/defensive operations; large field manual | **v1 portable ZIP** |
 | [Advanced_Rockets](bricks/Advanced_Rockets/) | Advanced chemical rocket engines (Haidn / RTO-EN-AVT-150 educational notes) | **v1 portable ZIP** |
 | [Ranger_Handbook_SH_21_76](bricks/Ranger_Handbook_SH_21_76/) | US Army Ranger Handbook **SH 21-76 (2000)** — historical student handbook; pair with TC 3-21.76 (2017) | **v1 portable ZIP** |

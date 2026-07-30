@@ -142,6 +142,19 @@
       "has_embeddings": true
     },
     {
+      "name": "ST_31_91B_SF_Medical",
+      "title": "ST 31-91B Special Forces Medical Handbook",
+      "chunks": 550,
+      "zip": "bricks/ST_31_91B_SF_Medical/ST_31_91B_SF_Medical_portable.zip",
+      "size_bytes": 30387503,
+      "card": "bricks/ST_31_91B_SF_Medical/LIBRARY_CARD.md",
+      "family": "doctrine",
+      "rights_class": "us_government",
+      "residual_one_liner": "Scan-era full-page images; promoted OCR on RAG; not clinical advice",
+      "search_smoke": "PASS",
+      "has_handoff": true
+    },
+    {
       "name": "UAVCAN_cvra",
       "title": "UAVCAN (CVRA / legacy facet)",
       "chunks": 41,
