@@ -33,12 +33,7 @@ Ten minutes of reading beats any claim that “bricks retrieve well.” If a hit
 
 ## Brick contract
 
-<table>
-<tr>
-<td width="38%" valign="top">
-<img src="docs/saqsayhuaman.jpg" alt="Sacsayhuamán — fitted polygonal stone wall (Inca)" width="360" />
-</td>
-<td valign="top">
+![Sacsayhuamán — fitted polygonal stone wall (Inca)](docs/saqsayhuaman.jpg)
 
 **[BRICK_SPEC.md](BRICK_SPEC.md)** — public package contract (v1.0): required files, chunk fields, RAG eligibility (`muted` / `exclude_from_rag`), size bands, multi-brick composition, and loader checklist.
 
@@ -46,11 +41,7 @@ Fitted stone units, not a poured slab — the same bet as knowledge bricks: boun
 
 Load how-to: [GETTING_STARTED.md](GETTING_STARTED.md) · matrix sketch: [PORTABILITY.md](PORTABILITY.md).
 
-<sub>Photo: [Christophe Meneboeuf](https://www.xtof.photo) · [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) · via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sacsayhuaman_(pixinn.net).jpg) (cropped for web; credit: [docs/saqsayhuaman.CREDIT.md](docs/saqsayhuaman.CREDIT.md))</sub>
-
-</td>
-</tr>
-</table>
+<sub>Photo: [Christophe Meneboeuf](https://www.xtof.photo) · [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) · via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sacsayhuaman_(pixinn.net).jpg) (16:9 crop for web; credit: [docs/saqsayhuaman.CREDIT.md](docs/saqsayhuaman.CREDIT.md))</sub>
 
 ---
 
