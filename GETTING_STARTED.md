@@ -41,15 +41,18 @@ Same embed family as the brick (**nomic-embed-text**, 768-d). See **[PORTABILITY
 
 ## 3c. Optional — VF Runtime Connect
 
-If you have VF Runtime:
+If you have VF Runtime / Engine installed (air-gap pack or site install):
 
 ```bash
-export VF_KBS_ROOT=/path/to/parent_of_unzipped_bricks
+# Example from a clone of this repo:
+mkdir -p ./kbs
+unzip bricks/ArduPilot_Plane/ArduPilot_Plane_portable.zip -d ./kbs/ArduPilot_Plane
+export VF_KBS_ROOT="$(pwd)/kbs"
 python -m vectorforge.mcp.connect
-# load_kb("ArduPilot_Plane") → search_kb / answer_with_sources
+# MCP client: load_kb("ArduPilot_Plane") → search_kb / answer_with_sources
 ```
 
-Connect is **optional**. Bricks are not locked to VectorForge.
+Connect is **optional** and **read-only** (no factory tools). Bricks are not locked to VectorForge.
 
 ## 4. Read craft notes first
 

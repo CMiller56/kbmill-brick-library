@@ -101,13 +101,40 @@ This first wave uses only external / open technical sources. Nothing proprietary
 
 **→ Full path:** [GETTING_STARTED.md](GETTING_STARTED.md) (5–15 minutes)
 
-1. Download the `*_portable.zip`
-2. Unzip
-3. Load it **without requiring VectorForge** — plain Markdown, `chunks.jsonl`, or embeddings cosine rank. Worked notes: [PORTABILITY.md](PORTABILITY.md). VF Runtime is optional.
+1. Download the `*_portable.zip` (or clone this repo and use `bricks/<Name>/`)
+2. Unzip so you have a folder with `kb.json`, `chunks.jsonl`, `embeddings.npy`
+3. Load it **without requiring VectorForge** — plain Markdown, `chunks.jsonl`, or embeddings cosine rank. Worked notes: [PORTABILITY.md](PORTABILITY.md).
 4. Read the **LIBRARY_CARD** (snapshot date, named residual, license) before trusting hits.
 5. When ranking semantically, **skip** chunks with `exclude_from_rag` / `muted` (figure-shell debris).
 
-No account required. No cloud dependency.
+### Optional — VF Runtime Connect (read-only MCP)
+
+Connect is a **small, read-only** MCP server (load / search / cite — not factory tools). Use it from Claude Desktop, Open-WebUI (`mcpo`), or any MCP client. **Chat LLM is not bundled** — your client supplies the model.
+
+```bash
+# 1) Unpack a brick into a kbs-style tree (name = load_kb id)
+mkdir -p ./kbs
+unzip bricks/ArduPilot_MAVLink/ArduPilot_MAVLink_portable.zip -d ./kbs/ArduPilot_MAVLink
+
+# 2) Point Connect at the parent of brick folders
+export VF_KBS_ROOT="$(pwd)/kbs"
+
+# 3) Run Connect (stdio MCP — default for Claude Desktop / mcpo)
+#    Requires VF Runtime / Engine installed (air-gap wheelhouse or your site package).
+python -m vectorforge.mcp.connect
+
+# In the MCP client: load_kb("ArduPilot_MAVLink") → search_kb / answer_with_sources
+```
+
+HTTP + Open-WebUI example:
+
+```bash
+export VF_KBS_ROOT="$(pwd)/kbs"
+python -m vectorforge.mcp.connect --http --port 8000
+# or: mcpo --port 8000 -- python -m vectorforge.mcp.connect
+```
+
+No account required. No cloud dependency for the brick package itself.
 
 ---
 
