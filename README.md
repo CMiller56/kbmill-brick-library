@@ -195,8 +195,9 @@ It treats knowledge bases like long-form media projects: non-destructive editing
 
 **Credit where it is due:** VectorForge would not exist without **Grok** (xAI) across successive versions of the model and tooling. Design, judgment, and the product are mine; a great deal of the build labor and iteration has been in collaboration with Grok. Full credit for that partnership — without implying a human engineering org behind the curtain.
 
-- X: [@VectorForgePro](https://x.com/VectorForgePro)
-- Builder: [@CMiller111111](https://x.com/CMiller111111)
+- X (product): [@VectorForgePro](https://x.com/VectorForgePro)
+- Builder / GitHub: [CMiller56](https://github.com/CMiller56)
+- Issues (bricks): [vf-brick-library/issues](https://github.com/CMiller56/vf-brick-library/issues)
 - Grok / xAI: [x.ai](https://x.ai)
 
 ---
