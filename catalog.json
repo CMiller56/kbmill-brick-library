@@ -113,6 +113,21 @@
       "has_handoff": true
     },
     {
+      "name": "FM_7_85_Ranger_Unit_Operations",
+      "title": "FM 7-85 Ranger Unit Operations",
+      "chunks": 420,
+      "zip": "bricks/FM_7_85_Ranger_Unit_Operations/FM_7_85_Ranger_Unit_Operations_portable.zip",
+      "size_bytes": 45897726,
+      "card": "bricks/FM_7_85_Ranger_Unit_Operations/LIBRARY_CARD.md",
+      "family": "doctrine",
+      "rights_class": "us_government",
+      "residual_one_liner": "6 muted of 420; gallery slim 364 images; 178 figure OCR promoted; Job B clean; gov_fm magazine",
+      "search_smoke": "PASS",
+      "has_handoff": true,
+      "has_embeddings": true,
+      "public_gallery": true
+    },
+    {
       "name": "Ranger_Handbook_SH_21_76",
       "title": "Ranger Handbook (SH 21-76, 2000)",
       "chunks": 324,
