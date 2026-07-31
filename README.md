@@ -68,6 +68,7 @@ Bricks are sized to stay human-scale. **Design guidance** is roughly **hundreds 
 | Brick | Description | Status |
 |-------|-------------|--------|
 | [TM_11_666_Antennas_Radio_Propagation](bricks/TM_11_666_Antennas_Radio_Propagation/) | US Army **TM 11-666 Antennas and Radio Propagation (1953)** — historical RF/antennas; scan OCR + hard_pdf residual craft | **v1 portable ZIP** |
+| [MCRP_3_01A_Rifle_Marksmanship](bricks/MCRP_3_01A_Rifle_Marksmanship/) | USMC **MCRP 3-01A Rifle Marksmanship (2001)** — individual rifle marksmanship; pre-digital TOC/hyphen craft | **v1 portable ZIP** |
 | [ST_31_91B_SF_Medical](bricks/ST_31_91B_SF_Medical/) | US Army **ST 31-91B** Special Forces Medical Handbook (historical; not clinical advice) | **v1 portable ZIP** |
 | [FM_3_90_Tactics](bricks/FM_3_90_Tactics/) | US Army **FM 3-90 Tactics (2001)** — offensive/defensive operations; large field manual | **v1 portable ZIP** |
 | [FM_7_85_Ranger_Unit_Operations](bricks/FM_7_85_Ranger_Unit_Operations/) | US Army **FM 7-85 Ranger Unit Operations** — ranger unit org/employment; mid-size FM sibling to FM 3-90 + Ranger handbooks | **v1 portable ZIP** |
