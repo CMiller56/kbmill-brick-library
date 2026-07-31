@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "library": "vf-brick-library",
   "url": "https://github.com/CMiller56/vf-brick-library",
   "unit": "*_portable.zip",
@@ -85,6 +85,21 @@
       "residual_one_liner": "Hardware docs facet; soft residual possible",
       "search_smoke": null,
       "has_handoff": true
+    },
+    {
+      "name": "Dr_Chase_Recipes_Information_Everybody",
+      "title": "Dr. Chase's Recipes, or Information for Everybody",
+      "chunks": 1026,
+      "zip": "bricks/Dr_Chase_Recipes_Information_Everybody/Dr_Chase_Recipes_Information_Everybody_portable.zip",
+      "size_bytes": 19537061,
+      "card": "bricks/Dr_Chase_Recipes_Information_Everybody/LIBRARY_CARD.md",
+      "family": "historical_practical",
+      "rights_class": "public_domain",
+      "residual_one_liner": "411 muted of 1026; 19th-c OCR; index mute + heading sanitize; NOT medical advice",
+      "search_smoke": "PASS",
+      "has_handoff": true,
+      "has_embeddings": true,
+      "public_gallery": true
     },
     {
       "name": "DroneCAN",
