@@ -72,6 +72,7 @@ Bricks are sized to stay human-scale. **Design guidance** is roughly **hundreds 
 |-------|-------------|--------|
 | [TM_11_666_Antennas_Radio_Propagation](bricks/TM_11_666_Antennas_Radio_Propagation/) | US Army **TM 11-666 Antennas and Radio Propagation (1953)** — historical RF/antennas; scan OCR + hard_pdf residual craft | **v1 portable ZIP** |
 | [NASA_41st_Aerospace_Mechanisms_Symposium](bricks/NASA_41st_Aerospace_Mechanisms_Symposium/) | **NASA 41st Aerospace Mechanisms Symposium** (CP-2012-217653) — multi-paper spacecraft mechanisms proceedings | **v1 portable ZIP** |
+| [NASA_AMBR_Engine_Information_Summary](bricks/NASA_AMBR_Engine_Information_Summary/) | **NASA AMBR Engine** information summary (May 2009) — bipropellant thruster Isp/mission notes; USG | **v1 portable ZIP** |
 | [NASA_Skylab_History_Living_Working_Space](bricks/NASA_Skylab_History_Living_Working_Space/) | **NASA Skylab History** (*Living and Working in Space*) — paper-capture OCR; post-promote soft-hyphen; **text-first portable** (image_policy=none) | **v1 portable ZIP** |
 | [MCRP_3_01A_Rifle_Marksmanship](bricks/MCRP_3_01A_Rifle_Marksmanship/) | USMC **MCRP 3-01A Rifle Marksmanship (2001)** — individual rifle marksmanship; pre-digital TOC/hyphen craft | **v1 portable ZIP** |
 | [Dr_Chase_Recipes_Information_Everybody](bricks/Dr_Chase_Recipes_Information_Everybody/) | **Dr. Chase's Recipes** (19th c., public domain) — household/medical-adjacent recipes; OCR + index/heading craft; **not medical advice** | **v1 portable ZIP** |

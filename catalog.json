@@ -173,6 +173,21 @@
       "public_gallery": true
     },
     {
+      "name": "NASA_AMBR_Engine_Information_Summary",
+      "title": "NASA AMBR Engine Information Summary (May 2009)",
+      "chunks": 21,
+      "zip": "bricks/NASA_AMBR_Engine_Information_Summary/NASA_AMBR_Engine_Information_Summary_portable.zip",
+      "size_bytes": 105992,
+      "card": "bricks/NASA_AMBR_Engine_Information_Summary/LIBRARY_CARD.md",
+      "family": "aerospace_propulsion",
+      "rights_class": "us_government",
+      "residual_one_liner": "0 muted of 21; NASA AMBR bipropellant summary; KBM Factory path",
+      "search_smoke": "PASS",
+      "has_handoff": true,
+      "has_embeddings": true,
+      "public_gallery": true
+    },
+    {
       "name": "NASA_Skylab_History_Living_Working_Space",
       "title": "NASA Skylab History (Living and Working in Space)",
       "chunks": 1207,
