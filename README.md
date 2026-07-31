@@ -24,7 +24,10 @@ I **dogfood commercial-class difficulty privately** for stress and screenshots. 
 
 The highest-leverage way to judge this library is not the README — it is a **published retrieval demo**.
 
-**[RETRIEVAL_DEMO_ArduPilot_Plane.md](RETRIEVAL_DEMO_ArduPilot_Plane.md)** — **20 real questions** against the published `ArduPilot_Plane` brick: top-3 hits with **cosine scores**, **chunk ids**, **headings**, and **source excerpts** (not LLM-invented answers). Machine-readable twin: [`demos/ardupilot_plane_eval.json`](demos/ardupilot_plane_eval.json).
+**Two re-runnable retrieval demos** (cosine top-3; not chat transcripts):
+
+1. **[RETRIEVAL_DEMO_ArduPilot_Plane.md](RETRIEVAL_DEMO_ArduPilot_Plane.md)** — **20 questions** on `ArduPilot_Plane` (ops wiki facet). Machine twin: [`demos/ardupilot_plane_eval.json`](demos/ardupilot_plane_eval.json).
+2. **[RETRIEVAL_DEMO_NASA_Skylab_History.md](RETRIEVAL_DEMO_NASA_Skylab_History.md)** — **15 questions** on NASA Skylab official history (paper-capture OCR after residual craft). Machine twin: [`demos/nasa_skylab_history_eval.json`](demos/nasa_skylab_history_eval.json).
 
 Ten minutes of reading beats any claim that “bricks retrieve well.” If a hit looks wrong, open an issue.
 
@@ -69,7 +72,7 @@ Bricks are sized to stay human-scale. **Design guidance** is roughly **hundreds 
 |-------|-------------|--------|
 | [TM_11_666_Antennas_Radio_Propagation](bricks/TM_11_666_Antennas_Radio_Propagation/) | US Army **TM 11-666 Antennas and Radio Propagation (1953)** — historical RF/antennas; scan OCR + hard_pdf residual craft | **v1 portable ZIP** |
 | [NASA_41st_Aerospace_Mechanisms_Symposium](bricks/NASA_41st_Aerospace_Mechanisms_Symposium/) | **NASA 41st Aerospace Mechanisms Symposium** (CP-2012-217653) — multi-paper spacecraft mechanisms proceedings | **v1 portable ZIP** |
-| [NASA_Skylab_History_Living_Working_Space](bricks/NASA_Skylab_History_Living_Working_Space/) | **NASA Skylab History** (*Living and Working in Space*) — paper-capture OCR; post-promote soft-hyphen + hard_pdf figure craft | **v1 portable ZIP** |
+| [NASA_Skylab_History_Living_Working_Space](bricks/NASA_Skylab_History_Living_Working_Space/) | **NASA Skylab History** (*Living and Working in Space*) — paper-capture OCR; post-promote soft-hyphen; **text-first portable** (image_policy=none) | **v1 portable ZIP** |
 | [MCRP_3_01A_Rifle_Marksmanship](bricks/MCRP_3_01A_Rifle_Marksmanship/) | USMC **MCRP 3-01A Rifle Marksmanship (2001)** — individual rifle marksmanship; pre-digital TOC/hyphen craft | **v1 portable ZIP** |
 | [Dr_Chase_Recipes_Information_Everybody](bricks/Dr_Chase_Recipes_Information_Everybody/) | **Dr. Chase's Recipes** (19th c., public domain) — household/medical-adjacent recipes; OCR + index/heading craft; **not medical advice** | **v1 portable ZIP** |
 | [ST_31_91B_SF_Medical](bricks/ST_31_91B_SF_Medical/) | US Army **ST 31-91B** Special Forces Medical Handbook (historical; not clinical advice) | **v1 portable ZIP** |

@@ -1,0 +1,447 @@
+{
+  "ok": true,
+  "brick": "NASA_Skylab_History_Living_Working_Space",
+  "generated": "2026-07-31",
+  "method": "cosine top-k over brick embeddings (nomic-embed-text), query embed via EmbeddingSystem",
+  "min_score_note": "Scores are cosine similarity; higher is better. Not LLM-generated answers.",
+  "chunk_count": 1207,
+  "eligible_count": 1099,
+  "top_k": 3,
+  "results": [
+    {
+      "query": "What was Skylab and why was it built?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0931",
+          "score": 0.7317507863044739,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 368,
+          "excerpt": "## RESULTS ![Figure from page 368](images/p368_img00.png) RESULTS SKYLAB SCIENCE: AN ASSESSMENT For all the vagaries of its early development, Skylab held to its primary purpose of putting man into orbit to perform scientific work, and in that aim it was indisputably successful. Some scientists even felt that a second\u2026"
+        },
+        {
+          "chunk_id": "chunk-0929",
+          "score": 0.7232047319412231,
+          "heading": "RESULTS",
+          "source": "HistoryofSkylab.pdf",
+          "page": 368,
+          "excerpt": "## RESULTS RESULTS SKYLAB SCIENCE: AN ASSESSMENT For all the vagaries of its early development, Skylab held to its primary purpose of putting man into orbit to perform scientific work, and in that aim it was indisputably successful. Some scientists even felt that a second Skylab would be justified, even if it did no m\u2026"
+        },
+        {
+          "chunk_id": "chunk-0955",
+          "score": 0.7218977808952332,
+          "heading": "The engineers in Bermuda made their first contact with Skylab the",
+          "source": "HistoryofSkylab.pdf",
+          "page": 379,
+          "excerpt": "## The engineers in Bermuda made their first contact with Skylab the The engineers in Bermuda made their first contact with Skylab the following month. Working with the North American Air Defense Command (NORAD), they located the workshop by radar, aimed a radio signal at it, and received a response. For two minutes S\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What was the Apollo Applications Program?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0136",
+          "score": 0.8332633972167969,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 56,
+          "excerpt": "## APOLLO APPLICATIONS ![Figure from page 56](images/p056_img00.png) APOLLO APPLICATIONS missions were scheduled to fly excess hardware from the lunar landing program; the remaining 25 represented new Saturn-Apollo purchases. The missions fell into four categories (earth orbital, synchronous, lunar orbital, and lunar\u2026"
+        },
+        {
+          "chunk_id": "chunk-0147",
+          "score": 0.8208422064781189,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 60,
+          "excerpt": "## APOLLO APPLICATIONS ![Figure from page 60](images/p060_img00.png) APOLLO APPLICATIONS was also strong opposition to the program within the manned spaceflight family, most of itemanating from Houston. MSC officials had questioned basic aspects of AAP since its inception and, during the winter of 1965-1966, voiced th\u2026"
+        },
+        {
+          "chunk_id": "chunk-0165",
+          "score": 0.812263011932373,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 66,
+          "excerpt": "## APOLLO APPLICATIONS ![Figure from page 66](images/p066_img00.png) APOLLO APPLICATIONS during integration work at Huntsville, but that Marshall \u201cwould not in any way establish an \u2018Astronaut Training Center.\u2019\u201d\u201d Some progress was made toward settlement of the roles and missions question in early 1966 when OMSF and the\u2026"
+        }
+      ]
+    },
+    {
+      "query": "How did astronauts live and work in space on Skylab?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0470",
+          "score": 0.8484054803848267,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 178,
+          "excerpt": "## LIVING AND WORKING IN SPACE ![Figure from page 178](images/p178_img00.png) LIVING AND WORKING IN SPACE Skylab\u2019s size and shape, was configured to duplicate the orbital workshop as nearly as possible. The lower level was laid out with the wardroom and food preparation area, the medical experiments, and the waste man\u2026"
+        },
+        {
+          "chunk_id": "chunk-0383",
+          "score": 0.8438773155212402,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 145,
+          "excerpt": "## Living and Working in Space ![Figure from page 145](images/p145_img00.png) Living and Working in Space Skylab\u2019s experiments and spacecraft systems received the best engineering attention NASA and its contractors could give them, to make sure they were functional, efficient, reliable, and safe. But the workshop was\u2026"
+        },
+        {
+          "chunk_id": "chunk-0468",
+          "score": 0.8309491872787476,
+          "heading": "LIVING AND WORKING IN SPACE",
+          "source": "HistoryofSkylab.pdf",
+          "page": 178,
+          "excerpt": "## LIVING AND WORKING IN SPACE LIVING AND WORKING IN SPACE Skylab's size and shape, was configured to duplicate the orbital workshop as nearly as possible. The lower level was laid out with the wardroom and food preparation area, the medical experiments, and the waste management compartment. The one-g environment impo\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What happened to Skylab's solar array and heat shield after launch?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0686",
+          "score": 0.8128366470336914,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 270,
+          "excerpt": "## \u00b0 SAVING SKYLAB ![Figure from page 270](images/p270_img00.png) \u00b0 SAVING SKYLAB mands from both Goldstone, California, and Madrid seemed to confirm the worst fears. The solar panels were the main topic of discussion at the postlaunch briefing at Kennedy.\u2019 By late afternoon, it appeared that Skylab had at least two m\u2026"
+        },
+        {
+          "chunk_id": "chunk-0684",
+          "score": 0.8115930557250977,
+          "heading": "SAVING SKYLAB",
+          "source": "HistoryofSkylab.pdf",
+          "page": 270,
+          "excerpt": "## SAVING SKYLAB SAVING SKYLAB mands from both Goldstone, California, and Madrid seemed to confirm the worst fears. The solar panels were the main topic of discussion at the postlaunch briefing at Kennedy.2 By late afternoon, it appeared that Skylab had at least two major problems. If the workshop solar panels were in\u2026"
+        },
+        {
+          "chunk_id": "chunk-0738",
+          "score": 0.8009912967681885,
+          "heading": "The repaired Skylab. The sunshade,",
+          "source": "HistoryofSkylab.pdf",
+          "page": 292,
+          "excerpt": "## The repaired Skylab. The sunshade, The repaired Skylab. The sunshade, though not lined up with paradeground precision, quickly made the workshop livable. The four solar arrays of the telescope mount are fully extended, as is the surviving array of the workshop. The photograph was taken by the departing jirst crew.\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What was the Apollo Telescope Mount?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0255",
+          "score": 0.7708377838134766,
+          "heading": "An early version of the Apollo telescope mount. The solar array on the",
+          "source": "HistoryofSkylab.pdf",
+          "page": 100,
+          "excerpt": "## An early version of the Apollo telescope mount. The solar array on the An early version of the Apollo telescope mount. The solar array on the right is partially deployed. contractor modify spacecraft for AAP so that North American could concentrate on Apollo deficiencies. He also gave the Apollo program director so\u2026"
+        },
+        {
+          "chunk_id": "chunk-0478",
+          "score": 0.7667191028594971,
+          "heading": "The Apollo telescope m",
+          "source": "HistoryofSkylab.pdf",
+          "page": 182,
+          "excerpt": "## The Apollo telescope m The Apollo telescope m on a 1972 briefing 72-PM 7200-1 15A. .ount char , depicted MSFCstand the processes by which energy is transferred from the sun's interior out into space. T o get that information, solar physicists needed instruments with high resolution, pointing accuracy, and stability\u2026"
+        },
+        {
+          "chunk_id": "chunk-0485",
+          "score": 0.760642409324646,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 184,
+          "excerpt": "## STUDYING THE SUN ![Figure from page 184](images/p184_img00.png) STUDYING THE SUN APOLLO TELESCOPE MOUNT The solar telescopes were massive\u2014the entire collection weighed over a ton and some of them were three meters long\u2014but they were still precision optical devices, requiring elaborate support systems. Primary among\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What medical and life sciences experiments ran on Skylab?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0894",
+          "score": 0.7642992734909058,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 354,
+          "excerpt": "## Results ![Figure from page 354](images/p354_img00.png) Results As Schneider had said, the missions were only the first phase of Skylab\u2019s science program. Principal investigators immediately began processing the staggering amount of material the crews had collected (table 2). From the five solar telescopes, astronom\u2026"
+        },
+        {
+          "chunk_id": "chunk-0893",
+          "score": 0.7554165124893188,
+          "heading": "Results",
+          "source": "HistoryofSkylab.pdf",
+          "page": 354,
+          "excerpt": "## Results Results As Schneider had said, the missions were only the first phase of Skylab's science program. Principal investigators immediately began processing the staggering amount of material the crews had collected (table 2). From the five solar telescopes, astronomers had almost 103 000 photographs and spectra\u2026"
+        },
+        {
+          "chunk_id": "chunk-0929",
+          "score": 0.7487848997116089,
+          "heading": "RESULTS",
+          "source": "HistoryofSkylab.pdf",
+          "page": 368,
+          "excerpt": "## RESULTS RESULTS SKYLAB SCIENCE: AN ASSESSMENT For all the vagaries of its early development, Skylab held to its primary purpose of putting man into orbit to perform scientific work, and in that aim it was indisputably successful. Some scientists even felt that a second Skylab would be justified, even if it did no m\u2026"
+        }
+      ]
+    },
+    {
+      "query": "How many crewed Skylab missions were there?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0678",
+          "score": 0.7738732099533081,
+          "heading": "Part I11",
+          "source": "HistoryofSkylab.pdf",
+          "page": 266,
+          "excerpt": "## Part I11 Part I11 The Missions and Results, 1973-1979 Skylab's debut as the sustaining mission for American manned spaceflight was a near-disaster. One minute into the flight the meteoroid shield-which also served as the primary means of thermal controlripped away, leaving the workshop exposed to searing solar heat\u2026"
+        },
+        {
+          "chunk_id": "chunk-0972",
+          "score": 0.7619337439537048,
+          "heading": "MISSIONS AND RESULTS",
+          "source": "HistoryofSkylab.pdf",
+          "page": 385,
+          "excerpt": "## MISSIONS AND RESULTS MISSIONS AND RESULTS of the public was unwilling to accept any risk from a high-technology program, especially when the average citizen could do nothing to protect himself from that risk. Congressmen and editors demanded to know why Skylab had been launched without the means of controlling its\u2026"
+        },
+        {
+          "chunk_id": "chunk-0974",
+          "score": 0.7549622058868408,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 385,
+          "excerpt": "## MISSIONS AND RESULTS ![Figure from page 385](images/p385_img00.png) MISSIONS AND RESULTS of the public was unwilling to accept any risk from a high-technology program, especially when the average citizen could do nothing to protect himself from that risk. Congressmen and editors demanded to know why Skylab had been\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What was the orbital workshop concept?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0104",
+          "score": 0.8058379888534546,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 43,
+          "excerpt": "## 7 FROM CONCEPT THROUGH DECISION ![Figure from page 43](images/p043_img00.png) 7 FROM CONCEPT THROUGH DECISION : plan that had been presented to Management Council. Three | configurations of an orbital workshop were to be studied. (Orbital workshop was the official designation for the spent stage. As the program pro\u2026"
+        },
+        {
+          "chunk_id": "chunk-0102",
+          "score": 0.8058055639266968,
+          "heading": "FROM CONCEPT THROUGH DECISION",
+          "source": "HistoryofSkylab.pdf",
+          "page": 43,
+          "excerpt": "## FROM CONCEPT THROUGH DECISION FROM CONCEPT THROUGH DECISION plan that had been presented to Management Council. Three configurations of an orbital workshop were to be studied. (Orbital workshop was the official designation for the spent stage. As the program progressed it came to include a ground-equipped, Saturn-V\u2026"
+        },
+        {
+          "chunk_id": "chunk-0124",
+          "score": 0.7537169456481934,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 51,
+          "excerpt": "## ve - : \u201d ![Figure from page 51](images/p051_img00.png) ve - : \u201d SE Nn : adel, SSS oe eeed ge annie a Feo meg RS) EX We oe RBA Es | Cy ea er! Bee\u201d RS OSS ae cy ee, p ey Ce) a <. Nee ote = An early cluster concept sketched by Willard M. Taub, Manned Spacecraft Center. The spent S-IVB workshop is at the right. The Apo\u2026"
+        }
+      ]
+    },
+    {
+      "query": "How was Skylab launched and what vehicle was used?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0661",
+          "score": 0.8283447027206421,
+          "heading": "LAUNCHING SKYLAB",
+          "source": "HistoryofSkylab.pdf",
+          "page": 258,
+          "excerpt": "## LAUNCHING SKYLAB LAUNCHING SKYLAB actual checkout of the telescope mount went very smoothly; afterward Debus recognized the test team's work with a letter of c~mmendation.~' When flight hardware arrived in mid-1972, the launch team moved to center stage, where it would remain for the next nine months. The first spa\u2026"
+        },
+        {
+          "chunk_id": "chunk-0663",
+          "score": 0.8259264826774597,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 258,
+          "excerpt": "## LAUNCHING SKYLAB ![Figure from page 258](images/p258_img00.png) LAUNCHING SKYLAB actual checkout of the telescope mount went very smoothly; afterward Debus recognized the test team\u2019s work with a letter of commendation.\u201d PROBLEMS OF NEW HARDWARE When flight hardware arrived in mid-1972, the launch team moved to cent\u2026"
+        },
+        {
+          "chunk_id": "chunk-0628",
+          "score": 0.8187949061393738,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 246,
+          "excerpt": "## Launching Skylab ![Figure from page 246](images/p246_img00.png) Launching Skylab August 1972 brought back memories of Apollo\u2019s heyday at the Kennedy Space Center (KSC). In one high bay of the Vehicle Assembly Building, Apollo 77 \u2014the last vehicle of the lunar landing program\u2014was completing its final tests before ro\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What food sleep and exercise routines did crews use?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0810",
+          "score": 0.7298147678375244,
+          "heading": "MISSIONS AND RESULTS",
+          "source": "HistoryofSkylab.pdf",
+          "page": 323,
+          "excerpt": "## MISSIONS AND RESULTS MISSIONS AND RESULTS daily scrubbing with washcloths. The bathroom's size precluded more than one occupant at a time, a limitation which posed some scheduling difficulties in the first hour. Paul Weitz eased the problem by shaving at night; Carr and Pogue of the third crew eventually quit shavi\u2026"
+        },
+        {
+          "chunk_id": "chunk-0815",
+          "score": 0.7297472953796387,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 324,
+          "excerpt": "## \u00b0 SECOND MISSION ![Figure from page 324](images/p324_img00.png) \u00b0 SECOND MISSION brought more experiments. When the astronauts ran out of work, as Bean\u2019s crew sometimes did, flight controllers employed a \u201cshopping list\u201d\u2019 of activities\u2014experiments or repairs that crewmen could undertake with short notice.\u201d\u2019 Dinner w\u2026"
+        },
+        {
+          "chunk_id": "chunk-0812",
+          "score": 0.7290099263191223,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 323,
+          "excerpt": "## MISSIONS AND RESULTS ![Figure from page 323](images/p323_img00.png) MISSIONS AND RESULTS daily scrubbing with washcloths. The bathroom\u2019s size precluded more than one occupant at a time, a limitation which posed some scheduling difficulties in the first hour. Paul Weitz eased the problem by shaving at night; Carr an\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What was planned for Skylab rescue or reboost?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0956",
+          "score": 0.7383782863616943,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 379,
+          "excerpt": "## MISSIONS AND RESULTS ![Figure from page 379](images/p379_img00.png) MISSIONS AND RESULTS lab\u2019s systems. If the derelict were to be reboosted for later use or brought out of orbit at a site of NASA\u2019s choosing, it was necessary to determine how much control could be exercised from the ground. In the most favorable ci\u2026"
+        },
+        {
+          "chunk_id": "chunk-0954",
+          "score": 0.7230405807495117,
+          "heading": "MISSIONS AND RESULTS",
+          "source": "HistoryofSkylab.pdf",
+          "page": 379,
+          "excerpt": "## MISSIONS AND RESULTS MISSIONS AND RESULTS lab's systems. If the derelict were to be reboosted for later use or brought out of orbit at a site of NASA's choosing, it was necessary to determine how much control could be exercised from the ground. In the most favorable circumstances this was limited to controlling the\u2026"
+        },
+        {
+          "chunk_id": "chunk-0949",
+          "score": 0.69688880443573,
+          "heading": "~",
+          "source": "HistoryofSkylab.pdf",
+          "page": 377,
+          "excerpt": "## ~ ~ In September the word was GO, and in November Marshall awarded a $1.75 million letter contract to Martin Marietta Corporation to conduct analysis and design studies for a teleoperator retrieval system to be carried in Shuttle's cargo bay and used to attach a propulsion module-also still to be designed-to Skylab\u2026"
+        }
+      ]
+    },
+    {
+      "query": "When and why did Skylab reenter the atmosphere?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0973",
+          "score": 0.7947303056716919,
+          "heading": "EDT,",
+          "source": "HistoryofSkylab.pdf",
+          "page": 385,
+          "excerpt": "## EDT, EDT, most probably on its 34 981st orbit. It was then at an altitude of 190 kilometers. The following day it dropped 17 km and the reentry time was bracketed between 7:02 a.m. and 5:02 p.m. EDT on the 1 ~ t h . ~ ~ In Houston, Charles Harlan and his team stood by to make their last decision. For some hours bef\u2026"
+        },
+        {
+          "chunk_id": "chunk-0976",
+          "score": 0.7871566414833069,
+          "heading": "A",
+          "source": "HistoryofSkylab.pdf",
+          "page": 386,
+          "excerpt": "## A A San Francisco newspaper had offered $10 000 for the first authenticated piece of Skylab brought to its office within 48 hours of reentry, and on the morning of 13 July a claimant appeared. Stan Thornton, a 17-year-old beer-truck driver from the small coastal community of Esperance, had found some charred object\u2026"
+        },
+        {
+          "chunk_id": "chunk-0974",
+          "score": 0.7765800952911377,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 385,
+          "excerpt": "## MISSIONS AND RESULTS ![Figure from page 385](images/p385_img00.png) MISSIONS AND RESULTS of the public was unwilling to accept any risk from a high-technology program, especially when the average citizen could do nothing to protect himself from that risk. Congressmen and editors demanded to know why Skylab had been\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What Earth resources or remote sensing work did Skylab do?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0910",
+          "score": 0.809616208076477,
+          "heading": "MISSIONS AND RESULTS",
+          "source": "HistoryofSkylab.pdf",
+          "page": 361,
+          "excerpt": "## MISSIONS AND RESULTS MISSIONS AND RESULTS gions of the spectrum. Investigators at Purdue University used these and the multispectral photographs from S 190A in a computerized program of land-use determination; their project aimed at automatic classification of land into nine categories ranging from residential and\u2026"
+        },
+        {
+          "chunk_id": "chunk-0912",
+          "score": 0.8060462474822998,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 361,
+          "excerpt": "## MISSIONS AND RESULTS ![Figure from page 361](images/p361_img00.png) MISSIONS AND RESULTS gions of the spectrum. Investigators at Purdue University used these and the multispectral photographs from S190A in a computerized program of land-use determination; their project aimed at automatic classification of land into\u2026"
+        },
+        {
+          "chunk_id": "chunk-0908",
+          "score": 0.8005456924438477,
+          "heading": "A huge solar eruption recorded by",
+          "source": "HistoryofSkylab.pdf",
+          "page": 360,
+          "excerpt": "## A huge solar eruption recorded by A huge solar eruption recorded by the extreme-ultraviolet spectroheliograph S082A; helium has been ejected more than 800 000 km. For comparison, the earth is not much larger than the black dot near the rim of the sun and beneath the arch of helium. The instrument was constructed by\u2026"
+        }
+      ]
+    },
+    {
+      "query": "How did Skylab differ from earlier Apollo lunar missions?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0017",
+          "score": 0.8124279975891113,
+          "heading": "Page intentionally left blank",
+          "source": "HistoryofSkylab.pdf",
+          "page": 13,
+          "excerpt": "## Page intentionally left blank Preface The program that became Skylab was conceived in 1963, when the Office of Manned Space Flight began to study options for manned programs to follow Apollo. Although America's lunar landing program was a long way from successful completion, it was not too soon to consider what sho\u2026"
+        },
+        {
+          "chunk_id": "chunk-0019",
+          "score": 0.8119049668312073,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 13,
+          "excerpt": "## Preface ![Figure from page 13](images/p013_img00.png) Preface The program that became Skylab was conceived in 1963, when the Office of Manned Space Flight began to study options for manned programs to follow Apollo. Although America\u2019s lunar landing program was a long way from successful completion, it was not too s\u2026"
+        },
+        {
+          "chunk_id": "chunk-0338",
+          "score": 0.7931970357894897,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 129,
+          "excerpt": "## Managing the Design Phase ![Figure from page 129](images/p129_img00.png) Managing the Design Phase In the year following the dry-workshop decision, Skylab moved beyond the bounds of Apollo Applications. Although much of the hardware and many of the managerial practices retained the Apollo stamp, the program took on\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What lessons from Skylab informed later space stations?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0930",
+          "score": 0.7888883948326111,
+          "heading": "Their ability to react to unexpected occurrences on the sun was a prime",
+          "source": "HistoryofSkylab.pdf",
+          "page": 368,
+          "excerpt": "## Their ability to react to unexpected occurrences on the sun was a prime Their ability to react to unexpected occurrences on the sun was a prime factor in the success of the A T M experiments. The same could be said for the earth-observations program; a man in orbit, trained to look for objects of interest and alert\u2026"
+        },
+        {
+          "chunk_id": "chunk-0679",
+          "score": 0.7852858304977417,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 266,
+          "excerpt": "## Part II ![Figure from page 266](images/p266_img00.png) Part II The Missions and Results, Skylab\u2019s debut as the sustaining mission for American manned spaceflight was a near-disaster. One minute into the flight the meteoroid shield\u2014which also served as the primary means of thermal control\u2014 ripped away, leaving the w\u2026"
+        },
+        {
+          "chunk_id": "chunk-0931",
+          "score": 0.7831137180328369,
+          "heading": "Figures",
+          "source": "HistoryofSkylab.pdf",
+          "page": 368,
+          "excerpt": "## RESULTS ![Figure from page 368](images/p368_img00.png) RESULTS SKYLAB SCIENCE: AN ASSESSMENT For all the vagaries of its early development, Skylab held to its primary purpose of putting man into orbit to perform scientific work, and in that aim it was indisputably successful. Some scientists even felt that a second\u2026"
+        }
+      ]
+    }
+  ]
+}

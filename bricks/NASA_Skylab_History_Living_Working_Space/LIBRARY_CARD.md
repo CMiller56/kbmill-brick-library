@@ -3,7 +3,7 @@
 **Brick id (folder):** `NASA_Skylab_History_Living_Working_Space`  
 **Chunks:** 1207  
 **Muted / exclude_from_rag:** 108  
-**Package:** `NASA_Skylab_History_Living_Working_Space_portable.zip` (75431 KB)  
+**Package:** `NASA_Skylab_History_Living_Working_Space_portable.zip` (5315 KB)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (US Government / NASA history)  
 **Family:** aerospace_history  
@@ -58,4 +58,10 @@ Built: 2026-07-31 09:32:40 · 100-brick B2 · figure-magazine profile=hard_pdf �
 - Paper-capture OCR: **396** figure shells promoted; shells/plot-debris muted.  
 - **Post-promote soft-hyphen** magazine step: 357 chunks joined (finish A3c alone runs *before* promote).  
 - Index mute + heading sanitize on finish path.  
-- Active muted: **108** of 1207. Soft ship warnings may remain.  
+- Active muted: **108** of 1207. Soft ship warnings may remain.
+
+## Portable package policy
+
+- Public portable uses **`image_policy=none`** (text/OCR retrieval; figure plates omitted so package stays under GitHub soft max ~50 MB).  
+- Desk KB still retains `images/` for operator figure work.  
+- Re-export full images with `maintain export --images all` when needed.  
