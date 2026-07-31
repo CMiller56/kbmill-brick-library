@@ -170,6 +170,21 @@
       "has_handoff": true
     },
     {
+      "name": "TM_11_666_Antennas_Radio_Propagation",
+      "title": "TM 11-666 Antennas and Radio Propagation (1953)",
+      "chunks": 503,
+      "zip": "bricks/TM_11_666_Antennas_Radio_Propagation/TM_11_666_Antennas_Radio_Propagation_portable.zip",
+      "size_bytes": 48763756,
+      "card": "bricks/TM_11_666_Antennas_Radio_Propagation/LIBRARY_CARD.md",
+      "family": "electronics_rf",
+      "rights_class": "us_government",
+      "residual_one_liner": "33 muted of 503; scan OCR + hard_pdf magazine; historical RF TM",
+      "search_smoke": "PASS",
+      "has_handoff": true,
+      "has_embeddings": true,
+      "public_gallery": true
+    },
+    {
       "name": "UAVCAN_cvra",
       "title": "UAVCAN (CVRA / legacy facet)",
       "chunks": 41,
