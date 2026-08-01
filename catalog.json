@@ -115,6 +115,21 @@
       "has_handoff": true
     },
     {
+      "name": "Electrical_News_1923",
+      "title": "The Electrical News (1923)",
+      "chunks": 2903,
+      "zip": "bricks/Electrical_News_1923/Electrical_News_1923_portable.zip",
+      "size_bytes": 12792880,
+      "card": "bricks/Electrical_News_1923/LIBRARY_CARD.md",
+      "family": "historical_periodical",
+      "rights_class": "public_domain_us",
+      "residual_one_liner": "2 muted of 2903; ~1077 soft residual issues (no high-priority open); soft-hyphen 0 after finish; text-first portable (image_policy=none); single mega-brick stress of ~1096p periodical (multi-brick plan exists)",
+      "search_smoke": "PASS",
+      "has_handoff": true,
+      "has_embeddings": true,
+      "public_gallery": true
+    },
+    {
       "name": "FM_3_90_Tactics",
       "title": "FM 3-90 Tactics (2001)",
       "chunks": 1070,
