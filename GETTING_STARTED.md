@@ -41,18 +41,18 @@ Same embed family as the brick (**nomic-embed-text**, 768-d). See **[PORTABILITY
 
 ## 3c. Optional — VF Runtime Connect
 
-If you have VF Runtime / Engine installed (air-gap pack or site install):
+If you have VF Runtime / Engine installed (air-gap pack or site install). Connect is **optional** and **read-only** (no factory tools): `list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`. Bricks are not locked to VectorForge.
+
+**Not** `pip install vectorforge-runtime-connect` (no such public package today). **Not** `python -m vectorforge.mcp.connect --brick …zip` (no `--brick` flag). Unzip first, then set `VF_KBS_ROOT`.
 
 ```bash
-# Example from a clone of this repo:
+# From a clone of this repo — copy-paste
 mkdir -p ./kbs
-unzip bricks/ArduPilot_Plane/ArduPilot_Plane_portable.zip -d ./kbs/ArduPilot_Plane
+unzip -o bricks/ArduPilot_Plane/ArduPilot_Plane_portable.zip -d ./kbs/ArduPilot_Plane
 export VF_KBS_ROOT="$(pwd)/kbs"
 python -m vectorforge.mcp.connect
-# MCP client: load_kb("ArduPilot_Plane") → search_kb / answer_with_sources
+# MCP client: list_kbs → load_kb("ArduPilot_Plane") → search_kb / answer_with_sources
 ```
-
-Connect is **optional** and **read-only** (no factory tools). Bricks are not locked to VectorForge.
 
 ## 4. Read craft notes first
 

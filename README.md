@@ -133,21 +133,26 @@ This first wave uses only external / open technical sources. Nothing proprietary
 
 ### Optional — VF Runtime Connect (read-only MCP)
 
-Connect is a **small, read-only** MCP server (load / search / cite — not factory tools). Use it from Claude Desktop, Open-WebUI (`mcpo`), or any MCP client. **Chat LLM is not bundled** — your client supplies the model.
+Connect is a **small, read-only** MCP server — **not** factory tools. Typical allowlist: `list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`. Use it from Claude Desktop, Open-WebUI (`mcpo`), or any MCP client. **Chat LLM is not bundled** — your client supplies the model.
+
+**Requires** VectorForge Engine / Runtime already installed on the machine (air-gap wheelhouse or site package). There is **no** public `pip install vectorforge-runtime-connect` today, and Connect does **not** take a `--brick path/to.zip` flag — unpack the portable ZIP into a shelf folder first.
 
 ```bash
-# 1) Unpack a brick into a kbs-style tree (name = load_kb id)
+# From a clone of this repo — copy-paste friendly
+
+# 1) Unpack a brick into a kbs-style tree (folder name = load_kb id)
 mkdir -p ./kbs
-unzip bricks/ArduPilot_MAVLink/ArduPilot_MAVLink_portable.zip -d ./kbs/ArduPilot_MAVLink
+unzip -o bricks/ArduPilot_MAVLink/ArduPilot_MAVLink_portable.zip -d ./kbs/ArduPilot_MAVLink
 
 # 2) Point Connect at the parent of brick folders
 export VF_KBS_ROOT="$(pwd)/kbs"
 
 # 3) Run Connect (stdio MCP — default for Claude Desktop / mcpo)
-#    Requires VF Runtime / Engine installed (air-gap wheelhouse or your site package).
 python -m vectorforge.mcp.connect
 
-# In the MCP client: load_kb("ArduPilot_MAVLink") → search_kb / answer_with_sources
+# In the MCP client:
+#   list_kbs → load_kb("ArduPilot_MAVLink") → search_kb / answer_with_sources
+#   get_chunk_context(chunk_id) when hits are truncated / structured
 ```
 
 HTTP + Open-WebUI example:
@@ -158,7 +163,7 @@ python -m vectorforge.mcp.connect --http --port 8000
 # or: mcpo --port 8000 -- python -m vectorforge.mcp.connect
 ```
 
-No account required. No cloud dependency for the brick package itself.
+No account required. No cloud dependency for the brick package itself. Bricks still load without Connect (Markdown / cosine — [PORTABILITY.md](PORTABILITY.md)).
 
 ---
 
