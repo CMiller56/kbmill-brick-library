@@ -361,6 +361,21 @@
       "search_smoke": "PASS",
       "has_handoff": false,
       "public_gallery": true
+    },
+    {
+      "name": "Galileo_Dialogo_Sistemi_Mondo",
+      "title": "Dialogo di Galileo Galilei (sistemi del mondo)",
+      "chunks": 1497,
+      "zip": "bricks/Galileo_Dialogo_Sistemi_Mondo/Galileo_Dialogo_Sistemi_Mondo_portable.zip",
+      "size_bytes": 6238279,
+      "card": "bricks/Galileo_Dialogo_Sistemi_Mondo/LIBRARY_CARD.md",
+      "family": "historical_primary",
+      "rights_class": "public_domain",
+      "residual_one_liner": "Italian 19th-c. reprint scan of Galileo Dialogo; OCR/figure residual; text-first ZIP; not critical edition",
+      "search_smoke": "PASS",
+      "has_handoff": false,
+      "public_gallery": true,
+      "language": "it"
     }
   ],
   "series": {

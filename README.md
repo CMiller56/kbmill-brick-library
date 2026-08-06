@@ -80,6 +80,8 @@ Public-domain primary texts as **linked bricks** (not one melted dump). Open-set
 | [Federalist_Papers](bricks/Federalist_Papers/) | The Federalist Nos. 1–85 | **v1 portable ZIP** |
 | [Anti_Federalist_Selections](bricks/Anti_Federalist_Selections/) | Curated Anti-Federalist essays (Brutus, Centinel, Cato, Federal Farmer, Agrippa) | **v1 portable ZIP** |
 
+| [Galileo_Dialogo_Sistemi_Mondo](bricks/Galileo_Dialogo_Sistemi_Mondo/) | Italian **Dialogo** (Galileo) — 19th-c. reprint scan; OCR hard-corpus dogfood; **text-first** portable; PD primary | **v1 portable ZIP** |
+
 Series note: [docs/series/US_Founding_Documents.md](docs/series/US_Founding_Documents.md)
 
 
