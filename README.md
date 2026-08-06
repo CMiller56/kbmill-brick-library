@@ -68,6 +68,21 @@ Bricks are sized to stay human-scale. **Design guidance** is roughly **hundreds 
 
 ## What’s in this library
 
+### Series: US Founding Documents (first federated shelf)
+
+Public-domain primary texts as **linked bricks** (not one melted dump). Open-set friendly: Constitution + Federalist + Anti-Federalist, etc. **Not legal advice.**
+
+| Brick | Description | Status |
+|-------|-------------|--------|
+| [Declaration_of_Independence](bricks/Declaration_of_Independence/) | Declaration of Independence (1776) | **v1 portable ZIP** |
+| [US_Constitution](bricks/US_Constitution/) | Constitution (1787) + Amendments I–XXVII | **v1 portable ZIP** |
+| [Articles_of_Confederation](bricks/Articles_of_Confederation/) | Articles of Confederation (predecessor frame) | **v1 portable ZIP** |
+| [Federalist_Papers](bricks/Federalist_Papers/) | The Federalist Nos. 1–85 | **v1 portable ZIP** |
+| [Anti_Federalist_Selections](bricks/Anti_Federalist_Selections/) | Curated Anti-Federalist essays (Brutus, Centinel, Cato, Federal Farmer, Agrippa) | **v1 portable ZIP** |
+
+Series note: [docs/series/US_Founding_Documents.md](docs/series/US_Founding_Documents.md)
+
+
 | Brick | Description | Status |
 |-------|-------------|--------|
 | [TM_11_666_Antennas_Radio_Propagation](bricks/TM_11_666_Antennas_Radio_Propagation/) | US Army **TM 11-666 Antennas and Radio Propagation (1953)** — historical RF/antennas; scan OCR + hard_pdf residual craft | **v1 portable ZIP** |

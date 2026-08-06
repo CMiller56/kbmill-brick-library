@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-07-31",
+  "updated": "2026-08-05",
   "library": "vf-brick-library",
   "url": "https://github.com/CMiller56/vf-brick-library",
   "unit": "*_portable.zip",
@@ -286,6 +286,94 @@
       "residual_one_liner": "Small legacy facet (41 chunks)",
       "search_smoke": null,
       "has_handoff": true
+    },
+    {
+      "name": "Declaration_of_Independence",
+      "title": "Declaration of Independence \u2014 US Founding Documents",
+      "chunks": 6,
+      "zip": "bricks/Declaration_of_Independence/Declaration_of_Independence_portable.zip",
+      "size_bytes": 39908,
+      "card": "bricks/Declaration_of_Independence/LIBRARY_CARD.md",
+      "family": "us_founding_documents",
+      "series": "US Founding Documents",
+      "rights_class": "public_domain",
+      "residual_one_liner": "Public-domain founding texts; not legal advice; federated series shelf",
+      "search_smoke": "PASS",
+      "has_handoff": false,
+      "public_gallery": true
+    },
+    {
+      "name": "US_Constitution",
+      "title": "US Constitution \u2014 US Founding Documents",
+      "chunks": 34,
+      "zip": "bricks/US_Constitution/US_Constitution_portable.zip",
+      "size_bytes": 156318,
+      "card": "bricks/US_Constitution/LIBRARY_CARD.md",
+      "family": "us_founding_documents",
+      "series": "US Founding Documents",
+      "rights_class": "public_domain",
+      "residual_one_liner": "Public-domain founding texts; not legal advice; federated series shelf",
+      "search_smoke": "PASS",
+      "has_handoff": false,
+      "public_gallery": true
+    },
+    {
+      "name": "Articles_of_Confederation",
+      "title": "Articles of Confederation \u2014 US Founding Documents",
+      "chunks": 19,
+      "zip": "bricks/Articles_of_Confederation/Articles_of_Confederation_portable.zip",
+      "size_bytes": 87881,
+      "card": "bricks/Articles_of_Confederation/LIBRARY_CARD.md",
+      "family": "us_founding_documents",
+      "series": "US Founding Documents",
+      "rights_class": "public_domain",
+      "residual_one_liner": "Public-domain founding texts; not legal advice; federated series shelf",
+      "search_smoke": "PASS",
+      "has_handoff": false,
+      "public_gallery": true
+    },
+    {
+      "name": "Federalist_Papers",
+      "title": "Federalist Papers \u2014 US Founding Documents",
+      "chunks": 806,
+      "zip": "bricks/Federalist_Papers/Federalist_Papers_portable.zip",
+      "size_bytes": 3674983,
+      "card": "bricks/Federalist_Papers/LIBRARY_CARD.md",
+      "family": "us_founding_documents",
+      "series": "US Founding Documents",
+      "rights_class": "public_domain",
+      "residual_one_liner": "Public-domain founding texts; not legal advice; federated series shelf",
+      "search_smoke": "PASS",
+      "has_handoff": false,
+      "public_gallery": true
+    },
+    {
+      "name": "Anti_Federalist_Selections",
+      "title": "Anti-Federalist Selections \u2014 US Founding Documents",
+      "chunks": 320,
+      "zip": "bricks/Anti_Federalist_Selections/Anti_Federalist_Selections_portable.zip",
+      "size_bytes": 1432932,
+      "card": "bricks/Anti_Federalist_Selections/LIBRARY_CARD.md",
+      "family": "us_founding_documents",
+      "series": "US Founding Documents",
+      "rights_class": "public_domain",
+      "residual_one_liner": "Public-domain founding texts; not legal advice; federated series shelf",
+      "search_smoke": "PASS",
+      "has_handoff": false,
+      "public_gallery": true
     }
-  ]
+  ],
+  "series": {
+    "US Founding Documents": {
+      "brick_ids": [
+        "Declaration_of_Independence",
+        "US_Constitution",
+        "Articles_of_Confederation",
+        "Federalist_Papers",
+        "Anti_Federalist_Selections"
+      ],
+      "description": "First federated public shelf: Declaration, Constitution, Articles, Federalist, Anti-Federalist selections",
+      "doc": "docs/series/US_Founding_Documents.md"
+    }
+  }
 }
