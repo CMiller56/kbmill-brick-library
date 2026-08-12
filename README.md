@@ -8,7 +8,8 @@ Most RAG failures are not model failures. They are data-preparation failures —
 
 These bricks exist to demonstrate the opposite approach: bounded, residual-honest, craft-aware packages so a model (especially a local or air-gapped one) receives clean semantic units, known limits, and explicit routing instead of garbage mixed with gold.
 
-These are not unbounded RAG dumps.  
+These are **not** heavily sanitized lab sets, and they are **not** raw unbounded dumps. They are **residual-honest packages of real source material**: known junk is muted and visible, bounds are explicit, and the package is shaped so a model can work with what it will actually see **outside the lab**.
+
 Each brick is a finished, handoffable unit: rich Markdown + machine sidecars + embeddings + craft notes, ready for local use, air-gapped environments, or any tool that can read the package.
 
 
@@ -32,7 +33,7 @@ The highest-leverage way to judge this library is not the README — it is a **p
 
 **Compose, don’t melt:** [COMPOSITION_ArduPilot_Plane.md](COMPOSITION_ArduPilot_Plane.md) — Plane (ops) + Params + MAVLink as separate LLM-native packages.
 
-**Hugging Face dataset (BEIR-style):** **[CMiller/vf-brick-retrieval](https://huggingface.co/datasets/CMiller/vf-brick-retrieval)** — configs `ardupilot_plane` + `nasa_skylab` (corpus / queries / qrels / published_hits). Local build: [`hf_datasets/vf-brick-retrieval/`](hf_datasets/vf-brick-retrieval/) · rebuild: `python3 scripts/build_hf_retrieval_dataset.py`.
+**Hugging Face dataset (BEIR-style):** **[CMiller/vf-brick-retrieval](https://huggingface.co/datasets/CMiller/vf-brick-retrieval)** — configs `ardupilot_plane` + `ardupilot_plane_params` + `nasa_skylab` (corpus / queries / qrels / published_hits). Local build: [`hf_datasets/vf-brick-retrieval/`](hf_datasets/vf-brick-retrieval/) · rebuild: `python3 scripts/build_hf_retrieval_dataset.py`.
 
 Ten minutes of reading beats any claim that “bricks retrieve well.” If a hit looks wrong, open an issue.
 

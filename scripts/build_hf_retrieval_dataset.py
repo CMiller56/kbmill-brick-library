@@ -280,13 +280,15 @@ Most public retrieval corpora were built for **traditional IR** or as **general 
 
 VectorForge bricks invert that: the package is shaped so the **model can use the knowledge cleanly** — bounded scope, residual honesty (muted junk stays off the path), stable chunk identity, clear provenance, and craft notes that tell the system what the brick is and is not for. When the consumer is the LLM itself, those choices compound.
 
+These are **not** heavily sanitized lab sets, and they are **not** raw unbounded dumps. They are **residual-honest packages of real source material**: known junk is muted and visible, bounds are explicit, and the package is shaped so a model can work with what it will actually see **outside the lab**.
+
 That is why bricks are designed so models **spend less capacity fighting noise** — retrieval quality and downstream answer fidelity both have a cleaner path. The published ArduPilot and Skylab demos already show the **retrieval side** of that claim in a re-runnable form (cosine top-3; not chat transcripts or invented answers).
 
 **Framing for this dataset:**
 
-- These are **not** “just another technical corpus.”
+- These are **not** “just another technical corpus,” and **not** lab-clean synthetic IR fuel.
 - They are **LLM-native knowledge units** — manufactured so the **model is the primary user**.
-- **Residual honesty + bounded packaging** is the practical expression of that design goal.
+- **Residual honesty + bounded packaging** is the practical expression of that design goal (best realistic case after careful packaging; residuals stay visible).
 
 This is the story that should land with people who care about **production RAG quality** (and the LocalLLaMA / air-gapped crowd) rather than pure leaderboard optics: *here is what a knowledge package looks like when it was built for the model that has to live with it.*
 
