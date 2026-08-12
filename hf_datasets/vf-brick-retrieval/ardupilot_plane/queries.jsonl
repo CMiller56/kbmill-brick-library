@@ -1,0 +1,20 @@
+{"_id": "q001", "text": "What is ArduPilot Plane used for?"}
+{"_id": "q002", "text": "How do I set up a first fixed wing flight?"}
+{"_id": "q003", "text": "What is FBWA mode?"}
+{"_id": "q004", "text": "How does automatic takeoff work?"}
+{"_id": "q005", "text": "What is RTL and when does it trigger?"}
+{"_id": "q006", "text": "How do I calibrate the airspeed sensor?"}
+{"_id": "q007", "text": "What causes a prearm check failure?"}
+{"_id": "q008", "text": "How do I tune TECS for climb performance?"}
+{"_id": "q009", "text": "What is the difference between MANUAL and FBWA?"}
+{"_id": "q010", "text": "How do I configure a parachute for emergency?"}
+{"_id": "q011", "text": "What parameters control stall prevention?"}
+{"_id": "q012", "text": "How does geofence work on Plane?"}
+{"_id": "q013", "text": "What is QSTABILIZE for VTOL?"}
+{"_id": "q014", "text": "How do I set up a mission with waypoints?"}
+{"_id": "q015", "text": "What is failsafe behavior if radio is lost?"}
+{"_id": "q016", "text": "How do I log and review flight data?"}
+{"_id": "q017", "text": "What is the role of the flight controller compass?"}
+{"_id": "q018", "text": "How do I configure flaps or crow brakes?"}
+{"_id": "q019", "text": "What is loiter mode?"}
+{"_id": "q020", "text": "How does landing approach and flare work?"}

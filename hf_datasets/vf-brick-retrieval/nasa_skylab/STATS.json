@@ -1,0 +1,8 @@
+{
+  "config": "nasa_skylab",
+  "brick": "NASA_Skylab_History_Living_Working_Space",
+  "corpus_docs": 1099,
+  "queries": 15,
+  "qrel_rows": 45,
+  "missing_hits_readded": 0
+}

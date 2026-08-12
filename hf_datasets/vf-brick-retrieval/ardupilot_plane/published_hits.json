@@ -1,0 +1,534 @@
+{
+  "brick": "ArduPilot_Plane",
+  "config": "ardupilot_plane",
+  "generated": "2026-07-23",
+  "method": "cosine top-3 over brick embeddings (nomic-embed-text), query embed via EmbeddingSystem",
+  "min_score_note": "Scores are cosine similarity; higher is better. Not LLM-generated answers.",
+  "eligible_count_in_eval": null,
+  "chunk_count_in_eval": null,
+  "top_k": 3,
+  "demo_md": "RETRIEVAL_DEMO_ArduPilot_Plane.md",
+  "brick_library_url": "https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane",
+  "results": [
+    {
+      "query": "What is ArduPilot Plane used for?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0066",
+          "score": 0.7336766719818115,
+          "heading": "",
+          "source": "common-autopilots.html",
+          "excerpt": "Selecting the right board depends on the physical constraints of the vehicle, features desired, and the applications that you want to run. Factors to consider are: Sensor Redundancy: ArduPilot supports redundant IMUS, GPS, etc. Many controllers have multiple IMUs integrated on board for applications requiring this leve"
+        },
+        {
+          "chunk_id": "chunk-0151",
+          "score": 0.7239465117454529,
+          "heading": "GPS for yaw",
+          "source": "common-magnetic-interference.html",
+          "excerpt": "## GPS for yaw ### ¶ ArduPilot supports the use of GPS heading information to reduce malfunctions caused by changes in the magnetic field in certain environments. Configure GPS for yaw"
+        },
+        {
+          "chunk_id": "chunk-0333",
+          "score": 0.7084826231002808,
+          "heading": "",
+          "source": "training-mode.html",
+          "excerpt": "Commercial Support Development Team UAS Training Centers Stores About News History License Trademark Acknowledgments Wiki Editing Guide Partners Program Plane Introduction to Plane Choosing an Autopilot Ground Control Stations First Time Setup Install Ground Station Software Autopilot System Assembly Loading Firmware t"
+        }
+      ]
+    },
+    {
+      "query": "How do I set up a first fixed wing flight?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0265",
+          "score": 0.7397598028182983,
+          "heading": "",
+          "source": "first-flight-landing-page.html",
+          "excerpt": "Commercial Support Development Team UAS Training Centers Stores About News History License Trademark Acknowledgments Wiki Editing Guide Partners Program Plane Introduction to Plane Choosing an Autopilot Ground Control Stations First Time Setup First Flight and Tuning Center of Gravity Starting up and calibrating Plane "
+        },
+        {
+          "chunk_id": "chunk-0298",
+          "score": 0.7275291681289673,
+          "heading": "",
+          "source": "mode_autoland.html",
+          "excerpt": "Commercial Support Development Team UAS Training Centers Stores About News History License Trademark Acknowledgments Wiki Editing Guide Partners Program Plane Introduction to Plane Choosing an Autopilot Ground Control Stations First Time Setup Install Ground Station Software Autopilot System Assembly Loading Firmware t"
+        },
+        {
+          "chunk_id": "chunk-0029",
+          "score": 0.7099424004554749,
+          "heading": "",
+          "source": "arduplane-setup.html",
+          "excerpt": "Commercial Support Development Team UAS Training Centers Stores About News History License Trademark Acknowledgments Wiki Editing Guide Partners Program Plane Introduction to Plane Choosing an Autopilot Ground Control Stations First Time Setup Install Ground Station Software Autopilot System Assembly Loading Firmware t"
+        }
+      ]
+    },
+    {
+      "query": "What is FBWA mode?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0260",
+          "score": 0.6784439086914062,
+          "heading": "",
+          "source": "fbwa-mode.html",
+          "excerpt": "So to gain altitude you should raise the throttle, and to lose altitude you should lower the throttle. If you want Plane to take care of holding altitude then you should look at the FlyByWireB mode. In FBWA mode throttle is manually controlled, but is constrained by the THR_MIN and THR_MAX settings. In FBWA mode the ru"
+        },
+        {
+          "chunk_id": "chunk-0263",
+          "score": 0.677419126033783,
+          "heading": "",
+          "source": "fbwb-mode.html",
+          "excerpt": "As with FBWA, the rudder is under a combination of manual control and auto control for turn coordination. You should also have a look at CRUISE mode, as it is generally better than FBWB, especially if there is significant wind. In CRUISE mode the aircraft will hold a ground track as opposed to just leveling the wings w"
+        },
+        {
+          "chunk_id": "chunk-0269",
+          "score": 0.6637717485427856,
+          "heading": "Flight Mode List",
+          "source": "flight-modes.html",
+          "excerpt": "## Flight Mode List ### ¶ ACRO Mode AUTO Mode AUTOLAND AUTOTUNE Mode CRUISE Mode CIRCLE Mode FBWA Mode (FLY BY WIRE_A) FBWB Mode (FLY BY WIRE_B) GUIDED Mode LOITER Mode MANUAL Mode RTL Mode (Return To Launch) STABILIZE Mode TAKEOFF Mode TRAINING Mode THERMAL Mode"
+        }
+      ]
+    },
+    {
+      "query": "How does automatic takeoff work?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0313",
+          "score": 0.7701772451400757,
+          "heading": "NAV_TAKEOFF Mission Command",
+          "source": "takeoff-mode.html",
+          "excerpt": "## NAV_TAKEOFF Mission Command ### ¶ The takeoff mission command specifies a takeoff pitch and a target altitude. The takeoff mission item is considered complete when the plane has reached the target altitude specified in the mission. The mission will then execute its normal end of mission behavior if it runs out of co"
+        },
+        {
+          "chunk_id": "chunk-0314",
+          "score": 0.7418981194496155,
+          "heading": "TAKEOFF Heading",
+          "source": "takeoff-mode.html",
+          "excerpt": "## TAKEOFF Heading ### ¶ Before takeoff it is important that the plane be pointing into the wind, and be aligned with the runway (if a wheeled takeoff is used). The plane will try to hold its heading during takeoff, with the initial heading set by the direction the plane is facing when the takeoff starts. It is highly "
+        },
+        {
+          "chunk_id": "chunk-0298",
+          "score": 0.7413989305496216,
+          "heading": "",
+          "source": "mode_autoland.html",
+          "excerpt": "Commercial Support Development Team UAS Training Centers Stores About News History License Trademark Acknowledgments Wiki Editing Guide Partners Program Plane Introduction to Plane Choosing an Autopilot Ground Control Stations First Time Setup Install Ground Station Software Autopilot System Assembly Loading Firmware t"
+        }
+      ]
+    },
+    {
+      "query": "What is RTL and when does it trigger?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0287",
+          "score": 0.7061024904251099,
+          "heading": "",
+          "source": "loiter-mode.html",
+          "excerpt": "For Plane the home position is initially established at the time the plane acquires its GPS lock. It is then continuously updated as long as the autopilot is disarmed. This means if you execute an RTL in Plane, it will return to the location where it was when it was armed - assuming it had acquired GPS lock. Consider t"
+        },
+        {
+          "chunk_id": "chunk-0310",
+          "score": 0.6974190473556519,
+          "heading": "RTL_AUTOLAND",
+          "source": "rtl-mode.html",
+          "excerpt": "## RTL_AUTOLAND ### ¶ It is possible to setup an Automatic Landing to be executed when entering RTL. See Using DO_LAND_START for details. You must have setup your vehicle to properly do a automatic landing, of course. Warning “Home” position is always supposed to be your Plane’s actual GPS takeoff location: It is very "
+        },
+        {
+          "chunk_id": "chunk-0309",
+          "score": 0.67572021484375,
+          "heading": "",
+          "source": "rtl-mode.html",
+          "excerpt": "The loiter radius at home is determined by RTL_RADIUS , if it’s non-zero, otherwise WP_LOITER_RAD is used. Clock-wise or Counter-Clock-wise circling can be set by positive or negative values for the radius. Additionally, in firmware versions 4.0.6 and later, by setting RTL_CLIMB_MIN to a non-zero value, the plane will "
+        }
+      ]
+    },
+    {
+      "query": "How do I calibrate the airspeed sensor?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0317",
+          "score": 0.8258792161941528,
+          "heading": "Calibrate the airspeed sensor",
+          "source": "tecs-total-energy-control-system-for-speed-height-tuning-guide.html",
+          "excerpt": "## Calibrate the airspeed sensor ### ¶ This only applies if you are using an airspeed sensor. A properly installed and calibrated airspeed sensor enables your model to fly with much better control over its airspeed, which in turn enables lower speeds to be used safely, extending endurance. For this reason if you are in"
+        },
+        {
+          "chunk_id": "chunk-0009",
+          "score": 0.8141892552375793,
+          "heading": "Checking operation",
+          "source": "airspeed.html",
+          "excerpt": "## Checking operation ### ¶ You can check the airspeed reading with Mission Planner or another ground station. Just blow on the pitot tube or press your finger over it and observe the response. In still air oscillation between zero and small values (2-3) is normal. The airspeed varies with the square root of the pressu"
+        },
+        {
+          "chunk_id": "chunk-0010",
+          "score": 0.794933021068573,
+          "heading": "Miscalibration Safeguards",
+          "source": "airspeed.html",
+          "excerpt": "## Miscalibration Safeguards ### ¶ In order to help prevent Airspeed sensor use when its been miss-calibrated either during ground static calibration during the power up sequence, or by accidental parameter changes to offset or ratio, three parameters are available. If the ground speed is consistently lower than the re"
+        }
+      ]
+    },
+    {
+      "query": "What causes a prearm check failure?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0213",
+          "score": 0.7637365460395813,
+          "heading": "Disabling the Pre-arm Safety Check",
+          "source": "common-prearm-safety-checks.html",
+          "excerpt": "## Disabling the Pre-arm Safety Check ### ¶ Warning Disabling pre-arm safety checks is not recommended. The cause of the pre-arm failure should be corrected before operation of the vehicle if at all possible. If you are confident that the pre-arm check failure is not a real problem, it is possible to skip a failing che"
+        },
+        {
+          "chunk_id": "chunk-0192",
+          "score": 0.7440369129180908,
+          "heading": "Recognising which Pre-Arm Check has failed using the GCS",
+          "source": "common-prearm-safety-checks.html",
+          "excerpt": "## Recognising which Pre-Arm Check has failed using the GCS ### ¶ The pilot will notice a pre-arm check failure because he/she will be unable to arm the vehicle and the notification LED, if available, will be flashing yellow. To determine exactly which check has failed: Connect the Autopilot to the ground station using"
+        },
+        {
+          "chunk_id": "chunk-0191",
+          "score": 0.6736782789230347,
+          "heading": "",
+          "source": "common-prearm-safety-checks.html",
+          "excerpt": "Commercial Support Development Team UAS Training Centers Stores About News History License Trademark Acknowledgments Wiki Editing Guide Partners Program Plane Introduction to Plane Choosing an Autopilot Ground Control Stations First Time Setup First Flight and Tuning Center of Gravity Starting up and calibrating Plane "
+        }
+      ]
+    },
+    {
+      "query": "How do I tune TECS for climb performance?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0323",
+          "score": 0.7629321813583374,
+          "heading": "Flight Testing",
+          "source": "tecs-total-energy-control-system-for-speed-height-tuning-guide.html",
+          "excerpt": "If the speed is too high, then TECS_SINK_MAX should be reduced. If the demanded pitch angle is constantly at the limit set by PTCH_LIM_MIN_DEG , then either the pitch angle limit PTCH_LIM_MIN_DEG needs to be reduced (become more negative) or the maximum sink rate TECS_SINK_MAX needs to be reduced. If the height respons"
+        },
+        {
+          "chunk_id": "chunk-0328",
+          "score": 0.7576848864555359,
+          "heading": "Complete Parameter List",
+          "source": "tecs-total-energy-control-system-for-speed-height-tuning-guide.html",
+          "excerpt": "If the throttle required to climb is close to THR_MAX and the aircraft is maintaining airspeed, then this parameter is set correctly. If the airspeed starts to reduce, then the parameter is set to high, and if the throttle demand required to climb and maintain speed is noticeably less than THR_MAX , then either TECS_CL"
+        },
+        {
+          "chunk_id": "chunk-0330",
+          "score": 0.7407997846603394,
+          "heading": "Algorithm Overview",
+          "source": "tecs-total-energy-control-system-for-speed-height-tuning-guide.html",
+          "excerpt": "TECS tries to maintain the correct balance between potential and kinetic energy by adjusting the demanded pitch angle. By lowering the nose energy is transferred from gravitational potential to kinetic energy or vice-versa. How much weighting is placed on kinetic energy or speed errors vs potential energy or height err"
+        }
+      ]
+    },
+    {
+      "query": "What is the difference between MANUAL and FBWA?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0263",
+          "score": 0.679059624671936,
+          "heading": "",
+          "source": "fbwb-mode.html",
+          "excerpt": "As with FBWA, the rudder is under a combination of manual control and auto control for turn coordination. You should also have a look at CRUISE mode, as it is generally better than FBWB, especially if there is significant wind. In CRUISE mode the aircraft will hold a ground track as opposed to just leveling the wings w"
+        },
+        {
+          "chunk_id": "chunk-0260",
+          "score": 0.659316897392273,
+          "heading": "",
+          "source": "fbwa-mode.html",
+          "excerpt": "So to gain altitude you should raise the throttle, and to lose altitude you should lower the throttle. If you want Plane to take care of holding altitude then you should look at the FlyByWireB mode. In FBWA mode throttle is manually controlled, but is constrained by the THR_MIN and THR_MAX settings. In FBWA mode the ru"
+        },
+        {
+          "chunk_id": "chunk-0268",
+          "score": 0.6144019365310669,
+          "heading": "Overview",
+          "source": "flight-modes.html",
+          "excerpt": "Mode Roll Pitch Throttle GPS Need TX Summary MANUAL - - - Y Manual control surface movement, passthrough FBWA s s - Y Roll and pitch follow stick input, up to set limits FBWB s A SPD Y Y like FBWA, but with automatic height and speed control CRUISE A A SPD Y Y like FBWB, but with ground course tracking STABILIZE + + - "
+        }
+      ]
+    },
+    {
+      "query": "How do I configure a parachute for emergency?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0111",
+          "score": 0.7493035793304443,
+          "heading": "Message Details (Copter specific)",
+          "source": "common-downloading-and-analyzing-data-logs-in-mission-planner.html",
+          "excerpt": "Normally vehicle is disarmed soon after 2 = Loss of control detected. Normally parachute is released soon after 13 = Flip mode 2 = Flip abandoned (not armed, pilot input or timeout) 15 = Parachute 2 = Not Deployed, vehicle too low 3 = Not Deployed, vehicle landed 16 = EKF Check 0 = Variance cleared (position estimate O"
+        },
+        {
+          "chunk_id": "chunk-0112",
+          "score": 0.7446919679641724,
+          "heading": "Message Details (Copter specific)",
+          "source": "common-downloading-and-analyzing-data-logs-in-mission-planner.html",
+          "excerpt": "Normally parachute is released soon after 13 = Flip mode 2 = Flip abandoned (not armed, pilot input or timeout) 15 = Parachute 2 = Not Deployed, vehicle too low 3 = Not Deployed, vehicle landed 16 = EKF Check 0 = Variance cleared (position estimate OK) 2 = Bad Variance (position estimate bad) 17 = EKF Failsafe 0 = Fail"
+        },
+        {
+          "chunk_id": "chunk-0096",
+          "score": 0.7444085478782654,
+          "heading": "Unexpected ERRORS including Failsafes",
+          "source": "common-diagnosing-problems-using-logs.html",
+          "excerpt": "Normally vehicle is disarmed soon after 2 = Loss of control detected. Normally parachute is released soon after 13 = Flip mode 2 = Flip abandoned (not armed, pilot input or timeout) 15 = Parachute 2 = Not Deployed, vehicle too low 3 = Not Deployed, vehicle landed 16 = EKF Check 0 = Variance cleared (position estimate O"
+        }
+      ]
+    },
+    {
+      "query": "What parameters control stall prevention?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0334",
+          "score": 0.7429943084716797,
+          "heading": "",
+          "source": "training-mode.html",
+          "excerpt": "When turning, the autopilot will monitor the demanded bank angle and airspeed and work out if there is a sufficient margin above the stall speed to turn at the demanded bank angle. If not the bank angle is limited to the safe value. The stall prevention system will always allow a bank of at least 25 degrees (to ensure "
+        },
+        {
+          "chunk_id": "chunk-0324",
+          "score": 0.6700977087020874,
+          "heading": "Fine Tuning",
+          "source": "tecs-total-energy-control-system-for-speed-height-tuning-guide.html",
+          "excerpt": "## Fine Tuning ### ¶ The following parameters can be adjusted to fine-tune the controller response: THR_SLEWRATE : This is the maximum % change in throttle over one second . A setting of 100 means to not change the throttle by more than 100% of the full throttle range in one second. Reducing this value will reduce the "
+        },
+        {
+          "chunk_id": "chunk-0207",
+          "score": 0.6669173836708069,
+          "heading": "Recognising which Pre-Arm Check has failed using the GCS",
+          "source": "common-prearm-safety-checks.html",
+          "excerpt": "AIRSPEED_MIN too low x<5 m/s Parameter set too low, under 5m/s Raise to at least 20% above stall speed Bad parameter: ATC_ANG_PIT_P must be > 0 Attitude controller misconfiguration Increase specified parameter value to be above zero. See Tuning Process Instructions Bad parameter: PSC_POSXY_P must be > 0 Position contro"
+        }
+      ]
+    },
+    {
+      "query": "How does geofence work on Plane?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0272",
+          "score": 0.827842116355896,
+          "heading": "",
+          "source": "geofencing.html",
+          "excerpt": "Appendix Archived Topics - Geo-Fencing in Plane Edit on GitHub ARCHIVED: See GeoFencing for info for firmware versions 4.1 and later # Geo-Fencing in Plane # ¶ The Geo-Fencing support in Plane firmware versions prior to 4.1, allows you to set a virtual ‘fence’ around the area you want to fly in, specified as an enclose"
+        },
+        {
+          "chunk_id": "chunk-0277",
+          "score": 0.777845025062561,
+          "heading": "Setting up geo-fencing",
+          "source": "geofencing.html",
+          "excerpt": "Note that the loiter altitude of the Rally Point is used as the return altitude. Note A Rally Point can be outside of the geofence but this is NOT recommended. If you have a rally point outside the geofence you will need to disable the geofence using FENCE_CHANNEL before you can control the plane again otherwise the pl"
+        },
+        {
+          "chunk_id": "chunk-0273",
+          "score": 0.7773120403289795,
+          "heading": "Use for R/C training",
+          "source": "geofencing.html",
+          "excerpt": "## Use for R/C training ### ¶ One of the main uses of geo-fencing is to teach yourself (or someone else) to fly radio controlled planes. When you have a properly configured geo-fence it is very hard to crash, and you can try manoeuvres that would normally be too likely to end in a crash, trusting the APM to ‘bounce’ th"
+        }
+      ]
+    },
+    {
+      "query": "What is QSTABILIZE for VTOL?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0025",
+          "score": 0.6610625982284546,
+          "heading": "Failsafe Parameters and their Meanings",
+          "source": "apms-failsafe-function.html",
+          "excerpt": "No Action is ever taken for Short FailSafe in these modes: CIRCLE RTL TAKEOFF QRTL QLAND LOITER to Alt and QLAND FS_SHORT_ACTN = 3 disables taking action in ANY mode Note if in AutoLanding in AUTO or AUTOLAND, it will always continue to the landing In QuadPlanes, Short FailSafe will force QLAND by default, RTL if bit 2"
+        },
+        {
+          "chunk_id": "chunk-0026",
+          "score": 0.6507892608642578,
+          "heading": "Failsafe Parameters and their Meanings",
+          "source": "apms-failsafe-function.html",
+          "excerpt": "No Action is ever taken for Long FailSafe in these modes: RTL QRTL QLAND LOITER to Alt and QLAND In QuadPlanes, Long FailSafe will force QLAND by default, RTL if bit 20 of Q_OPTIONS is set, or QRTL if bit 5 of Q_OPTIONS is set, if entered from these modes: QSTABILIZE QHOVER QLOITER QACRO QAUTOTUNE Otherwise: FS_LONG_AC"
+        },
+        {
+          "chunk_id": "chunk-0161",
+          "score": 0.6357620358467102,
+          "heading": "Commands supported by Plane",
+          "source": "common-mavlink-mission-command-messages-mav_cmd.html",
+          "excerpt": "This is the mission equivalent of the QLAND flight mode . If the Q_OPTIONS bit 4 is set (Use a fixed wind spiral approach), the it will fly in plane mode to the lat/lon coordinates provided (if non-zero), climbing or descending to the altitude set in the NAV_VTOL_LAND waypoint. When it reaches within Q_FW_LND_APR_RAD o"
+        }
+      ]
+    },
+    {
+      "query": "How do I set up a mission with waypoints?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0154",
+          "score": 0.7519888281822205,
+          "heading": "Overview",
+          "source": "common-mavlink-mission-command-messages-mav_cmd.html",
+          "excerpt": "During a mission at most one “Navigation” command and one “Do” or “Condition” command can be running at one time. A typical mission might set a waypoint (NAV command), add a CONDITION command that doesn’t complete until a certain distance from the destination ( MAV_CMD_CONDITION_DISTANCE ), and then add a number of DO "
+        },
+        {
+          "chunk_id": "chunk-0159",
+          "score": 0.7414028644561768,
+          "heading": "Commands supported by Plane",
+          "source": "common-mavlink-mission-command-messages-mav_cmd.html",
+          "excerpt": "If 1, track the line tangent to the circle to the next waypoint. param5 Lat Target latitude. If zero, the vehicle will loiter at the current latitude. param6 Lon Target longitude. If zero, the vehicle will loiter at the current longitude. param7 Alt Target altitude. If zero, the vehicle will loiter at the current altit"
+        },
+        {
+          "chunk_id": "chunk-0158",
+          "score": 0.7362951636314392,
+          "heading": "Commands supported by Plane",
+          "source": "common-mavlink-mission-command-messages-mav_cmd.html",
+          "excerpt": "If there are subsequent commands then you can continue the mission at the next command, if the Copter MIS_RESTART parameter is set to resume, by switching back to AUTO mode (otherwise the mission will restart). Command parameters Command Field Mission Planner Field Description param1 Empty param2 Empty param3 Dir 1=CW "
+        }
+      ]
+    },
+    {
+      "query": "What is failsafe behavior if radio is lost?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0015",
+          "score": 0.8262913227081299,
+          "heading": "RC Failsafe",
+          "source": "apms-failsafe-function.html",
+          "excerpt": "## RC Failsafe ### ¶ ### Radio Signal Failure ### ¶ If the received signal is lost or the control information corrupted for greater than RC_FS_TIMEOUT (default = 1 sec), or the receiver sets its “failsafe bit” in protocols which have this (like Sbus, FPort, etc.), or RC_OVERRIDES are lost if using a GCS only is being u"
+        },
+        {
+          "chunk_id": "chunk-0021",
+          "score": 0.7616174221038818,
+          "heading": "Configuring for valid RC outputs while in RC Failsafe",
+          "source": "apms-failsafe-function.html",
+          "excerpt": "## Configuring for valid RC outputs while in RC Failsafe ### ¶ Normally, the RC channels are ignored when in RC Failsafe (except the throttle channel, but for failsafe detection exit only). Sometimes it is desirable to allow the preset signal loss values( for receivers capable of this ), to be used in the event of an R"
+        },
+        {
+          "chunk_id": "chunk-0018",
+          "score": 0.7584550380706787,
+          "heading": "section below will be taken, if the",
+          "source": "apms-failsafe-function.html",
+          "excerpt": "See FS_LONG_ACTN parameter below for how each mode responds to the selected action value. If the RC Failsafe condition is later exited, a message will be displayed that the Long Failsafe is cleared, but the flight mode will not revert. If it was a Throttle Failsafe that caused the RC Failsafe, and throttle was increase"
+        }
+      ]
+    },
+    {
+      "query": "How do I log and review flight data?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0102",
+          "score": 0.80961012840271,
+          "heading": "Downloading logs via MAVLink",
+          "source": "common-downloading-and-analyzing-data-logs-in-mission-planner.html",
+          "excerpt": "## Downloading logs via MAVLink ### ¶ Connect your vehicle to the ground station using the micro USB cable Open the Mission Planner’s Flight Data screen On the bottom left, select the “DataFlash Logs” tab and push the “Download DataFlash Log Via Mavlink” button Then, select the log you want to download. This will save "
+        },
+        {
+          "chunk_id": "chunk-0103",
+          "score": 0.7667932510375977,
+          "heading": "Downloading logs via MAVLink",
+          "source": "common-downloading-and-analyzing-data-logs-in-mission-planner.html",
+          "excerpt": "Graph any flight data by first clicking on the appropriate row, you should see the column headers update appropriately. Next find the column you wish to graph, click on it and then push the “Graph this data” button. In the example above the ATT’s Roll-In and Roll data have been graphed. The mouse’s scroll wheel can be "
+        },
+        {
+          "chunk_id": "chunk-0099",
+          "score": 0.7514447569847107,
+          "heading": "Logging Parameters",
+          "source": "common-downloading-and-analyzing-data-logs-in-mission-planner.html",
+          "excerpt": "Note If you suspect that you are missing logging entries due to excessive logging speed, you can check the DSF.Dp log message for the amount of missed entries. Note Logging of the continuously streaming log messages, such as attitude, sensors, etc. can be paused by using the RCx_OPTION auxiliary function “164” on a tra"
+        }
+      ]
+    },
+    {
+      "query": "What is the role of the flight controller compass?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0314",
+          "score": 0.7045322060585022,
+          "heading": "TAKEOFF Heading",
+          "source": "takeoff-mode.html",
+          "excerpt": "## TAKEOFF Heading ### ¶ Before takeoff it is important that the plane be pointing into the wind, and be aligned with the runway (if a wheeled takeoff is used). The plane will try to hold its heading during takeoff, with the initial heading set by the direction the plane is facing when the takeoff starts. It is highly "
+        },
+        {
+          "chunk_id": "chunk-0077",
+          "score": 0.6953434944152832,
+          "heading": "",
+          "source": "common-compass-calibration-in-mission-planner.html",
+          "excerpt": "If necessary, move outdoors in order to get a good 3D gps lock before doing the compass calibration. Note Compass calibration cannot be performed while vehicle is armed. Tip It is not necessary to recalibrate the compass when the vehicle is flown at a new location because ArduPilot includes a “world magnetic model” whi"
+        },
+        {
+          "chunk_id": "chunk-0305",
+          "score": 0.691818356513977,
+          "heading": "Tuning waypoint transition behaviour",
+          "source": "navigation-tuning.html",
+          "excerpt": "## Tuning waypoint transition behaviour ### ¶ To control whether Plane flies through a waypoint, then turns afterwards or turns before the waypoint so that it neatly lines up for the next leg of the mission you should adjust the waypoint radius via the WP_RADIUS parameter. If you want Plane to fly through the waypoint "
+        }
+      ]
+    },
+    {
+      "query": "How do I configure flaps or crow brakes?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0096",
+          "score": 0.6256394386291504,
+          "heading": "Unexpected ERRORS including Failsafes",
+          "source": "common-diagnosing-problems-using-logs.html",
+          "excerpt": "Normally vehicle is disarmed soon after 2 = Loss of control detected. Normally parachute is released soon after 13 = Flip mode 2 = Flip abandoned (not armed, pilot input or timeout) 15 = Parachute 2 = Not Deployed, vehicle too low 3 = Not Deployed, vehicle landed 16 = EKF Check 0 = Variance cleared (position estimate O"
+        },
+        {
+          "chunk_id": "chunk-0220",
+          "score": 0.6199544072151184,
+          "heading": "Flight modes configuration",
+          "source": "common-rc-transmitter-flight-mode-configuration.html",
+          "excerpt": "## Flight modes configuration ### ¶ The mapping between switch position and flight mode is set in the Mission Planner Flight Mode screen. Mission Planner: Flight Mode Screen(Plane) ¶ You can set up the flight modes available on the transmitter by doing the following: Turn on your RC transmitter Connect the Pixhawk (or "
+        },
+        {
+          "chunk_id": "chunk-0026",
+          "score": 0.6181883811950684,
+          "heading": "Failsafe Parameters and their Meanings",
+          "source": "apms-failsafe-function.html",
+          "excerpt": "No Action is ever taken for Long FailSafe in these modes: RTL QRTL QLAND LOITER to Alt and QLAND In QuadPlanes, Long FailSafe will force QLAND by default, RTL if bit 20 of Q_OPTIONS is set, or QRTL if bit 5 of Q_OPTIONS is set, if entered from these modes: QSTABILIZE QHOVER QLOITER QACRO QAUTOTUNE Otherwise: FS_LONG_AC"
+        }
+      ]
+    },
+    {
+      "query": "What is loiter mode?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0309",
+          "score": 0.6354972124099731,
+          "heading": "",
+          "source": "rtl-mode.html",
+          "excerpt": "The loiter radius at home is determined by RTL_RADIUS , if it’s non-zero, otherwise WP_LOITER_RAD is used. Clock-wise or Counter-Clock-wise circling can be set by positive or negative values for the radius. Additionally, in firmware versions 4.0.6 and later, by setting RTL_CLIMB_MIN to a non-zero value, the plane will "
+        },
+        {
+          "chunk_id": "chunk-0159",
+          "score": 0.6279871463775635,
+          "heading": "Commands supported by Plane",
+          "source": "common-mavlink-mission-command-messages-mav_cmd.html",
+          "excerpt": "If 1, track the line tangent to the circle to the next waypoint. param5 Lat Target latitude. If zero, the vehicle will loiter at the current latitude. param6 Lon Target longitude. If zero, the vehicle will loiter at the current longitude. param7 Alt Target altitude. If zero, the vehicle will loiter at the current altit"
+        },
+        {
+          "chunk_id": "chunk-0162",
+          "score": 0.6173793077468872,
+          "heading": "Commands supported by Plane",
+          "source": "common-mavlink-mission-command-messages-mav_cmd.html",
+          "excerpt": "Altitude (m) param2 ? Descent speed (m/s) param3 ? Wiggle Time (s) param4 Empty param5 Empty param6 Empty param7 Empty ### MAV_CMD_NAV_LOITER_TO_ALT ### ¶ Supported by: Plane (not Copter or Rover). Loiter while climbing/descending to an altitude. Begin loitering at the specified Latitude and Longitude. If Lat=Lon=0, th"
+        }
+      ]
+    },
+    {
+      "query": "How does landing approach and flare work?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0049",
+          "score": 0.8216254711151123,
+          "heading": "Basic Autolanding",
+          "source": "automatic-landing.html",
+          "excerpt": "Have a look at the TECS tuning page for more information. You should also be aware that many model aircraft can glide for long distances, and it may be that your requested glide slope and airspeed combination just isn’t achievable. ### Controlling the flare ### ¶ The final stage of the landing is called the “flare”. Du"
+        },
+        {
+          "chunk_id": "chunk-0051",
+          "score": 0.8044592142105103,
+          "heading": "Basic Autolanding",
+          "source": "automatic-landing.html",
+          "excerpt": "A larger number will cause the pitch demand to change more slowly. This parameter can be used to reduce issues with sudden pitch changes when the flare happens. Note you can use STICK_MIXING to allow manual adjustments during the flare, if needed, while tuning the above parameters. Note For most well tuned vehicles the"
+        },
+        {
+          "chunk_id": "chunk-0047",
+          "score": 0.7841530442237854,
+          "heading": "Basic Autolanding",
+          "source": "automatic-landing.html",
+          "excerpt": "This would apply not only to autolandings but any TECS speed controlled flight stage. The key parameters that control automatic landing are: LAND_FLARE_ALT LAND_FLARE_SEC LAND_PITCH_DEG TECS_LAND_SINK TECS_SINK_MAX TECS_SINK_MIN TECS_LAND_THR Note The TECS parameters are related to the glide slope and final flare sink "
+        }
+      ]
+    }
+  ]
+}

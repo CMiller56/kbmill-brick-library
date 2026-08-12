@@ -27,7 +27,12 @@ The highest-leverage way to judge this library is not the README — it is a **p
 **Two re-runnable retrieval demos** (cosine top-3; not chat transcripts):
 
 1. **[RETRIEVAL_DEMO_ArduPilot_Plane.md](RETRIEVAL_DEMO_ArduPilot_Plane.md)** — **20 questions** on `ArduPilot_Plane` (ops wiki facet). Machine twin: [`demos/ardupilot_plane_eval.json`](demos/ardupilot_plane_eval.json).
-2. **[RETRIEVAL_DEMO_NASA_Skylab_History.md](RETRIEVAL_DEMO_NASA_Skylab_History.md)** — **15 questions** on NASA Skylab official history (paper-capture OCR after residual craft). Machine twin: [`demos/nasa_skylab_history_eval.json`](demos/nasa_skylab_history_eval.json).
+2. **[RETRIEVAL_DEMO_ArduPilot_Plane_Params.md](RETRIEVAL_DEMO_ArduPilot_Plane_Params.md)** — **15 questions** on `ArduPilot_Plane_Params` (dense param table facet). Machine twin: [`demos/ardupilot_plane_params_eval.json`](demos/ardupilot_plane_params_eval.json).
+3. **[RETRIEVAL_DEMO_NASA_Skylab_History.md](RETRIEVAL_DEMO_NASA_Skylab_History.md)** — **15 questions** on NASA Skylab official history (paper-capture OCR after residual craft). Machine twin: [`demos/nasa_skylab_history_eval.json`](demos/nasa_skylab_history_eval.json).
+
+**Compose, don’t melt:** [COMPOSITION_ArduPilot_Plane.md](COMPOSITION_ArduPilot_Plane.md) — Plane (ops) + Params + MAVLink as separate LLM-native packages.
+
+**Hugging Face dataset (BEIR-style):** **[CMiller/vf-brick-retrieval](https://huggingface.co/datasets/CMiller/vf-brick-retrieval)** — configs `ardupilot_plane` + `nasa_skylab` (corpus / queries / qrels / published_hits). Local build: [`hf_datasets/vf-brick-retrieval/`](hf_datasets/vf-brick-retrieval/) · rebuild: `python3 scripts/build_hf_retrieval_dataset.py`.
 
 Ten minutes of reading beats any claim that “bricks retrieve well.” If a hit looks wrong, open an issue.
 

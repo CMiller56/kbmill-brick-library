@@ -1,0 +1,447 @@
+{
+  "ok": true,
+  "brick": "ArduPilot_Plane_Params",
+  "generated": "2026-08-12",
+  "method": "cosine top-3 over brick embeddings (nomic-embed-text v1.5); query embed with search_query: prefix via SentenceTransformer",
+  "min_score_note": "Scores are cosine similarity; higher is better. Not LLM-generated answers.",
+  "chunk_count": 1781,
+  "eligible_count": 1781,
+  "top_k": 3,
+  "results": [
+    {
+      "query": "What does TECS_LAND_ARSPD control during landing?",
+      "hits": [
+        {
+          "chunk_id": "chunk-1507",
+          "score": 0.8203598260879517,
+          "heading": "TECS_LAND_ARSPD: Airspeed during landing approach (m/s)",
+          "source": "params_TECS.md",
+          "page": 1,
+          "excerpt": "## TECS_LAND_ARSPD: Airspeed during landing approach (m/s) Airspeed during landing approach (m/s) When performing an autonomous landing, this value is used as the goal airspeed during approach. Max airspeed allowed is Trim Airspeed or AIRSPEED_MAX as defined by LAND_OPTIONS bitmask. Note that this parameter is not use\u2026"
+        },
+        {
+          "chunk_id": "chunk-1511",
+          "score": 0.7951972484588623,
+          "heading": "TECS_LAND_TCONST: Land controller time constant (sec)",
+          "source": "params_TECS.md",
+          "page": 1,
+          "excerpt": "## TECS_LAND_TCONST: Land controller time constant (sec) Land controller time constant (sec) Note: This parameter is for advanced users This is the time constant of the TECS control algorithm when in final landing stage of flight. It should be smaller than TECS_TIME_CONST to allow for faster flare Increment | Range |\u2026"
+        },
+        {
+          "chunk_id": "chunk-1508",
+          "score": 0.7665898203849792,
+          "heading": "TECS_LAND_IGAIN: Controller integrator during landing",
+          "source": "params_TECS.md",
+          "page": 1,
+          "excerpt": "## TECS_LAND_IGAIN: Controller integrator during landing Controller integrator during landing Note: This parameter is for advanced users This is the integrator gain on the control loop during landing. When set to 0 then TECS_INTEG_GAIN is used. Increase to increase the rate at which speed and height offsets are trimme\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What is AIRSPEED_CRUISE used for on Plane?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0027",
+          "score": 0.7837557792663574,
+          "heading": "AIRSPEED_CRUISE: Target cruise airspeed",
+          "source": "params_AIRSPEED.md",
+          "page": 1,
+          "excerpt": "## AIRSPEED_CRUISE: Target cruise airspeed Target cruise airspeed Target cruise airspeed in m/s in automatic throttle modes. Value is as an indicated (calibrated/apparent) airspeed. Units | meters per second | ### AIRSPEED_MAX: Maximum Airspeed Maximum Airspeed Maximum airspeed demanded in automatic throttle modes. Sh\u2026"
+        },
+        {
+          "chunk_id": "chunk-0045",
+          "score": 0.7538641691207886,
+          "heading": "ARSPD_TYPE: Airspeed type",
+          "source": "params_ARSPD.md",
+          "page": 1,
+          "excerpt": "## ARSPD_TYPE: Airspeed type Airspeed type Type of airspeed sensor Values | Value | Meaning | 0 | None | 1 | I2C-MS4525D0 | 2 | Analog | 3 | I2C-MS5525 | 4 | I2C-MS5525 (0x76) | 5 | I2C-MS5525 (0x77) | 6 | I2C-SDP3X | 7 | I2C-DLVR-5in | 8 | DroneCAN | 9 | I2C-DLVR-10in | 10 | I2C-DLVR-20in | 11 | I2C-DLVR-30in | 12 |\u2026"
+        },
+        {
+          "chunk_id": "chunk-0077",
+          "score": 0.7538447380065918,
+          "heading": "ARSPD6_TYPE: Airspeed type",
+          "source": "params_ARSPD6.md",
+          "page": 1,
+          "excerpt": "## ARSPD6_TYPE: Airspeed type Airspeed type Type of airspeed sensor Values | Value | Meaning | 0 | None | 1 | I2C-MS4525D0 | 2 | Analog | 3 | I2C-MS5525 | 4 | I2C-MS5525 (0x76) | 5 | I2C-MS5525 (0x77) | 6 | I2C-SDP3X | 7 | I2C-DLVR-5in | 8 | DroneCAN | 9 | I2C-DLVR-10in | 10 | I2C-DLVR-20in | 11 | I2C-DLVR-30in | 12 |\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What does TECS_SINK_MIN set?",
+      "hits": [
+        {
+          "chunk_id": "chunk-1515",
+          "score": 0.750643253326416,
+          "heading": "TECS_SINK_MIN: Minimum Sink Rate (metres/sec)",
+          "source": "params_TECS.md",
+          "page": 1,
+          "excerpt": "## TECS_SINK_MIN: Minimum Sink Rate (metres/sec) Minimum Sink Rate (metres/sec) Minimum sink rate when at THR_MIN and AIRSPEED_CRUISE. Increment | Range | 0.1 | 0.1 to 10.0 | ### TECS_SPDWEIGHT: Weighting applied to speed control Weighting applied to speed control Note: This parameter is for advanced users Mixing of p\u2026"
+        },
+        {
+          "chunk_id": "chunk-1505",
+          "score": 0.7168476581573486,
+          "heading": "TECS_APPR_SMAX: Sink rate max for landing approach stage",
+          "source": "params_TECS.md",
+          "page": 1,
+          "excerpt": "## TECS_APPR_SMAX: Sink rate max for landing approach stage Sink rate max for landing approach stage Note: This parameter is for advanced users The sink rate max for the landing approach stage of landing. This will need to be large for steep landing approaches especially when using reverse thrust. If 0, then use TECS_\u2026"
+        },
+        {
+          "chunk_id": "chunk-1509",
+          "score": 0.7017132043838501,
+          "heading": "TECS_LAND_SINK: Sink rate for final landing stage",
+          "source": "params_TECS.md",
+          "page": 1,
+          "excerpt": "## TECS_LAND_SINK: Sink rate for final landing stage Sink rate for final landing stage Note: This parameter is for advanced users The sink rate in meters/second for the final stage of landing. Increment | Range | 0.1 | 0.0 to 2.0 | ### TECS_LAND_SPDWGT: Weighting applied to speed control during landing. Weighting appl\u2026"
+        }
+      ]
+    },
+    {
+      "query": "Which parameters configure battery failsafe voltage source?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0192",
+          "score": 0.7983238697052002,
+          "heading": "BATT8_FS_VOLTSRC: Failsafe voltage source",
+          "source": "params_BATT8.md",
+          "page": 1,
+          "excerpt": "## BATT8_FS_VOLTSRC: Failsafe voltage source Failsafe voltage source Note: This parameter is for advanced users Voltage type used for detection of low voltage event Values | Value | Meaning | 0 | Raw Voltage | 1 | Sag Compensated Voltage | | ### BATT8_LOW_MAH: Low battery capacity Low battery capacity Battery capacity\u2026"
+        },
+        {
+          "chunk_id": "chunk-0203",
+          "score": 0.7980242967605591,
+          "heading": "BATT9_FS_VOLTSRC: Failsafe voltage source",
+          "source": "params_BATT9.md",
+          "page": 1,
+          "excerpt": "## BATT9_FS_VOLTSRC: Failsafe voltage source Failsafe voltage source Note: This parameter is for advanced users Voltage type used for detection of low voltage event Values | Value | Meaning | 0 | Raw Voltage | 1 | Sag Compensated Voltage | | ### BATT9_LOW_MAH: Low battery capacity Low battery capacity Battery capacity\u2026"
+        },
+        {
+          "chunk_id": "chunk-0170",
+          "score": 0.7964891195297241,
+          "heading": "BATT6_FS_VOLTSRC: Failsafe voltage source",
+          "source": "params_BATT6.md",
+          "page": 1,
+          "excerpt": "## BATT6_FS_VOLTSRC: Failsafe voltage source Failsafe voltage source Note: This parameter is for advanced users Voltage type used for detection of low voltage event Values | Value | Meaning | 0 | Raw Voltage | 1 | Sag Compensated Voltage | | ### BATT6_LOW_MAH: Low battery capacity Low battery capacity Battery capacity\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What does RTL_ALTITUDE control?",
+      "hits": [
+        {
+          "chunk_id": "chunk-1324",
+          "score": 0.7889183759689331,
+          "heading": "RTL_ALTITUDE: RTL altitude",
+          "source": "params_RTL.md",
+          "page": 1,
+          "excerpt": "## RTL_ALTITUDE: RTL altitude RTL altitude Target altitude above home for RTL mode. Maintains current altitude if set to -1. Rally point altitudes are used if plane does not return to home. Units | meters | ### RTL_AUTOLAND: RTL auto land RTL auto land Automatically begin landing sequence after arriving at RTL locatio\u2026"
+        },
+        {
+          "chunk_id": "chunk-1325",
+          "score": 0.7380253076553345,
+          "heading": "RTL_CLIMB_MIN: RTL minimum climb",
+          "source": "params_RTL.md",
+          "page": 1,
+          "excerpt": "## RTL_CLIMB_MIN: RTL minimum climb RTL minimum climb The vehicle will climb this many m during the initial climb portion of the RTL. During this time the roll will be limited to LEVEL_ROLL_LIMIT degrees. Increment | Range | Units | 1 | 0 to 30 | meters | ### RTL_RADIUS: RTL loiter radius RTL loiter radius Defines the\u2026"
+        },
+        {
+          "chunk_id": "chunk-1083",
+          "score": 0.6941660046577454,
+          "heading": "Q_RTL_MODE: VTOL RTL mode",
+          "source": "params_Q.md",
+          "page": 1,
+          "excerpt": "## Q_RTL_MODE: VTOL RTL mode VTOL RTL mode If this is set to 1 then an RTL will change to QRTL when within RTL_RADIUS meters of the RTL destination, VTOL approach: vehicle will RTL at RTL alt and circle with a radius of Q_FW_LND_APR_RAD down to Q_RTL_ALT and then transition into the wind and QRTL, see 'AUTO VTOL Landi\u2026"
+        }
+      ]
+    },
+    {
+      "query": "How is takeoff maximum throttle configured (TKOFF_THR_MAX)?",
+      "hits": [
+        {
+          "chunk_id": "chunk-1614",
+          "score": 0.9090469479560852,
+          "heading": "TKOFF_THR_MAX: Maximum Throttle for takeoff",
+          "source": "params_TKOFF.md",
+          "page": 1,
+          "excerpt": "## TKOFF_THR_MAX: Maximum Throttle for takeoff Maximum Throttle for takeoff Note: This parameter is for advanced users The maximum throttle setting during automatic takeoff. If this is zero then THR_MAX is used for takeoff as well. Increment | Range | Units | 1 | 0 to 100 | percent | ### TKOFF_THR_MAX_T: Takeoff throt\u2026"
+        },
+        {
+          "chunk_id": "chunk-1609",
+          "score": 0.8423466682434082,
+          "heading": "TKOFF_LVL_ALT: Takeoff mode altitude level altitude",
+          "source": "params_TKOFF.md",
+          "page": 1,
+          "excerpt": "## TKOFF_LVL_ALT: Takeoff mode altitude level altitude Takeoff mode altitude level altitude This is the altitude below which the wings are held level for TAKEOFF and AUTO modes. Below this altitude, roll demand is restricted to LEVEL_ROLL_LIMIT. Normal-flight roll restriction resumes above TKOFF_LVL_ALT*3 or TKOFF_ALT\u2026"
+        },
+        {
+          "chunk_id": "chunk-1607",
+          "score": 0.8231106996536255,
+          "heading": "TKOFF_ACCEL_CNT: Takeoff throttle acceleration count",
+          "source": "params_TKOFF.md",
+          "page": 1,
+          "excerpt": "## TKOFF_ACCEL_CNT: Takeoff throttle acceleration count Takeoff throttle acceleration count This is the number of acceleration events to require for arming with TKOFF_THR_MINACC. The default is 1, which means a single forward acceleration above TKOFF_THR_MINACC will arm. By setting this higher than 1 you can require m\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What is LAND_TYPE for automatic landing?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0685",
+          "score": 0.793306827545166,
+          "heading": "LAND_TYPE: Auto-landing type",
+          "source": "params_LAND.md",
+          "page": 1,
+          "excerpt": "## LAND_TYPE: Auto-landing type Auto-landing type Specifies the auto-landing type to use Values | Value | Meaning | 0 | Standard Glide Slope | 1 | Deepstall | | ### LAND_WIND_COMP: Headwind Compensation when Landing Headwind Compensation when Landing Note: This parameter is for advanced users This param controls how m\u2026"
+        },
+        {
+          "chunk_id": "chunk-0079",
+          "score": 0.73527991771698,
+          "heading": "AUTOLAND_CLIMB: Minimum altitude above terrain before turning upon entry",
+          "source": "params_AUTOLAND.md",
+          "page": 1,
+          "excerpt": "## AUTOLAND_CLIMB: Minimum altitude above terrain before turning upon entry Minimum altitude above terrain before turning upon entry Vehicle will climb with limited turn ability (LEVEL_ROLL_LIMIT) until it is at least this altitude above the terrain at the point of entry, before proceeding to loiter-to-alt and landing\u2026"
+        },
+        {
+          "chunk_id": "chunk-0675",
+          "score": 0.7314601540565491,
+          "heading": "LAND_ABORT_DEG: Landing auto-abort slope threshold",
+          "source": "params_LAND.md",
+          "page": 1,
+          "excerpt": "## LAND_ABORT_DEG: Landing auto-abort slope threshold Landing auto-abort slope threshold Note: This parameter is for advanced users This parameter is used when using a rangefinder during landing for altitude correction from baro drift (RNGFND_LANDING=1) and the altitude correction indicates your actual altitude is hig\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What does Q_ENABLE do for QuadPlane?",
+      "hits": [
+        {
+          "chunk_id": "chunk-1055",
+          "score": 0.7637107968330383,
+          "heading": "Q_ENABLE: Enable QuadPlane",
+          "source": "params_Q.md",
+          "page": 1,
+          "excerpt": "## Q_ENABLE: Enable QuadPlane Enable QuadPlane Note: Reboot required after change This enables QuadPlane functionality, assuming multicopter motors start on output 5. If this is set to 2 then when starting AUTO mode it will initially be in VTOL AUTO mode. Values | Value | Meaning | 0 | Disable | 1 | Enable | 2 | Enabl\u2026"
+        },
+        {
+          "chunk_id": "chunk-1037",
+          "score": 0.744557797908783,
+          "heading": "Q_ASSIST_DELAY: Quadplane assistance delay",
+          "source": "params_Q.md",
+          "page": 1,
+          "excerpt": "## Q_ASSIST_DELAY: Quadplane assistance delay Quadplane assistance delay This is delay between the assistance thresholds being met and the assistance starting. Increment | Range | Units | 0.1 | 0 to 2 | seconds | ### Q_ASSIST_OPTIONS: Quadplane assistance options Quadplane assistance options Options for special QAssis\u2026"
+        },
+        {
+          "chunk_id": "chunk-1036",
+          "score": 0.7251221537590027,
+          "heading": "Q_ASSIST_ALT: Quadplane assistance altitude",
+          "source": "params_Q.md",
+          "page": 1,
+          "excerpt": "## Q_ASSIST_ALT: Quadplane assistance altitude Quadplane assistance altitude This is the altitude below which quadplane assistance will be triggered. This acts the same way as Q_ASSIST_ANGLE and Q_ASSIST_SPEED, but triggers if the aircraft drops below the given altitude while the VTOL motors are not running. A value o\u2026"
+        }
+      ]
+    },
+    {
+      "query": "How do I set compass declination (COMPASS_DEC)?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0378",
+          "score": 0.830634355545044,
+          "heading": "COMPASS_DEC: Compass declination",
+          "source": "params_COMPASS.md",
+          "page": 1,
+          "excerpt": "## COMPASS_DEC: Compass declination Compass declination An angle to compensate between the true north and magnetic north Increment | Range | Units | 0.01 | -3.142 to 3.142 | radians | ### COMPASS_DEV_ID: Compass device id Compass device id Note: This parameter is for advanced users Compass device id. Automatically det\u2026"
+        },
+        {
+          "chunk_id": "chunk-0376",
+          "score": 0.7766047716140747,
+          "heading": "COMPASS_AUTODEC: Auto Declination",
+          "source": "params_COMPASS.md",
+          "page": 1,
+          "excerpt": "## COMPASS_AUTODEC: Auto Declination Auto Declination Note: This parameter is for advanced users Enable or disable the automatic calculation of the declination based on gps location Values | Value | Meaning | 0 | Disabled | 1 | Enabled | | ### COMPASS_AUTO_ROT: Automatically check orientation Automatically check orien\u2026"
+        },
+        {
+          "chunk_id": "chunk-0377",
+          "score": 0.7228628396987915,
+          "heading": "COMPASS_CUS_PIT: Custom orientation pitch offset",
+          "source": "params_COMPASS.md",
+          "page": 1,
+          "excerpt": "## COMPASS_CUS_PIT: Custom orientation pitch offset Custom orientation pitch offset Note: This parameter is for advanced users Note: Reboot required after change Compass mounting position pitch offset. Positive values = pitch up, negative values = pitch down. This parameter is only used when COMPASS_ORIENT/2/3 is set\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What is COMPASS_AUTODEC?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0376",
+          "score": 0.768361508846283,
+          "heading": "COMPASS_AUTODEC: Auto Declination",
+          "source": "params_COMPASS.md",
+          "page": 1,
+          "excerpt": "## COMPASS_AUTODEC: Auto Declination Auto Declination Note: This parameter is for advanced users Enable or disable the automatic calculation of the declination based on gps location Values | Value | Meaning | 0 | Disabled | 1 | Enabled | | ### COMPASS_AUTO_ROT: Automatically check orientation Automatically check orien\u2026"
+        },
+        {
+          "chunk_id": "chunk-0378",
+          "score": 0.6897420883178711,
+          "heading": "COMPASS_DEC: Compass declination",
+          "source": "params_COMPASS.md",
+          "page": 1,
+          "excerpt": "## COMPASS_DEC: Compass declination Compass declination An angle to compensate between the true north and magnetic north Increment | Range | Units | 0.01 | -3.142 to 3.142 | radians | ### COMPASS_DEV_ID: Compass device id Compass device id Note: This parameter is for advanced users Compass device id. Automatically det\u2026"
+        },
+        {
+          "chunk_id": "chunk-0382",
+          "score": 0.6880289316177368,
+          "heading": "COMPASS_ENABLE: Enable Compass",
+          "source": "params_COMPASS.md",
+          "page": 1,
+          "excerpt": "## COMPASS_ENABLE: Enable Compass Enable Compass Note: Reboot required after change Setting this to Enabled(1) will enable the compass. Setting this to Disabled(0) will disable the compass. Note that this is separate from COMPASS_USE. This will enable the low level senor, and will enable logging of magnetometer data.\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What does ARMING_SKIPCHK allow you to skip?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0037",
+          "score": 0.7922333478927612,
+          "heading": "ARMING_SKIPCHK: Arm Checks to Skip (bitmask)",
+          "source": "params_ARMING.md",
+          "page": 1,
+          "excerpt": "## ARMING_SKIPCHK: Arm Checks to Skip (bitmask) Arm Checks to Skip (bitmask) Checks to skip prior to arming motor. This is a bitmask of checks before allowing arming that will be skipped. For most users it is recommended to leave this at the default of 0 (no checks skipped). In extreme circumstances, a value of -1 can\u2026"
+        },
+        {
+          "chunk_id": "chunk-0036",
+          "score": 0.6700952053070068,
+          "heading": "ARMING_REQUIRE: Require Arming Motors",
+          "source": "params_ARMING.md",
+          "page": 1,
+          "excerpt": "## ARMING_REQUIRE: Require Arming Motors Require Arming Motors Note: This parameter is for advanced users Arming disabled until some requirements are met. If 0, there are no requirements (arm immediately). If 1, sends the minimum throttle PWM value to the throttle channel when disarmed. If 2, send 0 PWM (no signal) to\u2026"
+        },
+        {
+          "chunk_id": "chunk-0033",
+          "score": 0.6513559818267822,
+          "heading": "ARMING_ACCTHRESH: Accelerometer error threshold",
+          "source": "params_ARMING.md",
+          "page": 1,
+          "excerpt": "## ARMING_ACCTHRESH: Accelerometer error threshold Accelerometer error threshold Note: This parameter is for advanced users Accelerometer error threshold used to determine inconsistent accelerometers. Compares this error range to other accelerometers to detect a hardware or calibration error. Lower value means tighter\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What is FLIGHT_OPTIONS used for?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0518",
+          "score": 0.7314025163650513,
+          "heading": "FLIGHT_OPTIONS: Flight mode options",
+          "source": "params_FLIGHT.md",
+          "page": 1,
+          "excerpt": "## FLIGHT_OPTIONS: Flight mode options Flight mode options Note: This parameter is for advanced users Flight mode specific options Bitmask | Bit | Meaning | 0 | Rudder mixing in direct flight modes only (Manual/Stabilize/Acro) | 1 | Use centered throttle in Cruise or FBWB to indicate trim airspeed | 2 | Disable attitu\u2026"
+        },
+        {
+          "chunk_id": "chunk-1070",
+          "score": 0.6822896003723145,
+          "heading": "Q_OPTIONS: quadplane options",
+          "source": "params_Q.md",
+          "page": 1,
+          "excerpt": "## Q_OPTIONS: quadplane options quadplane options See description for each bitmask bit description Bitmask | Bit | Meaning | 0 | Level Transition-keep wings within LEVEL_ROLL_LIMIT and only use forward motor(s) for climb during transition | 1 | Allow FW Takeoff-if bit is not set then NAV_TAKEOFF command on quadplanes\u2026"
+        },
+        {
+          "chunk_id": "chunk-0517",
+          "score": 0.6680050492286682,
+          "heading": "FLIGHT parameters (ArduPilot Plane)",
+          "source": "params_FLIGHT.md",
+          "page": 1,
+          "excerpt": "# FLIGHT parameters (ArduPilot Plane) Structured extract from offline `parameters.html` snapshot. Each `##` section is one parameter for retrieval."
+        }
+      ]
+    },
+    {
+      "query": "What do THR_MAX and related throttle limits control?",
+      "hits": [
+        {
+          "chunk_id": "chunk-1602",
+          "score": 0.8246114253997803,
+          "heading": "THR_MAX: Maximum Throttle",
+          "source": "params_THR.md",
+          "page": 1,
+          "excerpt": "## THR_MAX: Maximum Throttle Maximum Throttle Maximum throttle percentage used in all modes except manual, provided THR_PASS_STAB is not set. Increment | Range | Units | 1 | 0 to 100 | percent | ### THR_MIN: Minimum Throttle Minimum Throttle Minimum throttle percentage used in all modes except manual, provided THR_PAS\u2026"
+        },
+        {
+          "chunk_id": "chunk-1614",
+          "score": 0.7480512261390686,
+          "heading": "TKOFF_THR_MAX: Maximum Throttle for takeoff",
+          "source": "params_TKOFF.md",
+          "page": 1,
+          "excerpt": "## TKOFF_THR_MAX: Maximum Throttle for takeoff Maximum Throttle for takeoff Note: This parameter is for advanced users The maximum throttle setting during automatic takeoff. If this is zero then THR_MAX is used for takeoff as well. Increment | Range | Units | 1 | 0 to 100 | percent | ### TKOFF_THR_MAX_T: Takeoff throt\u2026"
+        },
+        {
+          "chunk_id": "chunk-1603",
+          "score": 0.7234063148498535,
+          "heading": "THR_SLEWRATE: Throttle slew rate",
+          "source": "params_THR.md",
+          "page": 1,
+          "excerpt": "## THR_SLEWRATE: Throttle slew rate Throttle slew rate Maximum change in throttle percentage per second. Lower limit based on 1 microsend of servo increase per loop. Divide SCHED_LOOP_RATE by approximately 10 to determine minimum achievable value. Increment | Range | Units | 1 | 0 to 500 | percent per second | ### THR\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What does AUTOTUNE_AXES select?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0082",
+          "score": 0.7949072122573853,
+          "heading": "AUTOTUNE_AXES: Autotune axis bitmask",
+          "source": "params_AUTOTUNE.md",
+          "page": 1,
+          "excerpt": "## AUTOTUNE_AXES: Autotune axis bitmask Autotune axis bitmask 1-byte bitmap of axes to autotune Bitmask | Bit | Meaning | 0 | Roll | 1 | Pitch | 2 | Yaw | | ### AUTOTUNE_LEVEL: Autotune level Autotune level Level of aggressiveness of pitch and roll PID gains. Lower values result in a 'softer' tune. Level 6 recommended\u2026"
+        },
+        {
+          "chunk_id": "chunk-1038",
+          "score": 0.7205274105072021,
+          "heading": "Q_AUTOTUNE_AGGR: Autotune aggressiveness",
+          "source": "params_Q.md",
+          "page": 1,
+          "excerpt": "## Q_AUTOTUNE_AGGR: Autotune aggressiveness Autotune aggressiveness Autotune aggressiveness. Defines the bounce back used to detect size of the D term. Range | 0.05 to 0.10 | ### Q_AUTOTUNE_AXES: Autotune axis bitmask Autotune axis bitmask 1-byte bitmap of axes to autotune Bitmask | Bit | Meaning | 0 | Roll | 1 | Pitc\u2026"
+        },
+        {
+          "chunk_id": "chunk-1105",
+          "score": 0.7002837657928467,
+          "heading": "QWIK_AXES: Quicktune axes",
+          "source": "params_QWIK.md",
+          "page": 1,
+          "excerpt": "## QWIK_AXES: Quicktune axes Quicktune axes Axes to tune Bitmask | Bit | Meaning | 0 | Roll | 1 | Pitch | 2 | Yaw | | ### QWIK_DOUBLE_TIME: Quicktune doubling time Quicktune doubling time Time to double a tuning parameter. Raise this for a slower tune. Range | Units | 5 to 20 | seconds | ### QWIK_ENABLE: Quicktune ena\u2026"
+        }
+      ]
+    },
+    {
+      "query": "What is ARSPD_TYPE (airspeed sensor type)?",
+      "hits": [
+        {
+          "chunk_id": "chunk-0045",
+          "score": 0.8620111346244812,
+          "heading": "ARSPD_TYPE: Airspeed type",
+          "source": "params_ARSPD.md",
+          "page": 1,
+          "excerpt": "## ARSPD_TYPE: Airspeed type Airspeed type Type of airspeed sensor Values | Value | Meaning | 0 | None | 1 | I2C-MS4525D0 | 2 | Analog | 3 | I2C-MS5525 | 4 | I2C-MS5525 (0x76) | 5 | I2C-MS5525 (0x77) | 6 | I2C-SDP3X | 7 | I2C-DLVR-5in | 8 | DroneCAN | 9 | I2C-DLVR-10in | 10 | I2C-DLVR-20in | 11 | I2C-DLVR-30in | 12 |\u2026"
+        },
+        {
+          "chunk_id": "chunk-0065",
+          "score": 0.8408641815185547,
+          "heading": "ARSPD4_TYPE: Airspeed type",
+          "source": "params_ARSPD4.md",
+          "page": 1,
+          "excerpt": "## ARSPD4_TYPE: Airspeed type Airspeed type Type of airspeed sensor Values | Value | Meaning | 0 | None | 1 | I2C-MS4525D0 | 2 | Analog | 3 | I2C-MS5525 | 4 | I2C-MS5525 (0x76) | 5 | I2C-MS5525 (0x77) | 6 | I2C-SDP3X | 7 | I2C-DLVR-5in | 8 | DroneCAN | 9 | I2C-DLVR-10in | 10 | I2C-DLVR-20in | 11 | I2C-DLVR-30in | 12 |\u2026"
+        },
+        {
+          "chunk_id": "chunk-0059",
+          "score": 0.8407413959503174,
+          "heading": "ARSPD3_TYPE: Airspeed type",
+          "source": "params_ARSPD3.md",
+          "page": 1,
+          "excerpt": "## ARSPD3_TYPE: Airspeed type Airspeed type Type of airspeed sensor Values | Value | Meaning | 0 | None | 1 | I2C-MS4525D0 | 2 | Analog | 3 | I2C-MS5525 | 4 | I2C-MS5525 (0x76) | 5 | I2C-MS5525 (0x77) | 6 | I2C-SDP3X | 7 | I2C-DLVR-5in | 8 | DroneCAN | 9 | I2C-DLVR-10in | 10 | I2C-DLVR-20in | 11 | I2C-DLVR-30in | 12 |\u2026"
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> **HF snapshot:** copied from [vf-brick-library/BRICK_SPEC.md](https://github.com/CMiller56/vf-brick-library/blob/main/BRICK_SPEC.md) on 2026-08-11. Canonical source remains the GitHub brick library; this file is for self-contained hub consumers.
+
 # Knowledge brick specification (public contract)
 
 **Version:** 1.0  

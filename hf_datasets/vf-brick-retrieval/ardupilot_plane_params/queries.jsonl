@@ -1,0 +1,15 @@
+{"_id": "q001", "text": "What does TECS_LAND_ARSPD control during landing?"}
+{"_id": "q002", "text": "What is AIRSPEED_CRUISE used for on Plane?"}
+{"_id": "q003", "text": "What does TECS_SINK_MIN set?"}
+{"_id": "q004", "text": "Which parameters configure battery failsafe voltage source?"}
+{"_id": "q005", "text": "What does RTL_ALTITUDE control?"}
+{"_id": "q006", "text": "How is takeoff maximum throttle configured (TKOFF_THR_MAX)?"}
+{"_id": "q007", "text": "What is LAND_TYPE for automatic landing?"}
+{"_id": "q008", "text": "What does Q_ENABLE do for QuadPlane?"}
+{"_id": "q009", "text": "How do I set compass declination (COMPASS_DEC)?"}
+{"_id": "q010", "text": "What is COMPASS_AUTODEC?"}
+{"_id": "q011", "text": "What does ARMING_SKIPCHK allow you to skip?"}
+{"_id": "q012", "text": "What is FLIGHT_OPTIONS used for?"}
+{"_id": "q013", "text": "What do THR_MAX and related throttle limits control?"}
+{"_id": "q014", "text": "What does AUTOTUNE_AXES select?"}
+{"_id": "q015", "text": "What is ARSPD_TYPE (airspeed sensor type)?"}

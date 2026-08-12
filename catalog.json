@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "updated": "2026-08-05",
+  "updated": "2026-08-12",
   "library": "vf-brick-library",
   "url": "https://github.com/CMiller56/vf-brick-library",
   "unit": "*_portable.zip",
   "getting_started": "GETTING_STARTED.md",
   "portability": "PORTABILITY.md",
   "retrieval_demo": "RETRIEVAL_DEMO_ArduPilot_Plane.md",
+  "retrieval_demos": [
+    "RETRIEVAL_DEMO_ArduPilot_Plane.md",
+    "RETRIEVAL_DEMO_ArduPilot_Plane_Params.md",
+    "RETRIEVAL_DEMO_NASA_Skylab_History.md"
+  ],
+  "composition_example": "COMPOSITION_ArduPilot_Plane.md",
   "bricks": [
     {
       "name": "Advanced_Rockets",
@@ -70,8 +76,9 @@
       "family": "ardupilot",
       "rights_class": "upstream",
       "residual_one_liner": "Large soft residual count by design (param table density) \u2014 honesty card required",
-      "search_smoke": null,
-      "has_handoff": true
+      "search_smoke": "PASS (see public retrieval demo)",
+      "has_handoff": true,
+      "retrieval_demo": "RETRIEVAL_DEMO_ArduPilot_Plane_Params.md"
     },
     {
       "name": "CubePilot_FC",

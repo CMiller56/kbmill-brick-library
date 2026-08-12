@@ -8,6 +8,8 @@
 
 Parameter reference facet for Plane — name-oriented sections for lookup. Pair with the ops brick; do not treat as the sole flight manual.
 
+**Public retrieval demo:** [RETRIEVAL_DEMO_ArduPilot_Plane_Params.md](../../RETRIEVAL_DEMO_ArduPilot_Plane_Params.md) (15 questions) · composition: [COMPOSITION_ArduPilot_Plane.md](../../COMPOSITION_ArduPilot_Plane.md)
+
 ## Audience
 
 Tuners and integrators looking up parameters offline.

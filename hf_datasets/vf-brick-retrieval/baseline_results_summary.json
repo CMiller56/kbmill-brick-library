@@ -1,0 +1,42 @@
+{
+  "model": "nomic-ai/nomic-embed-text-v1.5",
+  "top_k": 3,
+  "generated": "2026-08-11",
+  "method": "Re-embed HF corpus+queries with SentenceTransformer; cosine top-k; score vs qrels/test.tsv",
+  "qrels_definition": "Binary relevance: published cosine top-3 chunk ids from original brick embeddings (nomic family). Not multi-annotator graded IR judgments.",
+  "results": [
+    {
+      "config": "ardupilot_plane",
+      "model": "nomic-ai/nomic-embed-text-v1.5",
+      "top_k": 3,
+      "n_queries": 20,
+      "n_corpus": 335,
+      "recall_at_k_mean": 0.7833333333333333,
+      "ndcg_at_k_mean": 0.8321237770539824,
+      "hit_at_k_mean": 1.0,
+      "qrels_note": "qrels = published cosine top-3 from original brick embeddings (binary relevance). Baseline re-embeds HF corpus/queries with the named model."
+    },
+    {
+      "config": "ardupilot_plane_params",
+      "model": "nomic-ai/nomic-embed-text-v1.5",
+      "top_k": 3,
+      "n_queries": 15,
+      "n_corpus": 1781,
+      "recall_at_k_mean": 0.8444444444444444,
+      "ndcg_at_k_mean": 0.89050163059469,
+      "hit_at_k_mean": 1.0,
+      "qrels_note": "qrels = published cosine top-3 from original brick embeddings (binary relevance). Baseline re-embeds HF corpus/queries with the named model."
+    },
+    {
+      "config": "nasa_skylab",
+      "model": "nomic-ai/nomic-embed-text-v1.5",
+      "top_k": 3,
+      "n_queries": 15,
+      "n_corpus": 1099,
+      "recall_at_k_mean": 0.3777777777777777,
+      "ndcg_at_k_mean": 0.4156426242007586,
+      "hit_at_k_mean": 0.8666666666666667,
+      "qrels_note": "qrels = published cosine top-3 from original brick embeddings (binary relevance). Baseline re-embeds HF corpus/queries with the named model."
+    }
+  ]
+}

@@ -1,0 +1,826 @@
+{
+  "model": "nomic-ai/nomic-embed-text-v1.5",
+  "top_k": 3,
+  "results": [
+    {
+      "config": "ardupilot_plane",
+      "model": "nomic-ai/nomic-embed-text-v1.5",
+      "top_k": 3,
+      "n_queries": 20,
+      "n_corpus": 335,
+      "recall_at_k_mean": 0.7833333333333333,
+      "ndcg_at_k_mean": 0.8321237770539824,
+      "hit_at_k_mean": 1.0,
+      "qrels_note": "qrels = published cosine top-3 from original brick embeddings (binary relevance). Baseline re-embeds HF corpus/queries with the named model."
+    },
+    {
+      "config": "nasa_skylab",
+      "model": "nomic-ai/nomic-embed-text-v1.5",
+      "top_k": 3,
+      "n_queries": 15,
+      "n_corpus": 1099,
+      "recall_at_k_mean": 0.3777777777777777,
+      "ndcg_at_k_mean": 0.4156426242007586,
+      "hit_at_k_mean": 0.8666666666666667,
+      "qrels_note": "qrels = published cosine top-3 from original brick embeddings (binary relevance). Baseline re-embeds HF corpus/queries with the named model."
+    }
+  ],
+  "results_with_per_query": [
+    {
+      "config": "ardupilot_plane",
+      "model": "nomic-ai/nomic-embed-text-v1.5",
+      "top_k": 3,
+      "n_queries": 20,
+      "n_corpus": 335,
+      "recall_at_k_mean": 0.7833333333333333,
+      "ndcg_at_k_mean": 0.8321237770539824,
+      "hit_at_k_mean": 1.0,
+      "qrels_note": "qrels = published cosine top-3 from original brick embeddings (binary relevance). Baseline re-embeds HF corpus/queries with the named model.",
+      "per_query": [
+        {
+          "query_id": "q001",
+          "text": "What is ArduPilot Plane used for?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.46927872602275644,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0151",
+            "chunk-0138",
+            "chunk-0216"
+          ],
+          "top_scores": [
+            0.6897064447402954,
+            0.6879751086235046,
+            0.6858780980110168
+          ],
+          "qrel_ids": [
+            "chunk-0066",
+            "chunk-0151",
+            "chunk-0333"
+          ]
+        },
+        {
+          "query_id": "q002",
+          "text": "How do I set up a first fixed wing flight?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0265",
+            "chunk-0298",
+            "chunk-0029"
+          ],
+          "top_scores": [
+            0.7162831425666809,
+            0.6836510300636292,
+            0.6691328883171082
+          ],
+          "qrel_ids": [
+            "chunk-0029",
+            "chunk-0265",
+            "chunk-0298"
+          ]
+        },
+        {
+          "query_id": "q003",
+          "text": "What is FBWA mode?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0263",
+            "chunk-0269",
+            "chunk-0260"
+          ],
+          "top_scores": [
+            0.6491763591766357,
+            0.6107831001281738,
+            0.6082290410995483
+          ],
+          "qrel_ids": [
+            "chunk-0260",
+            "chunk-0263",
+            "chunk-0269"
+          ]
+        },
+        {
+          "query_id": "q004",
+          "text": "How does automatic takeoff work?",
+          "recall_at_k": 0.6666666666666666,
+          "ndcg_at_k": 0.7653606369886217,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0313",
+            "chunk-0314",
+            "chunk-0315"
+          ],
+          "top_scores": [
+            0.7475321888923645,
+            0.7117123603820801,
+            0.6934269070625305
+          ],
+          "qrel_ids": [
+            "chunk-0298",
+            "chunk-0313",
+            "chunk-0314"
+          ]
+        },
+        {
+          "query_id": "q005",
+          "text": "What is RTL and when does it trigger?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0310",
+            "chunk-0287",
+            "chunk-0309"
+          ],
+          "top_scores": [
+            0.6745556592941284,
+            0.6613544821739197,
+            0.6282078623771667
+          ],
+          "qrel_ids": [
+            "chunk-0287",
+            "chunk-0309",
+            "chunk-0310"
+          ]
+        },
+        {
+          "query_id": "q006",
+          "text": "How do I calibrate the airspeed sensor?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0317",
+            "chunk-0009",
+            "chunk-0010"
+          ],
+          "top_scores": [
+            0.8207104206085205,
+            0.7834562063217163,
+            0.7394644618034363
+          ],
+          "qrel_ids": [
+            "chunk-0009",
+            "chunk-0010",
+            "chunk-0317"
+          ]
+        },
+        {
+          "query_id": "q007",
+          "text": "What causes a prearm check failure?",
+          "recall_at_k": 0.6666666666666666,
+          "ndcg_at_k": 0.7653606369886217,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0213",
+            "chunk-0192",
+            "chunk-0209"
+          ],
+          "top_scores": [
+            0.7513089776039124,
+            0.7429947853088379,
+            0.6325073838233948
+          ],
+          "qrel_ids": [
+            "chunk-0191",
+            "chunk-0192",
+            "chunk-0213"
+          ]
+        },
+        {
+          "query_id": "q008",
+          "text": "How do I tune TECS for climb performance?",
+          "recall_at_k": 0.6666666666666666,
+          "ndcg_at_k": 0.7039180890341347,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0328",
+            "chunk-0318",
+            "chunk-0323"
+          ],
+          "top_scores": [
+            0.7422159910202026,
+            0.741532564163208,
+            0.7271380424499512
+          ],
+          "qrel_ids": [
+            "chunk-0323",
+            "chunk-0328",
+            "chunk-0330"
+          ]
+        },
+        {
+          "query_id": "q009",
+          "text": "What is the difference between MANUAL and FBWA?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0263",
+            "chunk-0260",
+            "chunk-0268"
+          ],
+          "top_scores": [
+            0.6612818241119385,
+            0.6128683090209961,
+            0.5950064063072205
+          ],
+          "qrel_ids": [
+            "chunk-0260",
+            "chunk-0263",
+            "chunk-0268"
+          ]
+        },
+        {
+          "query_id": "q010",
+          "text": "How do I configure a parachute for emergency?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0112",
+            "chunk-0111",
+            "chunk-0096"
+          ],
+          "top_scores": [
+            0.69679194688797,
+            0.6866418123245239,
+            0.6849405765533447
+          ],
+          "qrel_ids": [
+            "chunk-0096",
+            "chunk-0111",
+            "chunk-0112"
+          ]
+        },
+        {
+          "query_id": "q011",
+          "text": "What parameters control stall prevention?",
+          "recall_at_k": 0.6666666666666666,
+          "ndcg_at_k": 0.7653606369886217,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0334",
+            "chunk-0324",
+            "chunk-0318"
+          ],
+          "top_scores": [
+            0.7031192779541016,
+            0.6576119661331177,
+            0.6472423672676086
+          ],
+          "qrel_ids": [
+            "chunk-0207",
+            "chunk-0324",
+            "chunk-0334"
+          ]
+        },
+        {
+          "query_id": "q012",
+          "text": "How does geofence work on Plane?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.46927872602275644,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0272",
+            "chunk-0275",
+            "chunk-0276"
+          ],
+          "top_scores": [
+            0.7714462876319885,
+            0.7449895739555359,
+            0.7138444185256958
+          ],
+          "qrel_ids": [
+            "chunk-0272",
+            "chunk-0273",
+            "chunk-0277"
+          ]
+        },
+        {
+          "query_id": "q013",
+          "text": "What is QSTABILIZE for VTOL?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0025",
+            "chunk-0161",
+            "chunk-0026"
+          ],
+          "top_scores": [
+            0.650253176689148,
+            0.6466356515884399,
+            0.6364458799362183
+          ],
+          "qrel_ids": [
+            "chunk-0025",
+            "chunk-0026",
+            "chunk-0161"
+          ]
+        },
+        {
+          "query_id": "q014",
+          "text": "How do I set up a mission with waypoints?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0159",
+            "chunk-0154",
+            "chunk-0158"
+          ],
+          "top_scores": [
+            0.6763801574707031,
+            0.6617016792297363,
+            0.6497609615325928
+          ],
+          "qrel_ids": [
+            "chunk-0154",
+            "chunk-0158",
+            "chunk-0159"
+          ]
+        },
+        {
+          "query_id": "q015",
+          "text": "What is failsafe behavior if radio is lost?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0015",
+            "chunk-0021",
+            "chunk-0018"
+          ],
+          "top_scores": [
+            0.8350105881690979,
+            0.7456715703010559,
+            0.7337077260017395
+          ],
+          "qrel_ids": [
+            "chunk-0015",
+            "chunk-0018",
+            "chunk-0021"
+          ]
+        },
+        {
+          "query_id": "q016",
+          "text": "How do I log and review flight data?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.46927872602275644,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0102",
+            "chunk-0146",
+            "chunk-0097"
+          ],
+          "top_scores": [
+            0.742770791053772,
+            0.7089171409606934,
+            0.6989085674285889
+          ],
+          "qrel_ids": [
+            "chunk-0099",
+            "chunk-0102",
+            "chunk-0103"
+          ]
+        },
+        {
+          "query_id": "q017",
+          "text": "What is the role of the flight controller compass?",
+          "recall_at_k": 0.6666666666666666,
+          "ndcg_at_k": 0.7653606369886217,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0314",
+            "chunk-0077",
+            "chunk-0081"
+          ],
+          "top_scores": [
+            0.7145358324050903,
+            0.6537722945213318,
+            0.6502353549003601
+          ],
+          "qrel_ids": [
+            "chunk-0077",
+            "chunk-0305",
+            "chunk-0314"
+          ]
+        },
+        {
+          "query_id": "q018",
+          "text": "How do I configure flaps or crow brakes?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.46927872602275644,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0220",
+            "chunk-0321",
+            "chunk-0222"
+          ],
+          "top_scores": [
+            0.6066672801971436,
+            0.6061526536941528,
+            0.6039753556251526
+          ],
+          "qrel_ids": [
+            "chunk-0026",
+            "chunk-0096",
+            "chunk-0220"
+          ]
+        },
+        {
+          "query_id": "q019",
+          "text": "What is loiter mode?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0159",
+            "chunk-0162",
+            "chunk-0309"
+          ],
+          "top_scores": [
+            0.5998037457466125,
+            0.5922341346740723,
+            0.5769772529602051
+          ],
+          "qrel_ids": [
+            "chunk-0159",
+            "chunk-0162",
+            "chunk-0309"
+          ]
+        },
+        {
+          "query_id": "q020",
+          "text": "How does landing approach and flare work?",
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0049",
+            "chunk-0051",
+            "chunk-0047"
+          ],
+          "top_scores": [
+            0.7796763181686401,
+            0.7590655088424683,
+            0.7452504634857178
+          ],
+          "qrel_ids": [
+            "chunk-0047",
+            "chunk-0049",
+            "chunk-0051"
+          ]
+        }
+      ]
+    },
+    {
+      "config": "nasa_skylab",
+      "model": "nomic-ai/nomic-embed-text-v1.5",
+      "top_k": 3,
+      "n_queries": 15,
+      "n_corpus": 1099,
+      "recall_at_k_mean": 0.3777777777777777,
+      "ndcg_at_k_mean": 0.4156426242007586,
+      "hit_at_k_mean": 0.8666666666666667,
+      "qrels_note": "qrels = published cosine top-3 from original brick embeddings (binary relevance). Baseline re-embeds HF corpus/queries with the named model.",
+      "per_query": [
+        {
+          "query_id": "q001",
+          "text": "What was Skylab and why was it built?",
+          "recall_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "hit_at_k": 0.0,
+          "top_ids": [
+            "chunk-0528",
+            "chunk-0674",
+            "chunk-0738"
+          ],
+          "top_scores": [
+            0.7010679244995117,
+            0.6970144510269165,
+            0.6932935118675232
+          ],
+          "qrel_ids": [
+            "chunk-0929",
+            "chunk-0931",
+            "chunk-0955"
+          ]
+        },
+        {
+          "query_id": "q002",
+          "text": "What was the Apollo Applications Program?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.23463936301137822,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0145",
+            "chunk-0134",
+            "chunk-0147"
+          ],
+          "top_scores": [
+            0.805510938167572,
+            0.7964341640472412,
+            0.7928112745285034
+          ],
+          "qrel_ids": [
+            "chunk-0136",
+            "chunk-0147",
+            "chunk-0165"
+          ]
+        },
+        {
+          "query_id": "q003",
+          "text": "How did astronauts live and work in space on Skylab?",
+          "recall_at_k": 0.6666666666666666,
+          "ndcg_at_k": 0.5307212739772434,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0382",
+            "chunk-0468",
+            "chunk-0383"
+          ],
+          "top_scores": [
+            0.8131783604621887,
+            0.8106489777565002,
+            0.7590327262878418
+          ],
+          "qrel_ids": [
+            "chunk-0383",
+            "chunk-0468",
+            "chunk-0470"
+          ]
+        },
+        {
+          "query_id": "q004",
+          "text": "What happened to Skylab's solar array and heat shield after launch?",
+          "recall_at_k": 0.6666666666666666,
+          "ndcg_at_k": 0.7653606369886217,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0684",
+            "chunk-0738",
+            "chunk-0682"
+          ],
+          "top_scores": [
+            0.7758854031562805,
+            0.7579207420349121,
+            0.7496241331100464
+          ],
+          "qrel_ids": [
+            "chunk-0684",
+            "chunk-0686",
+            "chunk-0738"
+          ]
+        },
+        {
+          "query_id": "q005",
+          "text": "What was the Apollo Telescope Mount?",
+          "recall_at_k": 0.6666666666666666,
+          "ndcg_at_k": 0.7653606369886217,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0478",
+            "chunk-0255",
+            "chunk-0174"
+          ],
+          "top_scores": [
+            0.7660090923309326,
+            0.7403997778892517,
+            0.7255610227584839
+          ],
+          "qrel_ids": [
+            "chunk-0255",
+            "chunk-0478",
+            "chunk-0485"
+          ]
+        },
+        {
+          "query_id": "q006",
+          "text": "What medical and life sciences experiments ran on Skylab?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.2960819109658652,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0432",
+            "chunk-0929",
+            "chunk-0528"
+          ],
+          "top_scores": [
+            0.7645388841629028,
+            0.7533057332038879,
+            0.752997636795044
+          ],
+          "qrel_ids": [
+            "chunk-0893",
+            "chunk-0894",
+            "chunk-0929"
+          ]
+        },
+        {
+          "query_id": "q007",
+          "text": "How many crewed Skylab missions were there?",
+          "recall_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "hit_at_k": 0.0,
+          "top_ids": [
+            "chunk-0674",
+            "chunk-0954",
+            "chunk-0960"
+          ],
+          "top_scores": [
+            0.7147312164306641,
+            0.7137115001678467,
+            0.7122087478637695
+          ],
+          "qrel_ids": [
+            "chunk-0678",
+            "chunk-0972",
+            "chunk-0974"
+          ]
+        },
+        {
+          "query_id": "q008",
+          "text": "What was the orbital workshop concept?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.46927872602275644,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0102",
+            "chunk-0105",
+            "chunk-0093"
+          ],
+          "top_scores": [
+            0.783582329750061,
+            0.7223914861679077,
+            0.7110924124717712
+          ],
+          "qrel_ids": [
+            "chunk-0102",
+            "chunk-0104",
+            "chunk-0124"
+          ]
+        },
+        {
+          "query_id": "q009",
+          "text": "How was Skylab launched and what vehicle was used?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.46927872602275644,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0661",
+            "chunk-0674",
+            "chunk-0638"
+          ],
+          "top_scores": [
+            0.7862530946731567,
+            0.7836812734603882,
+            0.7816872596740723
+          ],
+          "qrel_ids": [
+            "chunk-0628",
+            "chunk-0661",
+            "chunk-0663"
+          ]
+        },
+        {
+          "query_id": "q010",
+          "text": "What food sleep and exercise routines did crews use?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.46927872602275644,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0810",
+            "chunk-0811",
+            "chunk-0813"
+          ],
+          "top_scores": [
+            0.6897249221801758,
+            0.6892540454864502,
+            0.6846924424171448
+          ],
+          "qrel_ids": [
+            "chunk-0810",
+            "chunk-0812",
+            "chunk-0815"
+          ]
+        },
+        {
+          "query_id": "q011",
+          "text": "What was planned for Skylab rescue or reboost?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.2960819109658652,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0720",
+            "chunk-0954",
+            "chunk-0958"
+          ],
+          "top_scores": [
+            0.7663342952728271,
+            0.7591783404350281,
+            0.7431182265281677
+          ],
+          "qrel_ids": [
+            "chunk-0949",
+            "chunk-0954",
+            "chunk-0956"
+          ]
+        },
+        {
+          "query_id": "q012",
+          "text": "When and why did Skylab reenter the atmosphere?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.46927872602275644,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0973",
+            "chunk-0682",
+            "chunk-0343"
+          ],
+          "top_scores": [
+            0.7622623443603516,
+            0.7475932240486145,
+            0.7436345219612122
+          ],
+          "qrel_ids": [
+            "chunk-0973",
+            "chunk-0974",
+            "chunk-0976"
+          ]
+        },
+        {
+          "query_id": "q013",
+          "text": "What Earth resources or remote sensing work did Skylab do?",
+          "recall_at_k": 0.6666666666666666,
+          "ndcg_at_k": 0.7039180890341347,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0910",
+            "chunk-0528",
+            "chunk-0908"
+          ],
+          "top_scores": [
+            0.7928979396820068,
+            0.7922171950340271,
+            0.7896102666854858
+          ],
+          "qrel_ids": [
+            "chunk-0908",
+            "chunk-0910",
+            "chunk-0912"
+          ]
+        },
+        {
+          "query_id": "q014",
+          "text": "How did Skylab differ from earlier Apollo lunar missions?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.2960819109658652,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0594",
+            "chunk-0017",
+            "chunk-0627"
+          ],
+          "top_scores": [
+            0.7828459739685059,
+            0.7718709707260132,
+            0.7489869594573975
+          ],
+          "qrel_ids": [
+            "chunk-0017",
+            "chunk-0019",
+            "chunk-0338"
+          ]
+        },
+        {
+          "query_id": "q015",
+          "text": "What lessons from Skylab informed later space stations?",
+          "recall_at_k": 0.3333333333333333,
+          "ndcg_at_k": 0.46927872602275644,
+          "hit_at_k": 1.0,
+          "top_ids": [
+            "chunk-0930",
+            "chunk-0528",
+            "chunk-0929"
+          ],
+          "top_scores": [
+            0.7828532457351685,
+            0.7550798654556274,
+            0.7545468807220459
+          ],
+          "qrel_ids": [
+            "chunk-0679",
+            "chunk-0930",
+            "chunk-0931"
+          ]
+        }
+      ]
+    }
+  ]
+}

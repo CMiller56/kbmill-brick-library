@@ -1,0 +1,8 @@
+{
+  "config": "ardupilot_plane_params",
+  "brick": "ArduPilot_Plane_Params",
+  "corpus_docs": 1781,
+  "queries": 15,
+  "qrel_rows": 45,
+  "missing_hits_readded": 0
+}
