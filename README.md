@@ -12,6 +12,17 @@ These are **not** heavily sanitized lab sets, and they are **not** raw unbounded
 
 Each brick is a finished, handoffable unit: rich Markdown + machine sidecars + embeddings + craft notes, ready for local use, air-gapped environments, or any tool that can read the package.
 
+## If your local model is up and answers from your docs are still junk
+
+The model is fine. The corpus is not.
+
+A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: structure, citations, and known junk **muted off the answer path** (listed, not hidden). It is **not a chatbot**. We do not host your files.
+
+**When the plant is live:** drop the files you already have — often the same week. You **pay only if we produce**. You keep the ZIP. Point your existing local model at that package; do not replace your stack.
+
+**No hopper URL yet.** This library is the public proof. The plant link will be added here when it vends — we will not invent one.
+
+**Look, don’t trust me:** the [ArduPilot Plane retrieval demo](RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions, citations). Same eval set: [CMiller/vf-brick-retrieval](https://huggingface.co/datasets/CMiller/vf-brick-retrieval).
 
 ## Hard corpus on the desk
 

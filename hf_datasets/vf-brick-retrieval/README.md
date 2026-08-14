@@ -64,6 +64,18 @@ These are **not** unbounded wiki dumps or synthetic QA. They come from real [Vec
 
 **Compose, don’t melt:** ops vs params are separate packages — [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md).
 
+## If your local model is up and answers from your docs are still junk
+
+The model is fine. The corpus is not.
+
+A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: structure, citations, and known junk **muted off the answer path** (listed, not hidden). It is **not a chatbot**. We do not host your files.
+
+**When the plant is live:** drop the files you already have — often the same week. You **pay only if we produce**. You keep the ZIP. Point your existing local model at that package; do not replace your stack.
+
+**No hopper URL yet.** These evals and the [vf-brick-library](https://github.com/CMiller56/vf-brick-library) are the public proof. The plant link will be added on that README when it vends — we will not invent one.
+
+**Look, don’t trust me:** [ArduPilot Plane retrieval demo](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions). This dataset is the machine twin.
+
 ## Design intent (the differentiator)
 
 Most public retrieval corpora were built for **traditional IR** or as **general training fuel**. They were never optimized as the **final working surface for an LLM**.
