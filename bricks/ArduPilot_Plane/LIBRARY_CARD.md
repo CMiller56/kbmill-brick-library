@@ -18,14 +18,12 @@ Corpus packaged **2026-07-18** from a local mirror of ArduPilot Plane–style do
 
 ## Export / quality gate (what “waived” meant)
 
-At export, Job C reported **soft residual craft debt** (non-blocking). That is a manufacturing residual flag, not a claim that the brick is flight-certified. Soft items were not high-priority open defects at last recheck; the brick shipped for public feedback anyway.
-
-Internal Job C soft-gate language is **not** a silent pass. If a card previously said only `Export gate waived: True` without explanation, treat that as insufficient — this section replaces it.
+Recut **2026-08-17:** wiki nav chrome stripped (Commercial Support / Stores prefixes); headings propagated by source file; false “math garble” on param/mode tables and GCS logs suppressed. Ship check **ready_to_ship**. Still **not** flight-certified.
 
 ## Known limits / residual (specific)
 
 - This is the **ops facet** — for parameters use `ArduPilot_Plane_Params`.
-- Wiki HTML origins can leave **thin sections**, **heading/metadata mismatches**, or **nav chrome leftovers** in places; if a hit looks like menu noise, open an issue.
+- Wiki HTML can still leave thin sections or wrap artifacts; if a hit looks like menu noise, open an issue.
 - Some retrieval questions land on **adjacent** sections (e.g. VTOL/Q modes vs pure fixed-wing) — see the published retrieval demo.
 - Not a substitute for the live docs when you are online and need the latest revision.
 
