@@ -216,6 +216,7 @@ def build_subset(config: str, meta: dict) -> dict[str, Any]:
 def write_dataset_card(stats: list[dict]) -> None:
     stats_by = {s["config"]: s for s in stats}
     ap = stats_by.get("ardupilot_plane", {})
+    pp = stats_by.get("ardupilot_plane_params", {})
     sk = stats_by.get("nasa_skylab", {})
     card = f'''---
 license: other
@@ -233,6 +234,7 @@ tags:
 - technical-documentation
 - residual-honest
 - vectorforge
+- kbmill
 - ardupilot
 - uav
 - nasa
@@ -255,6 +257,12 @@ configs:
     path: ardupilot_plane/corpus.jsonl
   - split: queries
     path: ardupilot_plane/queries.jsonl
+- config_name: ardupilot_plane_params
+  data_files:
+  - split: corpus
+    path: ardupilot_plane_params/corpus.jsonl
+  - split: queries
+    path: ardupilot_plane_params/queries.jsonl
 - config_name: nasa_skylab
   data_files:
   - split: corpus
@@ -265,14 +273,29 @@ configs:
 
 # VectorForge Brick Retrieval Demos
 
-Portable, **residual-honest** knowledge bricks turned into retrieval evaluation sets.
+Portable, **residual-honest** knowledge bricks turned into retrieval evaluation sets. Same mill as **[KBMill](https://kbmill.com)** (public door; hopper not on that hostname until go-live).
 
-These are **not** unbounded wiki dumps or synthetic QA. They come from real [VectorForge Pro](https://x.com/VectorForgePro) manufacturing: bounded packages with muted residual junk filtered where applicable, craft notes, and **published, re-runnable cosine retrieval evidence**.
+These are **not** unbounded wiki dumps or synthetic QA. They come from real [VectorForge Pro](https://x.com/VectorForgePro) manufacturing: bounded packages with muted residual junk filtered where applicable, craft notes, security report in the ZIP, and **published, re-runnable cosine retrieval evidence**.
 
 | Config | Queries | Corpus docs (eligible) | Source brick |
 |--------|--------:|-----------------------:|--------------|
-| `ardupilot_plane` | {ap.get("queries", 20)} | {ap.get("corpus_docs", "?")} | [ArduPilot_Plane](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane) |
+| `ardupilot_plane` | {ap.get("queries", 20)} | {ap.get("corpus_docs", "?")} | [ArduPilot_Plane](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane) (ops wiki) |
+| `ardupilot_plane_params` | {pp.get("queries", 15)} | {pp.get("corpus_docs", "?")} | [ArduPilot_Plane_Params](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane_Params) (dense param tables) |
 | `nasa_skylab` | {sk.get("queries", 15)} | {sk.get("corpus_docs", "?")} | [NASA_Skylab_History_Living_Working_Space](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space) |
+
+**Compose, don’t melt:** ops vs params are separate packages — [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md).
+
+## If your local model is up and answers from your docs are still junk
+
+The model is fine. The corpus is not.
+
+A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: shaped corpus, craft brief, residual board, security report, mill receipt. Known junk is **muted off the answer path** (listed, not hidden). It is **not a chatbot** and **not a per-page parser**. We do not host your files as a library.
+
+**When the plant vends:** drop the pile — **Small $149 / Medium $399 / Hard $999** is craft load, not page count. You **pay only if we produce** a usable ZIP. 72-hour download window, then purge. Point *your* existing model at the package.
+
+**No hopper on kbmill.com yet.** These evals and the [vf-brick-library](https://github.com/CMiller56/vf-brick-library) are the public proof. The plant link will be added when it vends — we will not invent one.
+
+**Look, don’t trust me:** [ArduPilot Plane retrieval demo](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions). This dataset is the machine twin.
 
 ## Design intent (the differentiator)
 
@@ -297,14 +320,17 @@ This is the story that should land with people who care about **production RAG q
 Most RAG failures are **data-preparation** failures. These demos let you measure retrieval quality on:
 
 - **Technical operations documentation** (ArduPilot Plane ops facet)
+- **Dense parameter tables** (ArduPilot Plane Params)
 - **Hostile OCR / paper-capture** historical technical text (NASA Skylab history)
 
-Both packages already publish top-3 cosine results with chunk IDs, headings, sources, and excerpts so you can verify without trusting marketing claims.
+Configs publish top-3 cosine results with chunk IDs, headings, sources, and excerpts so you can verify without trusting marketing claims.
 
 Full write-ups:
 
 - [RETRIEVAL_DEMO_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md)
+- [RETRIEVAL_DEMO_ArduPilot_Plane_Params.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane_Params.md)
 - [RETRIEVAL_DEMO_NASA_Skylab_History.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_NASA_Skylab_History.md)
+- [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md)
 
 Full portable ZIPs (Markdown + chunks + embeddings + cards) live in the [vf-brick-library](https://github.com/CMiller56/vf-brick-library).
 
@@ -358,6 +384,7 @@ This dataset packages **excerpts and structure** from:
 | Subset | Upstream material | Packaging |
 |--------|-------------------|-----------|
 | `ardupilot_plane` | ArduPilot wiki / Plane docs (community; check [ArduPilot license / wiki terms](https://ardupilot.org/)) | VF brick packaging by CMiller56 |
+| `ardupilot_plane_params` | ArduPilot Plane parameter / log reference | VF brick packaging by CMiller56 |
 | `nasa_skylab` | NASA official history (US government work; generally public domain in the US) | OCR residual craft + brick packaging by CMiller56 |
 
 You are responsible for complying with upstream terms when redistributing full source documents. The **qrels, query list, published hit tables, and VF packaging metadata** are provided to support residual-honest evaluation and citation of the manufacturing method.
@@ -387,6 +414,10 @@ python3 scripts/build_hf_retrieval_dataset.py
 
 ## Changelog
 
+- 2026-08-17: Rebuild corpus from remilled gallery ZIPs (wiki-nav strip + false-heading mop + `SECURITY_REPORT.md` in the brick). Card names KBMill, brick-vs-parse, pay-on-success. Published hits may still quote pre-remill excerpts until the Plane/Params/Skylab *eval JSON* is re-run.
+- 2026-08-12: Clarify middle position — neither lab-clean nor raw dump; residual-honest real source material.
+- 2026-08-12: Add `ardupilot_plane_params` config (15q, dense tables) + composition link.
+- 2026-08-12: Baseline metrics + `docs/BRICK_SPEC.md` snapshot.
 - 2026-08-11: Initial HF packaging from published ArduPilot (20q) and Skylab (15q) retrieval demos.
 '''
     (OUT / "README.md").write_text(card, encoding="utf-8")

@@ -2,7 +2,7 @@
   {
     "config": "ardupilot_plane",
     "brick": "ArduPilot_Plane",
-    "corpus_docs": 335,
+    "corpus_docs": 332,
     "queries": 20,
     "qrel_rows": 60,
     "missing_hits_readded": 0
