@@ -38,8 +38,9 @@ Historians, curiosity readers, and integrators testing **19th-century OCR books*
 
 - OCR text layer on image pages — expect garble, index/TOC debris, soft hyphens (finish A3c), figure shells.  
 - Built with **`figure-magazine --profile hard_pdf`**.  
-- Multi-department structure may leave multi-section / heading residual.  
+- Recut **2026-08-17:** `repair-false-headings` — 387 “Figures” + 318 book-title headings cleared; departments now carry the outline (220 sections).  
 - Soft ship gates may remain.  
+- Other gallery ZIPs still need this remill (enzyme is on the plant; this ZIP is the first public test).  
 - Sidecars: `finish_report.json`, `figure_magazine.json`, `job_b_recheck.json`, `_full_build.log`.
 
 ## How to use

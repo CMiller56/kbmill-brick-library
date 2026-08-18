@@ -32,6 +32,8 @@ Students of small-unit tactics, military history, and anyone testing residual-ho
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-17: outline 70/104 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - Mid-size field manual: expect **figure-shell / diagram** pages muted off RAG after magazine (images stay bound).  
 - OCR promote is **quality-gated** (plot/debris OCR not lifted as prose).  
 - Dual-stream / imprint repair applied when pair-rate warrants; low-rate interleave may be muted.  

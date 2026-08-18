@@ -38,6 +38,8 @@ Students of historical RF and antennas, veterans refreshing propagation vocabula
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-17: outline 181/246 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - **Scan OCR primary** — expect figure-shell / promote / residual mutes after magazine.  
 - Built with **`figure-magazine --profile hard_pdf`** (includes dual-stream + imprint mops; multi_section re-pass).  
 - Equations and diagrams lose fidelity in plain text / OCR.  

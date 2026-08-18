@@ -32,3 +32,7 @@ This brick is a **derived retrieval package** — not legal advice and not an of
 ## Series sisters
 
 `US_Constitution`, `Federalist_Papers`, `Anti_Federalist_Selections`, `Declaration_of_Independence`
+
+## Known limits / residual honesty
+
+- Recut 2026-08-17: outline 4/7 (chunk_headings); SECURITY_REPORT.md in ZIP

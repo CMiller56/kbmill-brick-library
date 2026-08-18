@@ -3,7 +3,7 @@
 **Brick id (folder):** `FM_7_85_Ranger_Unit_Operations`  
 **Chunks:** 420  
 **Muted / exclude_from_rag:** 6  
-**Package:** `FM_7_85_Ranger_Unit_Operations_portable.zip` (44821 KB)  
+**Package:** `FM_7_85_Ranger_Unit_Operations_portable.zip` (text-first; figure dump omitted)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (US Government work)  
 **Family:** doctrine  
@@ -39,6 +39,9 @@ Students of ranger / light-infantry unit operations, veterans refreshing doctrin
 - Original PDF remains system of record when you hold a copy.
 
 ## Known limits / residual honesty
+
+- Recut 2026-08-17: outline 173/239 (chunk_headings); SECURITY_REPORT.md in ZIP.  
+- **image_policy=none** this remill — local figure-magazine left **10 374** image files; packing them bloated the ZIP to 484 MB. Text retrieval package until the magazine learns a cap.
 
 - Mid-size FM: expect figure-shell / diagram mutes after figure magazine.  
 - OCR promote is **quality-gated** (F1); plot/debris OCR not lifted as prose.  

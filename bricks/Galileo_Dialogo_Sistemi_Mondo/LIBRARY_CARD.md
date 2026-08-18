@@ -37,6 +37,8 @@ Historians of science, Italian-text readers, integrators stress-testing large sc
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-17: outline 1/2 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - **Scan/OCR Italian** — garbled lines, broken words, page furniture residual expected.  
 - **Figure / plate heavy** — many figure-shell and image-adjacent chunks; text-first ZIP **omits** bulk image tree for size. Full desk package may retain images locally.  
 - **Ship soft residual** — soft high-debt count may remain; no hard ship fail at last check. Smoke can prefer “Figures” headings on English-ish queries — prefer Italian queries for demo.  

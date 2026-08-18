@@ -35,6 +35,8 @@ Aerospace mechanisms engineers, systems integrators, and operators stress-testin
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-17: outline 58/250 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - Multi-paper proceedings: expect TOC/front matter, figure shells, equation/layout fidelity loss.  
 - Built with **`figure-magazine --profile hard_pdf`** + full finish (soft-hyphen, TOC/index mute, heading sanitize).  
 - Soft ship gates may remain.  

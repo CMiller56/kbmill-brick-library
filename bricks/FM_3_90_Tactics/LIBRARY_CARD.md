@@ -39,6 +39,8 @@ Students of land tactics, veterans refreshing doctrine vocabulary, integrators s
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-17: outline 53/250 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - Large FM: expect **many figure-shell / diagram** mutes after figure magazine.  
 - OCR promote is **quality-gated** (F1); plot/debris OCR not lifted as prose.  
 - Built with **`figure-magazine --profile gov_fm`** (multi_section re-pass included).  

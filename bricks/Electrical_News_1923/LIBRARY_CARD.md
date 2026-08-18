@@ -41,6 +41,8 @@ Historians of electrical power and trade press; integrators stress-testing **per
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-17: false-headings procedure_or_biblio=206; outline 158/174 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - **~1077 soft residual issues** at ship (no high-priority open) — periodical density, figure shells, multi-column debris expected.  
 - Soft-hyphen residual: **0** active after finish Bag A (A3b joined ~1511 soft-hyphen chunks).  
 - Index mute (A3d): **2** TOC/index debris off RAG.  

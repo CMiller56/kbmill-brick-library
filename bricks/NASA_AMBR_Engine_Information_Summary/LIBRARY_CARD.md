@@ -35,6 +35,8 @@ Propulsion / mission design readers and integrators testing a **compact NASA tec
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-17: outline 5/5 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - Short paper-scale brick (few chunks); soft ship gates may remain (e.g. Mark Ready human step).  
 - Built with Engine extract + **KBM Factory** manufacture path (`kbm-state` / `next` / `run` / `ship_check` / `export`).  
 - Portable uses **`image_policy=none`** for gallery size when applicable.

@@ -34,6 +34,8 @@ Students of small-unit tactics, veterans comparing editions, integrators testing
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-17: outline 46/73 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - Larger than SH 21-76 (2000): more pages, denser figures — expect more **figure-shell / diagram** mutes.  
 - OCR promote is **quality-gated** (F1); plot/debris OCR not lifted as prose.  
 - Dual-stream / imprint tools applied when pair-rate warrants.  

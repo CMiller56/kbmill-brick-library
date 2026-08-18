@@ -55,3 +55,6 @@ Include: question asked, what you expected, chunk id if you have one. That is ho
 
 Do **not** use the private Pro monorepo for public brick feedback.
 
+## Known limits / residual honesty
+
+- Recut 2026-08-17: false-headings running_title=54; outline 2/2 (chunk_headings); SECURITY_REPORT.md in ZIP

@@ -35,6 +35,8 @@ Space history readers, veterans of the AAP/Skylab era, and integrators testing *
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-17: outline 156/250 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - Paper-capture OCR: empty covers, soft hyphens, figure plates, notes apparatus.  
 - Built with **`figure-magazine --profile hard_pdf`** + full finish (soft-hyphen, TOC/index mute, heading sanitize).  
 - Soft ship gates may remain.  
