@@ -61,7 +61,7 @@ These are **not** unbounded wiki dumps or synthetic QA. They come from real [Vec
 |--------|--------:|-----------------------:|--------------|
 | `ardupilot_plane` | 20 | 332 | [ArduPilot_Plane](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane) (ops wiki) |
 | `ardupilot_plane_params` | 15 | 1781 | [ArduPilot_Plane_Params](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane_Params) (dense param tables) |
-| `nasa_skylab` | 15 | 1099 | [NASA_Skylab_History_Living_Working_Space](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space) |
+| `nasa_skylab` | 15 | 1141 | [NASA_Skylab_History_Living_Working_Space](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space) |
 
 **Compose, don’t melt:** ops vs params are separate packages — [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md).
 
