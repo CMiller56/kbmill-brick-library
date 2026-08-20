@@ -1,8 +1,8 @@
 # ST 31-91B Special Forces Medical Handbook
 
 **Brick id (folder):** `ST_31_91B_SF_Medical`  
-**Chunks:** 550  
-**Muted / exclude_from_rag:** 43  
+**Chunks:** 618  
+**Muted / exclude_from_rag:** 63  
 **Package:** `ST_31_91B_SF_Medical_portable.zip` (29675 KB)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (US Government work)  

@@ -1,8 +1,8 @@
 # Ranger Handbook (TC 3-21.76, 2017)
 
 **Brick id (folder):** `Ranger_Handbook_TC_3_21_76`  
-**Chunks:** 509  
-**Muted / exclude_from_rag:** 116  
+**Chunks:** 653  
+**Muted / exclude_from_rag:** 169  
 **Package:** `Ranger_Handbook_TC_3_21_76_portable.zip` (35216 KB)  
 **Search smoke:** PASS (see build log)  
 **Public gallery:** **yes** (US Government work)  

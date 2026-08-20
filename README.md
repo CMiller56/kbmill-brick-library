@@ -16,7 +16,7 @@ Each brick is a finished, handoffable unit: rich Markdown + machine sidecars + e
 
 The model is fine. The corpus is not.
 
-A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: structure, citations, and known junk **muted off the answer path** (listed, not hidden). It is **not a chatbot**. We do not host your files.
+A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: structured stock, citations, and known junk **muted off the answer path** (listed, not hidden). Remilled gallery ZIPs include **`SECURITY_REPORT.md`** and **`craft_brief.md`**. It is **not a chatbot**. We do not host your files.
 
 **When the plant is live:** drop the files you already have — often the same week. You **pay only if we produce**. You keep the ZIP. Point your existing local model at that package; do not replace your stack.
 
@@ -69,15 +69,17 @@ Load how-to: [GETTING_STARTED.md](GETTING_STARTED.md) · matrix sketch: [PORTABI
 
 ## What is a knowledge brick?
 
-A **knowledge brick** is a portable, versionable unit of technical knowledge designed to stay honest and usable over time.
+A **knowledge brick** is a **residual-honest** **portable ZIP** — a bounded, versionable unit of technical knowledge designed to stay honest and usable over time. Same definition as the teaching Notes and the HF retrieval dataset card: structured stock plus known junk **muted off the answer path** (listed, not hidden).
 
-Typical contents:
+Typical contents (see [BRICK_SPEC.md](BRICK_SPEC.md)):
 - Primary rich Markdown (human-readable source of truth)
-- `kb.json` + chunk indexes
-- Embeddings + provenance
-- Craft brief (what the brick is for, known limits, answer policy)
-- Quality / deficiency notes (problems stay visible instead of hidden)
+- `kb.json` + `chunks.jsonl` + embeddings + provenance
+- **`SECURITY_REPORT.md`** (remilled gallery shelf)
+- **`craft_brief.md`** (purpose, limits, answer policy)
+- Quality / deficiency sidecars when present (problems stay visible instead of hidden)
 - Handoff / original source companions where useful
+
+**Tables:** PDF table recovery is plant work, not an afterthought. Text-layer PDFs use Camelot/pdfplumber fusion; scan/image-only pages use OCR/Docling markdown where recoverable. Counts on cards use any-path recovery — a Camelot zero on a pure scan is not “no tables.” Commercial textbooks (e.g. Skolnik-class) may be dogfooded privately and are **not** republished here.
 
 Bricks are sized to stay human-scale. **Design guidance** is roughly **hundreds to low thousands of chunks** per brick (not a hard minimum — the flagship Plane ops brick is **335** chunks; the Plane params brick is larger on purpose). Bigger topics are **composed** from multiple bricks (ops vs params vs protocol), not one giant pile.
 

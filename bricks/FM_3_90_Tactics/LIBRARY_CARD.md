@@ -1,8 +1,8 @@
 # FM 3-90 Tactics (2001)
 
 **Brick id (folder):** `FM_3_90_Tactics`  
-**Chunks:** 1070  
-**Muted / exclude_from_rag:** 189  
+**Chunks:** 1142  
+**Muted / exclude_from_rag:** 186  
 **Package:** `FM_3_90_Tactics_portable.zip` (8379 KB)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (US Government work)  

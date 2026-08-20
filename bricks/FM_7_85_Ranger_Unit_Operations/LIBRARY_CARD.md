@@ -1,8 +1,8 @@
 # FM 7-85 Ranger Unit Operations
 
 **Brick id (folder):** `FM_7_85_Ranger_Unit_Operations`  
-**Chunks:** 420  
-**Muted / exclude_from_rag:** 6  
+**Chunks:** 449  
+**Muted / exclude_from_rag:** 185  
 **Package:** `FM_7_85_Ranger_Unit_Operations_portable.zip` (text-first; figure dump omitted)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (US Government work)  

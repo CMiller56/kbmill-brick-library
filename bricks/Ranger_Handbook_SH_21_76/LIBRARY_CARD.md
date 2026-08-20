@@ -1,8 +1,8 @@
 # Ranger Handbook (SH 21-76, 2000)
 
 **Brick id (folder):** `Ranger_Handbook_SH_21_76`  
-**Chunks:** 324  
-**Muted / exclude_from_rag:** 47  
+**Chunks:** 374  
+**Muted / exclude_from_rag:** 64  
 **Package:** `Ranger_Handbook_SH_21_76_portable.zip` (5447 KB)  
 **Search smoke:** PASS
 **Public gallery:** **yes** (US Government work)  

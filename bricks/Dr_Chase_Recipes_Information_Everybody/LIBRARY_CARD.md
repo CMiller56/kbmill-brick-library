@@ -1,8 +1,8 @@
 # Dr. Chase's Recipes, or Information for Everybody
 
 **Brick id (folder):** `Dr_Chase_Recipes_Information_Everybody`  
-**Chunks:** 1026  
-**Muted / exclude_from_rag:** 411  
+**Chunks:** 1099  
+**Muted / exclude_from_rag:** 405  
 **Package:** `Dr_Chase_Recipes_Information_Everybody_portable.zip` (19079 KB)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (public domain historical work)  

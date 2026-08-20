@@ -1,8 +1,8 @@
 # MCRP 3-01A Rifle Marksmanship
 
 **Brick id (folder):** `MCRP_3_01A_Rifle_Marksmanship`  
-**Chunks:** 274  
-**Muted / exclude_from_rag:** 106  
+**Chunks:** 286  
+**Muted / exclude_from_rag:** 108  
 **Package:** `MCRP_3_01A_Rifle_Marksmanship_portable.zip` (5061 KB)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (US Government work)  

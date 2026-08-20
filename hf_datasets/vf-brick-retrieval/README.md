@@ -69,7 +69,7 @@ These are **not** unbounded wiki dumps or synthetic QA. They come from real [Vec
 
 The model is fine. The corpus is not.
 
-A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: shaped corpus, craft brief, residual board, security report, mill receipt. Known junk is **muted off the answer path** (listed, not hidden). It is **not a chatbot** and **not a per-page parser**. We do not host your files as a library.
+A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: shaped corpus, **`craft_brief.md`**, and **`SECURITY_REPORT.md`** in the remilled gallery ZIP. Known junk is **muted off the answer path** (listed on the card / brief — not hidden). It is **not a chatbot** and **not a per-page parser**. We do not host your files as a library.
 
 **When the plant vends:** drop the pile — **Small $149 / Medium $399 / Hard $999** is craft load, not page count. You **pay only if we produce** a usable ZIP. 72-hour download window, then purge. Point *your* existing model at the package.
 
@@ -194,6 +194,7 @@ python3 scripts/build_hf_retrieval_dataset.py
 
 ## Changelog
 
+- 2026-08-19: Rebuild corpus after Camelot-fix gallery remill (Skylab eligible docs 1099→1141; Plane/Params unchanged). Package claims aligned with ZIP reality (`SECURITY_REPORT.md` + `craft_brief.md`; no invented `MILL_RECEIPT` / `residual_board.md` on every brick). Catalog/LIBRARY_CARD chunk counts synced to ZIPs.
 - 2026-08-17: Rebuild corpus from remilled gallery ZIPs (wiki-nav strip + false-heading mop + `SECURITY_REPORT.md` in the brick). Card names KBMill, brick-vs-parse, pay-on-success. Published hits may still quote pre-remill excerpts until the Plane/Params/Skylab *eval JSON* is re-run.
 - 2026-08-12: Clarify middle position — neither lab-clean nor raw dump; residual-honest real source material.
 - 2026-08-12: Add `ardupilot_plane_params` config (15q, dense tables) + composition link.

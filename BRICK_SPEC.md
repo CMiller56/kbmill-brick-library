@@ -50,9 +50,12 @@ After unzip, a library brick is expected to contain at least:
 | `embeddings.npy` | Float matrix, **one row per chunk**, same order as `kb.json` chunks | **Yes** |
 | `embedding_provenance.json` | Model family, dims, notes | Strongly recommended |
 | Primary `*.md` | Human-readable source of truth (rich Markdown) | Strongly recommended |
+| `SECURITY_REPORT.md` | In-ZIP security / trust scan for remilled gallery bricks | **Yes** for this library’s remilled shelf |
+| `craft_brief.md` | Purpose, limits, answer policy | Strongly recommended (present on remilled gallery ZIPs) |
 | `HANDOFF_README.md` | Operator notes from export | Strongly recommended |
-| `craft_brief.md` | Purpose, limits, answer policy (when present) | Optional but valuable |
 | Quality / finish sidecars | e.g. `finish_report.json`, `figure_index.json` | Optional |
+
+**Honesty artifacts (do not invent filenames):** residual honesty is **muted / `exclude_from_rag` flags** plus disclosure on `LIBRARY_CARD.md` / `craft_brief.md`. A separate `residual_board.md` or `MILL_RECEIPT.md` may appear on some cuts — it is **not** required on every ZIP. Prefer naming what is actually in the package.
 
 Beside the ZIP (library shelf, not always inside the zip):
 

@@ -96,7 +96,7 @@
     {
       "name": "Dr_Chase_Recipes_Information_Everybody",
       "title": "Dr. Chase's Recipes, or Information for Everybody",
-      "chunks": 1026,
+      "chunks": 1099,
       "zip": "bricks/Dr_Chase_Recipes_Information_Everybody/Dr_Chase_Recipes_Information_Everybody_portable.zip",
       "size_bytes": 19865920,
       "card": "bricks/Dr_Chase_Recipes_Information_Everybody/LIBRARY_CARD.md",
@@ -139,7 +139,7 @@
     {
       "name": "FM_3_90_Tactics",
       "title": "FM 3-90 Tactics (2001)",
-      "chunks": 1070,
+      "chunks": 1142,
       "zip": "bricks/FM_3_90_Tactics/FM_3_90_Tactics_portable.zip",
       "size_bytes": 8794207,
       "card": "bricks/FM_3_90_Tactics/LIBRARY_CARD.md",
@@ -152,7 +152,7 @@
     {
       "name": "FM_7_85_Ranger_Unit_Operations",
       "title": "FM 7-85 Ranger Unit Operations",
-      "chunks": 420,
+      "chunks": 449,
       "zip": "bricks/FM_7_85_Ranger_Unit_Operations/FM_7_85_Ranger_Unit_Operations_portable.zip",
       "size_bytes": 2223179,
       "card": "bricks/FM_7_85_Ranger_Unit_Operations/LIBRARY_CARD.md",
@@ -167,7 +167,7 @@
     {
       "name": "MCRP_3_01A_Rifle_Marksmanship",
       "title": "MCRP 3-01A Rifle Marksmanship",
-      "chunks": 274,
+      "chunks": 286,
       "zip": "bricks/MCRP_3_01A_Rifle_Marksmanship/MCRP_3_01A_Rifle_Marksmanship_portable.zip",
       "size_bytes": 5217002,
       "card": "bricks/MCRP_3_01A_Rifle_Marksmanship/LIBRARY_CARD.md",
@@ -182,7 +182,7 @@
     {
       "name": "NASA_41st_Aerospace_Mechanisms_Symposium",
       "title": "41st Aerospace Mechanisms Symposium (NASA/CP-2012-217653)",
-      "chunks": 1051,
+      "chunks": 1149,
       "zip": "bricks/NASA_41st_Aerospace_Mechanisms_Symposium/NASA_41st_Aerospace_Mechanisms_Symposium_portable.zip",
       "size_bytes": 35392929,
       "card": "bricks/NASA_41st_Aerospace_Mechanisms_Symposium/LIBRARY_CARD.md",
@@ -212,7 +212,7 @@
     {
       "name": "NASA_Skylab_History_Living_Working_Space",
       "title": "NASA Skylab History (Living and Working in Space)",
-      "chunks": 1207,
+      "chunks": 1260,
       "zip": "bricks/NASA_Skylab_History_Living_Working_Space/NASA_Skylab_History_Living_Working_Space_portable.zip",
       "size_bytes": 5599794,
       "card": "bricks/NASA_Skylab_History_Living_Working_Space/LIBRARY_CARD.md",
@@ -227,7 +227,7 @@
     {
       "name": "Ranger_Handbook_SH_21_76",
       "title": "Ranger Handbook (SH 21-76, 2000)",
-      "chunks": 324,
+      "chunks": 374,
       "zip": "bricks/Ranger_Handbook_SH_21_76/Ranger_Handbook_SH_21_76_portable.zip",
       "size_bytes": 5730791,
       "card": "bricks/Ranger_Handbook_SH_21_76/LIBRARY_CARD.md",
@@ -242,7 +242,7 @@
     {
       "name": "Ranger_Handbook_TC_3_21_76",
       "title": "Ranger Handbook (TC 3-21.76, 2017)",
-      "chunks": 509,
+      "chunks": 653,
       "zip": "bricks/Ranger_Handbook_TC_3_21_76/Ranger_Handbook_TC_3_21_76_portable.zip",
       "size_bytes": 36573305,
       "card": "bricks/Ranger_Handbook_TC_3_21_76/LIBRARY_CARD.md",
@@ -256,7 +256,7 @@
     {
       "name": "ST_31_91B_SF_Medical",
       "title": "ST 31-91B Special Forces Medical Handbook",
-      "chunks": 550,
+      "chunks": 618,
       "zip": "bricks/ST_31_91B_SF_Medical/ST_31_91B_SF_Medical_portable.zip",
       "size_bytes": 30582918,
       "card": "bricks/ST_31_91B_SF_Medical/LIBRARY_CARD.md",
@@ -269,7 +269,7 @@
     {
       "name": "TM_11_666_Antennas_Radio_Propagation",
       "title": "TM 11-666 Antennas and Radio Propagation (1953)",
-      "chunks": 503,
+      "chunks": 530,
       "zip": "bricks/TM_11_666_Antennas_Radio_Propagation/TM_11_666_Antennas_Radio_Propagation_portable.zip",
       "size_bytes": 48817443,
       "card": "bricks/TM_11_666_Antennas_Radio_Propagation/LIBRARY_CARD.md",

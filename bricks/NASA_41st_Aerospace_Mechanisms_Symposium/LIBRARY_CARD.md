@@ -1,8 +1,8 @@
 # 41st Aerospace Mechanisms Symposium (NASA/CP-2012-217653)
 
 **Brick id (folder):** `NASA_41st_Aerospace_Mechanisms_Symposium`  
-**Chunks:** 1051  
-**Muted / exclude_from_rag:** 282  
+**Chunks:** 1149  
+**Muted / exclude_from_rag:** 267  
 **Package:** `NASA_41st_Aerospace_Mechanisms_Symposium_portable.zip` (33436 KB)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (US Government / NASA conference publication)  

@@ -1,8 +1,8 @@
 # NASA Skylab History (Living and Working in Space)
 
 **Brick id (folder):** `NASA_Skylab_History_Living_Working_Space`  
-**Chunks:** 1207  
-**Muted / exclude_from_rag:** 108  
+**Chunks:** 1260  
+**Muted / exclude_from_rag:** 120  
 **Package:** `NASA_Skylab_History_Living_Working_Space_portable.zip` (5315 KB)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (US Government / NASA history)  
