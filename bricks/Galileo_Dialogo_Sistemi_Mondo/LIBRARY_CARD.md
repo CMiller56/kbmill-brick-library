@@ -1,7 +1,8 @@
 # Dialogo di Galileo Galilei (sistemi del mondo)
 
 **Brick id (folder):** `Galileo_Dialogo_Sistemi_Mondo`  
-**Chunks:** ~1497 (verify `kb.json` / package)  
+**Chunks:** 1497  
+**Muted / exclude_from_rag:** 0 (text-first cut — figure/plate noise mostly omitted from the ZIP rather than muted in-chunk; residual still listed below)  
 **Language:** Italian (`it`)  
 **Public gallery:** **yes** (public-domain historical primary / 19th-c. Italian reprint scan)  
 **Family:** historical_primary  
