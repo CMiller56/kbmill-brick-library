@@ -32,6 +32,8 @@ Students of small-unit tactics, military history, and anyone testing residual-ho
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: false-headings running_title=2; outline 27/43 (chunk_headings); tables=10 (camelot=2, md=8); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: outline 70/104 (chunk_headings); SECURITY_REPORT.md in ZIP
 
 - Mid-size field manual: expect **figure-shell / diagram** pages muted off RAG after magazine (images stay bound).  

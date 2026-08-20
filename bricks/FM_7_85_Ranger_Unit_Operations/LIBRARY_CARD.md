@@ -40,6 +40,8 @@ Students of ranger / light-infantry unit operations, veterans refreshing doctrin
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: outline 19/22 (chunk_headings); tables=12 (camelot=5, md=7); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: outline 173/239 (chunk_headings); SECURITY_REPORT.md in ZIP.  
 - **image_policy=none** this remill — local figure-magazine left **10 374** image files; packing them bloated the ZIP to 484 MB. Text retrieval package until the magazine learns a cap.
 

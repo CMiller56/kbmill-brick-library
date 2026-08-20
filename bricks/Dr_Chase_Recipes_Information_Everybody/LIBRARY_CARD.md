@@ -36,6 +36,8 @@ Historians, curiosity readers, and integrators testing **19th-century OCR books*
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: false-headings figures=2; outline 12/16 (chunk_headings); tables=51 (camelot=19, md=32); SECURITY_REPORT.md in ZIP
+
 - OCR text layer on image pages — expect garble, index/TOC debris, soft hyphens (finish A3c), figure shells.  
 - Built with **`figure-magazine --profile hard_pdf`**.  
 - Recut **2026-08-17:** `repair-false-headings` — 387 “Figures” + 318 book-title headings cleared; departments now carry the outline (220 sections).  

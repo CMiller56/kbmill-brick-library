@@ -40,6 +40,8 @@ Students of marksmanship doctrine, veterans refreshing fundamentals, integrators
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: outline 19/21 (chunk_headings); tables=10 (camelot=1, md=9); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: false-headings procedure_or_biblio=2; outline 65/125 (chunk_headings); SECURITY_REPORT.md in ZIP
 
 - Pre-digital layout: hyphenated wraps, leader-dot tables of contents, figure callouts, appendix glossary.  

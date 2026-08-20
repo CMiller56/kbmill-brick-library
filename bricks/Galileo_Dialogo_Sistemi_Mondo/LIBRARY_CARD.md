@@ -37,6 +37,8 @@ Historians of science, Italian-text readers, integrators stress-testing large sc
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: outline 1/2 (chunk_headings); tables=50 (camelot=2, md=48); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: outline 1/2 (chunk_headings); SECURITY_REPORT.md in ZIP
 
 - **Scan/OCR Italian** — garbled lines, broken words, page furniture residual expected.  

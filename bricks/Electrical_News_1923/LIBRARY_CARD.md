@@ -41,6 +41,8 @@ Historians of electrical power and trade press; integrators stress-testing **per
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: outline 158/174 (chunk_headings); tables=61 (camelot=13, md=48); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: false-headings procedure_or_biblio=206; outline 158/174 (chunk_headings); SECURITY_REPORT.md in ZIP
 
 - **~1077 soft residual issues** at ship (no high-priority open) — periodical density, figure shells, multi-column debris expected.  

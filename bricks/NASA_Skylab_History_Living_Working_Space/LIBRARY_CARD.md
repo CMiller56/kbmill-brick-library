@@ -35,6 +35,8 @@ Space history readers, veterans of the AAP/Skylab era, and integrators testing *
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: outline 27/43 (chunk_headings); tables=10 (camelot=6, md=4); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: outline 156/250 (chunk_headings); SECURITY_REPORT.md in ZIP
 
 - Paper-capture OCR: empty covers, soft hyphens, figure plates, notes apparatus.  

@@ -35,6 +35,8 @@ Propulsion / mission design readers and integrators testing a **compact NASA tec
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: outline 5/5 (chunk_headings); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: outline 5/5 (chunk_headings); SECURITY_REPORT.md in ZIP
 
 - Short paper-scale brick (few chunks); soft ship gates may remain (e.g. Mark Ready human step).  

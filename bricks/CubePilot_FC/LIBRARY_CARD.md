@@ -56,4 +56,6 @@ Do **not** use the private Pro monorepo for public brick feedback.
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: outline 69/120 (chunk_headings); tables=186 (camelot=0, md=186); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: outline 69/120 (chunk_headings); SECURITY_REPORT.md in ZIP

@@ -39,6 +39,8 @@ Students of military medical history, austere-care literature, and integrators t
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: outline 87/104 (chunk_headings); tables=35 (camelot=0, md=35); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: outline 173/244 (chunk_headings); SECURITY_REPORT.md in ZIP
 
 - Scan-era PDF: pages are full-page images; **promoted OCR is kept on RAG** after magazine (shell mute must not re-mute promoted bodies).

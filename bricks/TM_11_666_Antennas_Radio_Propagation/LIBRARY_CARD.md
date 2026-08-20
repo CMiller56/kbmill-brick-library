@@ -17,6 +17,7 @@ US Army **Technical Manual 11-666, Antennas and Radio Propagation** (February 19
 ## Related bricks
 
 - [`Advanced_Rockets`](../Advanced_Rockets/) — aerospace technical paper density sibling
+- [`Skolnik_Radar`](../Skolnik_Radar/) — heavier scan / hard-corpus radar residual craft (often private dogfood; method sibling)
 
 ## Audience
 
@@ -38,12 +39,13 @@ Students of historical RF and antennas, veterans refreshing propagation vocabula
 
 ## Known limits / residual honesty
 
-- Recut 2026-08-17: outline 181/246 (chunk_headings); SECURITY_REPORT.md in ZIP
+- Recut 2026-08-19: outline 130/144 (chunk_headings); tables=46 (camelot=0, md=46); SECURITY_REPORT.md in ZIP
 
-- **Scan OCR primary** — expect figure-shell / promote / residual mutes after magazine.  
-- Built with **`figure-magazine --profile hard_pdf`** (includes dual-stream + imprint mops; multi_section re-pass).  
-- Equations and diagrams lose fidelity in plain text / OCR.  
-- Soft ship gates may remain; high-priority residual cleared when possible.  
+- Recut 2026-08-17: outline 181/246 (chunk_headings); SECURITY_REPORT.md in ZIP  
+- **Counts:** **503** chunks after finish (canonical). **33** muted / `exclude_from_rag`. **470** active.  
+- **Provenance confidence High** = source/rights attribution — **not** “OCR is clean.”  
+- **Scan OCR primary** — figure-shell / promote / residual mutes expected. Camelot **`tables_extracted: 0`** (no invented structured grid).  
+- Built with **`figure-magazine --profile hard_pdf`**. Equations/diagrams lose fidelity in plain text / OCR. Soft ship gates may remain.  
 - Sidecars: `finish_report.json`, `figure_magazine.json`, `job_b_recheck.json`, `_full_build.log`.
 
 ## How to use

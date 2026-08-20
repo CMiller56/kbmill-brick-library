@@ -39,6 +39,8 @@ Students of land tactics, veterans refreshing doctrine vocabulary, integrators s
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: outline 31/51 (chunk_headings); tables=21 (camelot=7, md=14); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: outline 53/250 (chunk_headings); SECURITY_REPORT.md in ZIP
 
 - Large FM: expect **many figure-shell / diagram** mutes after figure magazine.  

@@ -34,6 +34,8 @@ Students of small-unit tactics, veterans comparing editions, integrators testing
 
 ## Known limits / residual honesty
 
+- Recut 2026-08-19: false-headings running_title=1; outline 30/47 (chunk_headings); tables=99 (camelot=51, md=48); SECURITY_REPORT.md in ZIP
+
 - Recut 2026-08-17: outline 46/73 (chunk_headings); SECURITY_REPORT.md in ZIP
 
 - Larger than SH 21-76 (2000): more pages, denser figures — expect more **figure-shell / diagram** mutes.  
