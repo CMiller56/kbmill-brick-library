@@ -179,7 +179,7 @@ If you need a single SPDX tag for tooling, treat this card’s `license: other` 
 
 ## Citation / credit
 
-Please cite the [vf-brick-library](https://github.com/CMiller56/vf-brick-library) and VectorForge Pro if you use these for papers, leaderboards, or product evals.
+Please cite [KBMill](https://kbmill.com) and the [public brick shelf](https://github.com/CMiller56/vf-brick-library) if you use these for papers, leaderboards, or product evals.
 
 - Product: **[KBMill](https://kbmill.com)** · X [@VectorForgePro](https://x.com/VectorForgePro) · GitHub **CMiller56**
 - Brick library: https://github.com/CMiller56/vf-brick-library

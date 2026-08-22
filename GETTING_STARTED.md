@@ -33,17 +33,17 @@ rg -n "FBWA|first flight" chunks.jsonl | head
 
 Good for reading and grep. No semantic ranking.
 
-## 3b. Semantic rank without VectorForge
+## 3b. Semantic rank without the mill runtime
 
 Same embed family as the brick (**nomic-embed-text**, 768-d). See **[PORTABILITY.md](PORTABILITY.md)** for a minimal cosine sketch.
 
-**RAG path honesty:** skip chunks with `exclude_from_rag: true` or `muted: true` (figure-shell / imprint debris). Your ranker should filter them the same way production Connect does.
+**RAG path honesty:** skip chunks with `exclude_from_rag: true` or `muted: true` (figure-shell / imprint debris). Your ranker should filter them the same way a production loader would.
 
-## 3c. Optional — VF Runtime Connect
+## 3c. Optional — local runtime Connect
 
-If you have VF Runtime / Engine installed (air-gap pack or site install). Connect is **optional** and **read-only** (no factory tools): `list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`. Bricks are not locked to VectorForge.
+If you already have the plant’s local runtime / Engine installed (air-gap pack or site install). Connect is **optional** and **read-only** (no factory tools): `list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`. Bricks are not locked to any one runtime — plain files first.
 
-**Not** `pip install vectorforge-runtime-connect` (no such public package today). **Not** `python -m vectorforge.mcp.connect --brick …zip` (no `--brick` flag). Unzip first, then set `VF_KBS_ROOT`.
+**Not** a public `pip install` Connect package today. **Not** `python -m vectorforge.mcp.connect --brick …zip` (no `--brick` flag). Unzip first, then set `VF_KBS_ROOT` (env name is historical).
 
 ```bash
 # From a clone of this repo — copy-paste

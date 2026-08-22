@@ -1,4 +1,4 @@
-# Portability — load a brick without VectorForge
+# Portability — load a brick without the mill runtime
 
 The library claim is **portable packages**, not “only works inside Pro.”
 
@@ -59,7 +59,7 @@ eligible = np.array([
 #     print(scores[i], chunks[i]["chunk_id"], chunks[i].get("section_heading"), chunks[i]["text"][:200])
 ```
 
-No VectorForge install required for the matrix math — only for producing bricks or matching the exact embed path used at build.
+No mill/runtime install required for the matrix math — only for producing bricks or matching the exact embed path used at build.
 
 ### RAG eligibility (do not skip this)
 

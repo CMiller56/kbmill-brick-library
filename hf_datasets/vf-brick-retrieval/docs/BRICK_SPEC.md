@@ -18,7 +18,7 @@ A **knowledge brick** is a **bounded, portable, residual-honest** package of tec
 | Property | Meaning |
 |----------|---------|
 | **Bounded** | One curatable unit (not an unbounded RAG dump of a whole domain) |
-| **Portable** | A `*_portable.zip` you can unzip, inspect, and rank **without** VectorForge Pro |
+| **Portable** | A `*_portable.zip` you can unzip, inspect, and rank **without** the mill runtime |
 | **Residual-honest** | Known limits and muted debris are **visible** — not hidden behind “looks fine” |
 | **Retrieval-first** | Designed for search → cite → answer, not paste-the-whole-corpus into every prompt |
 

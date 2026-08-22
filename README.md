@@ -226,7 +226,7 @@ Honest criticism is more useful than polite praise.
 vf-brick-library/
 ├── README.md                 ← you are here
 ├── GETTING_STARTED.md        ← drop-in path (start here)
-├── PORTABILITY.md            ← load without VectorForge
+├── PORTABILITY.md            ← load without the mill runtime
 ├── RETRIEVAL_DEMO_*.md       ← published Q&A evidence
 ├── catalog.json              ← machine-readable index
 ├── demos/                    ← eval JSON twins

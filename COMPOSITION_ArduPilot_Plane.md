@@ -98,4 +98,4 @@ Hub: [CMiller/vf-brick-retrieval](https://huggingface.co/datasets/CMiller/vf-bri
 
 ---
 
-*Composition example for VectorForge portable bricks — CMiller56 / @VectorForgePro*
+*Composition example for KBMill portable bricks — [kbmill.com](https://kbmill.com) · CMiller56*
