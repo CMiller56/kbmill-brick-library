@@ -211,7 +211,7 @@ Treat a new ZIP as a **new cut** of the same brick id unless the card renames it
 - [ ] Cite `chunk_id` + `section_heading` (+ page when present)  
 - [ ] Read `LIBRARY_CARD.md` / `HANDOFF_README.md` before trusting answers in production  
 
-Optional: VF Runtime Connect (`load_kb` / `search_kb`) if you already run VectorForge Runtime — still optional.
+Optional: plant runtime Connect (`load_kb` / `search_kb`) if you already have the local mill stack — still optional.
 
 ---
 

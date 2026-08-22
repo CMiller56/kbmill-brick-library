@@ -79,7 +79,7 @@ These evals and the [kbmill-brick-library](https://github.com/CMiller56/kbmill-b
 
 Most public retrieval corpora were built for **traditional IR** or as **general training fuel**. They were never optimized as the **final working surface for an LLM**.
 
-VectorForge bricks invert that: the package is shaped so the **model can use the knowledge cleanly** — bounded scope, residual honesty (muted junk stays off the path), stable chunk identity, clear provenance, and craft notes that tell the system what the brick is and is not for. When the consumer is the LLM itself, those choices compound.
+KBMill bricks invert that: the package is shaped so the **model can use the knowledge cleanly** — bounded scope, residual honesty (muted junk stays off the path), stable chunk identity, clear provenance, and craft notes that tell the system what the brick is and is not for. When the consumer is the LLM itself, those choices compound.
 
 These are **not** heavily sanitized lab sets, and they are **not** raw unbounded dumps. They are **residual-honest packages of real source material**: known junk is muted and visible, bounds are explicit, and the package is shaped so a model can work with what it will actually see **outside the lab**.
 

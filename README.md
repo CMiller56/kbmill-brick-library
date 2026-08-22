@@ -155,15 +155,15 @@ This first wave uses only external / open technical sources. Nothing proprietary
 
 1. Download the `*_portable.zip` (or clone this repo and use `bricks/<Name>/`)
 2. Unzip so you have a folder with `kb.json`, `chunks.jsonl`, `embeddings.npy`
-3. Load it **without requiring VectorForge** — plain Markdown, `chunks.jsonl`, or embeddings cosine rank. Worked notes: [PORTABILITY.md](PORTABILITY.md).
+3. Load it **without the mill runtime** — plain Markdown, `chunks.jsonl`, or embeddings cosine rank. Worked notes: [PORTABILITY.md](PORTABILITY.md).
 4. Read the **LIBRARY_CARD** (snapshot date, named residual, license) before trusting hits.
 5. When ranking semantically, **skip** chunks with `exclude_from_rag` / `muted` (figure-shell debris).
 
-### Optional — VF Runtime Connect (read-only MCP)
+### Optional — plant runtime Connect (read-only MCP)
 
-Connect is a **small, read-only** MCP server — **not** factory tools. Typical allowlist: `list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`. Use it from Claude Desktop, Open-WebUI (`mcpo`), or any MCP client. **Chat LLM is not bundled** — your client supplies the model.
+If you already have KBMill’s local plant runtime installed, Connect is a **small, read-only** MCP server — **not** factory tools. Typical allowlist: `list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`. Use it from Claude Desktop, Open-WebUI (`mcpo`), or any MCP client. **Chat LLM is not bundled** — your client supplies the model.
 
-**Requires** VectorForge Engine / Runtime already installed on the machine (air-gap wheelhouse or site package). There is **no** public `pip install vectorforge-runtime-connect` today, and Connect does **not** take a `--brick path/to.zip` flag — unpack the portable ZIP into a shelf folder first.
+There is **no** public `pip install` Connect package today, and Connect does **not** take a `--brick path/to.zip` flag — unpack the portable ZIP into a shelf folder first. CLI module and env names below are **historical plant identifiers** (not a second product brand):
 
 ```bash
 # From a clone of this repo — copy-paste friendly
@@ -191,7 +191,7 @@ python -m vectorforge.mcp.connect --http --port 8000
 # or: mcpo --port 8000 -- python -m vectorforge.mcp.connect
 ```
 
-No account required. No cloud dependency for the brick package itself. Bricks still load without Connect (Markdown / cosine — [PORTABILITY.md](PORTABILITY.md)).
+No account required. No cloud dependency for the brick package itself. Most people only need unzip + [PORTABILITY.md](PORTABILITY.md) — Connect is optional dogfood for those who already have the plant stack.
 
 ---
 
