@@ -25,7 +25,7 @@ Anyone with the portable ZIP + the same embed model can reproduce these rankings
 | **Quality honesty** | Silent garbage, nav chrome, duplicate pages | Residual craft notes on the card; bad regions flaggable |
 | **Facet** | One infinite site | **Ops brick** separate from **params** brick — right book for the job |
 
-The point of VF Pro is not “another chatbot.” It is **manufacturing packages** where strangers can **see** retrieval quality.
+The point of **KBMill** is not “another chatbot.” It is **manufacturing packages** where strangers can **see** retrieval quality.
 
 ## How to re-run (reproduce)
 

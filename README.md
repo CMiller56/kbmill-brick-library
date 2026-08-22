@@ -1,8 +1,8 @@
-# VectorForge Brick Library
+# KBMill public brick shelf
 
-Public collection of **portable knowledge bricks** — bounded, self-contained packages of technical knowledge made with [VectorForge Pro](https://x.com/VectorForgePro).
+Public collection of **portable knowledge bricks** — the open **proof shelf** for **[KBMill](https://kbmill.com)**, a knowledge-base mill. The product door is the mill; this repo is evidence you can open and re-run.
 
-**Why these bricks exist:** These KBs are published to **demonstrate the range of VF Pro capabilities** — different source shapes (technical PDF papers, multi-site wiki/HTML ops docs, large parameter references, protocol XML, GitBook-style hardware manuals) turned into honest, drop-in packages. The library is a living sample set, not a product dump of the workbench itself.
+**Why these bricks exist:** Different source shapes (technical PDF papers, multi-site wiki/HTML ops docs, large parameter references, protocol XML, GitBook-style hardware manuals) turned into honest, drop-in packages. Living **sample set**, not customer jobs and not a second brand.
 
 Most RAG failures are not model failures. They are data-preparation failures — garbled extraction, broken structure, silent hollow pages, and unbounded dumps that force the model to guess.
 
@@ -18,17 +18,17 @@ The model is fine. The corpus is not.
 
 A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: structured stock, citations, and known junk **muted off the answer path** (listed, not hidden). Remilled gallery ZIPs include **`SECURITY_REPORT.md`** and **`craft_brief.md`**. It is **not a chatbot**. We do not host your files.
 
-**When the plant is live:** drop the files you already have — often the same week. You **pay only if we produce**. You keep the ZIP. Point your existing local model at that package; do not replace your stack.
+**Mill:** **[https://kbmill.com](https://kbmill.com)** — drop the files you already have. You **pay only if we produce**. You keep the ZIP. Point your existing local model at that package; do not replace your stack. (Invite / coupon while the door warms up.)
 
-**No hopper URL yet.** This library is the public proof. The plant link will be added here when it vends — we will not invent one.
+This repo is the **public proof shelf**. The product door is kbmill.com.
 
 **Look, don’t trust me:** the [ArduPilot Plane retrieval demo](RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions, citations). Same eval set: [CMiller/vf-brick-retrieval](https://huggingface.co/datasets/CMiller/vf-brick-retrieval).
 
 ## Hard corpus on the desk
 
-![VectorForge Pro timeline — Skolnik_Radar (Introduction to Radar Systems)](docs/desk-skolnik-no-chrome.png)
+![Plant desk timeline — Skolnik_Radar (Introduction to Radar Systems)](docs/desk-skolnik-no-chrome.png)
 
-**Skolnik-class radar PDF on the Pro desk** (~2.8k chunks): timeline, quality rings on hollow/garble clips, problem strip, and chunk inspector on real extract mess (dual-stream / debris still visible in places).  
+**Skolnik-class radar PDF on the plant desk** (~2.8k chunks): timeline, quality rings on hollow/garble clips, problem strip, and chunk inspector on real extract mess (dual-stream / debris still visible in places).  
 
 I **dogfood commercial-class difficulty privately** for stress and screenshots. I **do not republish commercial textbooks** as downloadable bricks. For a **rights-clear, measurable** demo you can re-run yourself, see **[Look, don’t trust me](#look-dont-trust-me)** below (ArduPilot Plane, 20 questions + citations).
 
@@ -205,7 +205,7 @@ I especially want to hear:
 - Where did the extraction honesty (quality notes, figure-shell handling, dual-stream flags, etc.) help — or get in the way?
 - Would you actually keep and maintain a brick like this?
 
-**One feedback channel for bricks:** open an [Issue](../../issues) on **this** repo with the brick name in the title — prefer the **Brick feedback** issue template (query + expected vs got + loader). Not the private Pro monorepo. Optional: reply on X [@VectorForgePro](https://x.com/VectorForgePro).
+**One feedback channel for bricks:** open an [Issue](../../issues) on **this** repo with the brick name in the title — prefer the **Brick feedback** issue template (query + expected vs got + loader). Optional: X [@VectorForgePro](https://x.com/VectorForgePro). Always: [kbmill.com](https://kbmill.com).
 
 Honest criticism is more useful than polite praise.
 
@@ -240,19 +240,18 @@ vf-brick-library/
 
 ---
 
-## About VectorForge Pro
+## About KBMill
 
-VectorForge Pro is a local-first timeline-native workbench for turning heterogeneous source material (PDFs, Word, PowerPoint, HTML, spreadsheets, manuals…) into high-quality knowledge bricks.
-
-It treats knowledge bases like long-form media projects: non-destructive editing, quality orchestration, craft briefs, and honest extract loops instead of green-smoke-on-empty-books.
-
-**This repository is the public gallery of outputs** — bricks that show what VF Pro can produce across domains and file types. It is not the Pro application, Engine source, or internal product documentation.
+**[KBMill](https://kbmill.com)** is a knowledge-base mill: you drop a pile; we manufacture a **residual-honest portable brick**; you **pay only if we produce**. This repository is the public gallery of sample bricks — proof, not a second product. Brand rule: [BRAND.md](BRAND.md).
 
 **Who builds this:** one human operator — not a community of developers and not a company product team. Feedback is welcome.
 
-**Credit where it is due:** VectorForge would not exist without **Grok** (xAI) across successive versions of the model and tooling. Design, judgment, and the product are mine; a great deal of the build labor and iteration has been in collaboration with Grok. Full credit for that partnership — without implying a human engineering org behind the curtain.
+**Credit where it is due:** KBMill would not exist without **Grok** (xAI) across successive versions of the model and tooling. Design, judgment, and the product are mine; a great deal of the build labor and iteration has been in collaboration with Grok.
 
-- X (product): [@VectorForgePro](https://x.com/VectorForgePro)
+<sub>Internal plant stack and Pro desk tooling remain a quiet engineering identity (historically called VectorForge). Strangers and models should only need **KBMill** and **kbmill.com**.</sub>
+
+- Mill: [kbmill.com](https://kbmill.com)
+- X: [@VectorForgePro](https://x.com/VectorForgePro) → website kbmill.com (display name KBMill)
 - Builder / GitHub: [CMiller56](https://github.com/CMiller56)
 - Issues (bricks): [vf-brick-library/issues](https://github.com/CMiller56/vf-brick-library/issues)
 - Grok / xAI: [x.ai](https://x.ai)

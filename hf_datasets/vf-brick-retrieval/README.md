@@ -27,7 +27,7 @@ tags:
 - llm-native
 - knowledge-brick
 - production-rag
-pretty_name: VectorForge Brick Retrieval Demos
+pretty_name: KBMill Brick Retrieval Demos
 size_categories:
 - n<1K
 configs:
@@ -51,11 +51,11 @@ configs:
     path: nasa_skylab/queries.jsonl
 ---
 
-# VectorForge Brick Retrieval Demos
+# KBMill Brick Retrieval Demos
 
-Portable, **residual-honest** knowledge bricks turned into retrieval evaluation sets. Same mill as **[KBMill](https://kbmill.com)** (public door; hopper not on that hostname until go-live).
+Portable, **residual-honest** knowledge bricks turned into retrieval evaluation sets for **[KBMill](https://kbmill.com)** — the public mill at kbmill.com. Shelf packages live in [vf-brick-library](https://github.com/CMiller56/vf-brick-library).
 
-These are **not** unbounded wiki dumps or synthetic QA. They come from real [VectorForge Pro](https://x.com/VectorForgePro) manufacturing: bounded packages with muted residual junk filtered where applicable, craft notes, security report in the ZIP, and **published, re-runnable cosine retrieval evidence**.
+These are **not** unbounded wiki dumps or synthetic QA. They come from real **KBMill** manufacturing: bounded packages with muted residual junk filtered where applicable, craft notes, security report in the ZIP, and **published, re-runnable cosine retrieval evidence**.
 
 | Config | Queries | Corpus docs (eligible) | Source brick |
 |--------|--------:|-----------------------:|--------------|
@@ -71,9 +71,9 @@ The model is fine. The corpus is not.
 
 A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: shaped corpus, **`craft_brief.md`**, and **`SECURITY_REPORT.md`** in the remilled gallery ZIP. Known junk is **muted off the answer path** (listed on the card / brief — not hidden). It is **not a chatbot** and **not a per-page parser**. We do not host your files as a library.
 
-**When the plant vends:** drop the pile — **Small $149 / Medium $399 / Hard $999** is craft load, not page count. You **pay only if we produce** a usable ZIP. 72-hour download window, then purge. Point *your* existing model at the package.
+**Mill:** **[https://kbmill.com](https://kbmill.com)** — drop the pile. **Small $149 / Medium $399 / Hard $999** is craft load, not page count. You **pay only if we produce** a usable ZIP. After Ready, download within 72 hours, then we purge. Point *your* existing model at the package.
 
-**No hopper on kbmill.com yet.** These evals and the [vf-brick-library](https://github.com/CMiller56/vf-brick-library) are the public proof. The plant link will be added when it vends — we will not invent one.
+These evals and the [vf-brick-library](https://github.com/CMiller56/vf-brick-library) shelf are the public proof next to the mill.
 
 **Look, don’t trust me:** [ArduPilot Plane retrieval demo](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions). This dataset is the machine twin.
 
@@ -181,7 +181,7 @@ If you need a single SPDX tag for tooling, treat this card’s `license: other` 
 
 Please cite the [vf-brick-library](https://github.com/CMiller56/vf-brick-library) and VectorForge Pro if you use these for papers, leaderboards, or product evals.
 
-- Builder: **CMiller56** / [@VectorForgePro](https://x.com/VectorForgePro)
+- Product: **[KBMill](https://kbmill.com)** · X [@VectorForgePro](https://x.com/VectorForgePro) · GitHub **CMiller56**
 - Brick library: https://github.com/CMiller56/vf-brick-library
 
 ## Build
