@@ -8,24 +8,22 @@ task_categories:
 language:
 - en
 tags:
+- kbmill
+- knowledge-brick
+- residual-honest
 - rag
 - retrieval
 - knowledge-base
 - technical-documentation
-- residual-honest
-- vectorforge
-- kbmill
+- local-llm
+- air-gapped
 - ardupilot
 - uav
 - nasa
 - skylab
 - ocr
-- local-llm
-- air-gapped
 - beir
 - mteb
-- llm-native
-- knowledge-brick
 - production-rag
 pretty_name: KBMill Brick Retrieval Demos
 size_categories:

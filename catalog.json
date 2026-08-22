@@ -1,7 +1,9 @@
 {
   "version": 2,
   "updated": "2026-08-19",
-  "library": "vf-brick-library",
+  "library": "kbmill-brick-library",
+  "product": "KBMill",
+  "product_url": "https://kbmill.com",
   "url": "https://github.com/CMiller56/kbmill-brick-library",
   "unit": "*_portable.zip",
   "getting_started": "GETTING_STARTED.md",
