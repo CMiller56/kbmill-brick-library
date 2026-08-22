@@ -8,7 +8,7 @@
   "chunk_count_in_eval": null,
   "top_k": 3,
   "demo_md": "RETRIEVAL_DEMO_ArduPilot_Plane.md",
-  "brick_library_url": "https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane",
+  "brick_library_url": "https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane",
   "results": [
     {
       "query": "What is ArduPilot Plane used for?",

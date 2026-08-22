@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Minimal load / cosine re-rank sketch for CMiller/vf-brick-retrieval."""
+"""Minimal load / cosine re-rank sketch for CMiller/kbmill-brick-retrieval."""
 
 from __future__ import annotations
 
@@ -36,8 +36,8 @@ def load_qrels_tsv(path: str | Path) -> dict[str, set[str]]:
 def load_from_hub(config: str = "ardupilot_plane"):
     from datasets import load_dataset
 
-    corpus = load_dataset("CMiller/vf-brick-retrieval", config, split="corpus")
-    queries = load_dataset("CMiller/vf-brick-retrieval", config, split="queries")
+    corpus = load_dataset("CMiller/kbmill-brick-retrieval", config, split="corpus")
+    queries = load_dataset("CMiller/kbmill-brick-retrieval", config, split="queries")
     return corpus, queries
 
 
@@ -87,7 +87,7 @@ def evaluate_embeddings(
 
 
 if __name__ == "__main__":
-    print("Loader helper for CMiller/vf-brick-retrieval")
+    print("Loader helper for CMiller/kbmill-brick-retrieval")
     print("Example:")
     print('  from load_vf_brick_retrieval import load_from_hub')
     print('  corpus, queries = load_from_hub("ardupilot_plane")')

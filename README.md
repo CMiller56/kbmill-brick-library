@@ -22,7 +22,7 @@ A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: struct
 
 This repo is the **public proof shelf**. The product door is kbmill.com.
 
-**Look, don’t trust me:** the [ArduPilot Plane retrieval demo](RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions, citations). Same eval set: [CMiller/vf-brick-retrieval](https://huggingface.co/datasets/CMiller/vf-brick-retrieval).
+**Look, don’t trust me:** the [ArduPilot Plane retrieval demo](RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions, citations). Same eval set: [CMiller/kbmill-brick-retrieval](https://huggingface.co/datasets/CMiller/kbmill-brick-retrieval).
 
 ## Hard corpus on the desk
 
@@ -44,7 +44,7 @@ The highest-leverage way to judge this library is not the README — it is a **p
 
 **Compose, don’t melt:** [COMPOSITION_ArduPilot_Plane.md](COMPOSITION_ArduPilot_Plane.md) — Plane (ops) + Params + MAVLink as separate LLM-native packages.
 
-**Hugging Face dataset (BEIR-style):** **[CMiller/vf-brick-retrieval](https://huggingface.co/datasets/CMiller/vf-brick-retrieval)** — configs `ardupilot_plane` + `ardupilot_plane_params` + `nasa_skylab` (corpus / queries / qrels / published_hits). Local build: [`hf_datasets/vf-brick-retrieval/`](hf_datasets/vf-brick-retrieval/) · rebuild: `python3 scripts/build_hf_retrieval_dataset.py`.
+**Hugging Face dataset (BEIR-style):** **[CMiller/kbmill-brick-retrieval](https://huggingface.co/datasets/CMiller/kbmill-brick-retrieval)** — configs `ardupilot_plane` + `ardupilot_plane_params` + `nasa_skylab` (corpus / queries / qrels / published_hits). Local build: [`hf_datasets/vf-brick-retrieval/`](hf_datasets/vf-brick-retrieval/) · rebuild: `python3 scripts/build_hf_retrieval_dataset.py`.
 
 Ten minutes of reading beats any claim that “bricks retrieve well.” If a hit looks wrong, open an issue.
 
@@ -253,7 +253,7 @@ vf-brick-library/
 - Mill: [kbmill.com](https://kbmill.com)
 - X: [@VectorForgePro](https://x.com/VectorForgePro) → website kbmill.com (display name KBMill)
 - Builder / GitHub: [CMiller56](https://github.com/CMiller56)
-- Issues (bricks): [vf-brick-library/issues](https://github.com/CMiller56/vf-brick-library/issues)
+- Issues (bricks): [kbmill-brick-library/issues](https://github.com/CMiller56/kbmill-brick-library/issues)
 - Grok / xAI: [x.ai](https://x.ai)
 
 ---

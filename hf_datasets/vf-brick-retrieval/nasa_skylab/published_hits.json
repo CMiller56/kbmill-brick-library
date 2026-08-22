@@ -8,7 +8,7 @@
   "chunk_count_in_eval": 1207,
   "top_k": 3,
   "demo_md": "RETRIEVAL_DEMO_NASA_Skylab_History.md",
-  "brick_library_url": "https://github.com/CMiller56/vf-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space",
+  "brick_library_url": "https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space",
   "results": [
     {
       "query": "What was Skylab and why was it built?",

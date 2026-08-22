@@ -61,7 +61,7 @@ Students of ranger / light-infantry unit operations, veterans refreshing doctrin
 
 ## Feedback
 
-Open an issue on [vf-brick-library](https://github.com/CMiller56/vf-brick-library) with brick name + failing query.
+Open an issue on [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) with brick name + failing query.
 
 Built: 2026-07-30 18:11:24 · 100-brick B2 · figure-magazine profile=gov_fm · FM 7-85
 

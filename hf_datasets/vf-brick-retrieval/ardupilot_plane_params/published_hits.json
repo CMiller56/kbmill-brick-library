@@ -8,7 +8,7 @@
   "chunk_count_in_eval": 1781,
   "top_k": 3,
   "demo_md": "RETRIEVAL_DEMO_ArduPilot_Plane_Params.md",
-  "brick_library_url": "https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane_Params",
+  "brick_library_url": "https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane_Params",
   "results": [
     {
       "query": "What does TECS_LAND_ARSPD control during landing?",

@@ -241,7 +241,7 @@ Optional: VF Runtime Connect (`load_kb` / `search_kb`) if you already run Vector
 
 ## 15. Worked evidence
 
-- [RETRIEVAL_DEMO_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) — 20 real questions with scores and citations  
+- [RETRIEVAL_DEMO_ArduPilot_Plane.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) — 20 real questions with scores and citations  
 - [catalog.json](./catalog.json) — machine index of packs in this shelf  
 
 ---

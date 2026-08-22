@@ -63,6 +63,6 @@ Historians of electrical power and trade press; integrators stress-testing **per
 
 ## Feedback
 
-Open an issue on [vf-brick-library](https://github.com/CMiller56/vf-brick-library) with brick name + failing query.
+Open an issue on [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) with brick name + failing query.
 
 Built: 2026-07-31 18:52:56 · Factory dogfood · text-first portable · US PD / ex-US uncertain  

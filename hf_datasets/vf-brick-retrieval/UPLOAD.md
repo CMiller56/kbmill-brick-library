@@ -1,6 +1,6 @@
 # Upload to Hugging Face
 
-**Target repo:** `CMiller/vf-brick-retrieval`  
+**Target repo:** `CMiller/kbmill-brick-retrieval`  
 **Local package:** this directory (`hf_datasets/vf-brick-retrieval/`)
 
 ## Prerequisites
@@ -16,7 +16,7 @@ huggingface-cli whoami  # must show CMiller56 (or your org)
 ```bash
 huggingface-cli repo create vf-brick-retrieval --type dataset --private false
 # or with full name:
-# huggingface-cli repo create CMiller/vf-brick-retrieval --type dataset
+# huggingface-cli repo create CMiller/kbmill-brick-retrieval --type dataset
 ```
 
 ## Push files
@@ -26,7 +26,7 @@ From **this directory**:
 ```bash
 cd /home/cmiller/Desktop/vf-brick-library/hf_datasets/vf-brick-retrieval
 
-huggingface-cli upload CMiller/vf-brick-retrieval . . \
+huggingface-cli upload CMiller/kbmill-brick-retrieval . . \
   --repo-type dataset \
   --commit-message "Initial VF brick retrieval demos (ArduPilot 20q + Skylab 15q)"
 ```
@@ -36,10 +36,10 @@ Or use the Python API:
 ```python
 from huggingface_hub import HfApi
 api = HfApi()
-api.create_repo("CMiller/vf-brick-retrieval", repo_type="dataset", exist_ok=True)
+api.create_repo("CMiller/kbmill-brick-retrieval", repo_type="dataset", exist_ok=True)
 api.upload_folder(
     folder_path=".",
-    repo_id="CMiller/vf-brick-retrieval",
+    repo_id="CMiller/kbmill-brick-retrieval",
     repo_type="dataset",
     commit_message="Initial VF brick retrieval demos",
 )
@@ -49,8 +49,8 @@ api.upload_folder(
 
 ```python
 from datasets import load_dataset
-c = load_dataset("CMiller/vf-brick-retrieval", "ardupilot_plane", split="corpus")
-q = load_dataset("CMiller/vf-brick-retrieval", "ardupilot_plane", split="queries")
+c = load_dataset("CMiller/kbmill-brick-retrieval", "ardupilot_plane", split="corpus")
+q = load_dataset("CMiller/kbmill-brick-retrieval", "ardupilot_plane", split="queries")
 print(len(c), len(q), q[0])
 ```
 

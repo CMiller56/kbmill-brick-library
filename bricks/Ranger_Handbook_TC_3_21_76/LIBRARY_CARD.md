@@ -55,6 +55,6 @@ Students of small-unit tactics, veterans comparing editions, integrators testing
 
 ## Feedback
 
-Open an issue on [vf-brick-library](https://github.com/CMiller56/vf-brick-library) with brick name + failing query.
+Open an issue on [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) with brick name + failing query.
 
 Built: 2026-07-29 20:24:45 · 100-brick B2 · sibling pair with SH 21-76  

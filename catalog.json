@@ -2,7 +2,7 @@
   "version": 2,
   "updated": "2026-08-19",
   "library": "vf-brick-library",
-  "url": "https://github.com/CMiller56/vf-brick-library",
+  "url": "https://github.com/CMiller56/kbmill-brick-library",
   "unit": "*_portable.zip",
   "getting_started": "GETTING_STARTED.md",
   "portability": "PORTABILITY.md",

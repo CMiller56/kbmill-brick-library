@@ -12,8 +12,8 @@ Copy already says KBMill. This doc is the **slug / surface** rename plan.
 | 1 | **Site** | kbmill.com | Keep | Done |
 | 2 | **Public copy** | README / Notes / FAQ | KBMill-only | Done (pushed) |
 | 3 | **X** | @VectorForgePro | Display **KBMill**, website kbmill.com; handle `@kbmill` later if free | Carroll in app |
-| 4 | **GitHub library** | `CMiller56/vf-brick-library` | `CMiller56/kbmill-library` (GitHub keeps redirect) | Carroll click + link sweep |
-| 5 | **HF dataset** | `CMiller/vf-brick-retrieval` | `CMiller/kbmill-retrieval` (or `kbmill/…` if org) | Carroll HF Settings + re-upload card |
+| 4 | **GitHub library** | `CMiller56/kbmill-brick-library` | `CMiller56/kbmill-library` (GitHub keeps redirect) | Carroll click + link sweep |
+| 5 | **HF dataset** | `CMiller/kbmill-brick-retrieval` | `CMiller/kbmill-retrieval` (or `kbmill/…` if org) | Carroll HF Settings + re-upload card |
 | 6 | **Brick ZIP / card prose** | Some “VF Pro” footers in demos | KBMill / plant | Sweep after 4–5 |
 | 7 | **BRICK_SPEC optional runtime** | “without VectorForge” | “without the plant runtime” / “any loader” | Soft copy |
 | 8 | **Pro monorepo** | `VectorForge-Pro`, pkg `vectorforge_pro` | **Keep internal** for now | Later / never for strangers |
@@ -23,7 +23,7 @@ Copy already says KBMill. This doc is the **slug / surface** rename plan.
 ## Recommended next clicks (4 → 5)
 
 ### GitHub rename
-1. Open https://github.com/CMiller56/vf-brick-library/settings  
+1. Open https://github.com/CMiller56/kbmill-brick-library/settings  
 2. **Repository name** → `kbmill-library`  
 3. Leave **“Redirect will be created”** on  
 4. Update local remote:

@@ -53,6 +53,6 @@ Aerospace mechanisms engineers, systems integrators, and operators stress-testin
 
 ## Feedback
 
-Open an issue on [vf-brick-library](https://github.com/CMiller56/vf-brick-library) with brick name + failing query.
+Open an issue on [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) with brick name + failing query.
 
 Built: 2026-07-31 09:15:14 · 100-brick B2 · figure-magazine profile=hard_pdf · NASA AMS 41  

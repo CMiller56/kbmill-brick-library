@@ -64,7 +64,7 @@ python -m vectorforge.mcp.connect
 
 ## 5. Feedback (this is the point)
 
-Open an [Issue](https://github.com/CMiller56/vf-brick-library/issues) with:
+Open an [Issue](https://github.com/CMiller56/kbmill-brick-library/issues) with:
 
 1. Brick name  
 2. Query  

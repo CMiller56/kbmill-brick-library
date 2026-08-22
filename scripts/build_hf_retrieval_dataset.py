@@ -27,7 +27,7 @@ BRICKS = {
         "eval": REPO / "demos" / "ardupilot_plane_eval.json",
         "demo_md": "RETRIEVAL_DEMO_ArduPilot_Plane.md",
         "brick_name": "ArduPilot_Plane",
-        "brick_url": "https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane",
+        "brick_url": "https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane",
     },
     "ardupilot_plane_params": {
         "zip": REPO
@@ -37,7 +37,7 @@ BRICKS = {
         "eval": REPO / "demos" / "ardupilot_plane_params_eval.json",
         "demo_md": "RETRIEVAL_DEMO_ArduPilot_Plane_Params.md",
         "brick_name": "ArduPilot_Plane_Params",
-        "brick_url": "https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane_Params",
+        "brick_url": "https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane_Params",
     },
     "nasa_skylab": {
         "zip": REPO
@@ -47,7 +47,7 @@ BRICKS = {
         "eval": REPO / "demos" / "nasa_skylab_history_eval.json",
         "demo_md": "RETRIEVAL_DEMO_NASA_Skylab_History.md",
         "brick_name": "NASA_Skylab_History_Living_Working_Space",
-        "brick_url": "https://github.com/CMiller56/vf-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space",
+        "brick_url": "https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space",
     },
 }
 
@@ -221,7 +221,7 @@ def write_dataset_card(stats: list[dict]) -> None:
     card = f'''---
 license: other
 license_name: composite-upstream-and-brick-packaging
-license_link: https://github.com/CMiller56/vf-brick-library
+license_link: https://github.com/CMiller56/kbmill-brick-library
 task_categories:
 - text-retrieval
 - question-answering
@@ -279,11 +279,11 @@ These are **not** unbounded wiki dumps or synthetic QA. They come from real [Vec
 
 | Config | Queries | Corpus docs (eligible) | Source brick |
 |--------|--------:|-----------------------:|--------------|
-| `ardupilot_plane` | {ap.get("queries", 20)} | {ap.get("corpus_docs", "?")} | [ArduPilot_Plane](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane) (ops wiki) |
-| `ardupilot_plane_params` | {pp.get("queries", 15)} | {pp.get("corpus_docs", "?")} | [ArduPilot_Plane_Params](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane_Params) (dense param tables) |
-| `nasa_skylab` | {sk.get("queries", 15)} | {sk.get("corpus_docs", "?")} | [NASA_Skylab_History_Living_Working_Space](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space) |
+| `ardupilot_plane` | {ap.get("queries", 20)} | {ap.get("corpus_docs", "?")} | [ArduPilot_Plane](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane) (ops wiki) |
+| `ardupilot_plane_params` | {pp.get("queries", 15)} | {pp.get("corpus_docs", "?")} | [ArduPilot_Plane_Params](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane_Params) (dense param tables) |
+| `nasa_skylab` | {sk.get("queries", 15)} | {sk.get("corpus_docs", "?")} | [NASA_Skylab_History_Living_Working_Space](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space) |
 
-**Compose, don’t melt:** ops vs params are separate packages — [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md).
+**Compose, don’t melt:** ops vs params are separate packages — [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md).
 
 ## If your local model is up and answers from your docs are still junk
 
@@ -293,9 +293,9 @@ A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: shaped
 
 **When the plant vends:** drop the pile — **Small $149 / Medium $399 / Hard $999** is craft load, not page count. You **pay only if we produce** a usable ZIP. 72-hour download window, then purge. Point *your* existing model at the package.
 
-**No hopper on kbmill.com yet.** These evals and the [vf-brick-library](https://github.com/CMiller56/vf-brick-library) are the public proof. The plant link will be added when it vends — we will not invent one.
+**No hopper on kbmill.com yet.** These evals and the [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) are the public proof. The plant link will be added when it vends — we will not invent one.
 
-**Look, don’t trust me:** [ArduPilot Plane retrieval demo](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions). This dataset is the machine twin.
+**Look, don’t trust me:** [ArduPilot Plane retrieval demo](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions). This dataset is the machine twin.
 
 ## Design intent (the differentiator)
 
@@ -327,12 +327,12 @@ Configs publish top-3 cosine results with chunk IDs, headings, sources, and exce
 
 Full write-ups:
 
-- [RETRIEVAL_DEMO_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md)
-- [RETRIEVAL_DEMO_ArduPilot_Plane_Params.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane_Params.md)
-- [RETRIEVAL_DEMO_NASA_Skylab_History.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_NASA_Skylab_History.md)
-- [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md)
+- [RETRIEVAL_DEMO_ArduPilot_Plane.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md)
+- [RETRIEVAL_DEMO_ArduPilot_Plane_Params.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane_Params.md)
+- [RETRIEVAL_DEMO_NASA_Skylab_History.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_NASA_Skylab_History.md)
+- [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md)
 
-Full portable ZIPs (Markdown + chunks + embeddings + cards) live in the [vf-brick-library](https://github.com/CMiller56/vf-brick-library).
+Full portable ZIPs (Markdown + chunks + embeddings + cards) live in the [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library).
 
 ## Dataset layout (BEIR-compatible)
 
@@ -353,8 +353,8 @@ nasa_skylab/
 ```python
 from datasets import load_dataset
 
-corpus = load_dataset("CMiller/vf-brick-retrieval", "ardupilot_plane", split="corpus")
-queries = load_dataset("CMiller/vf-brick-retrieval", "ardupilot_plane", split="queries")
+corpus = load_dataset("CMiller/kbmill-brick-retrieval", "ardupilot_plane", split="corpus")
+queries = load_dataset("CMiller/kbmill-brick-retrieval", "ardupilot_plane", split="queries")
 
 # qrels are TSV (not a datasets split by default) — parse locally:
 # ardupilot_plane/qrels/test.tsv
@@ -399,10 +399,10 @@ If you need a single SPDX tag for tooling, treat this card’s `license: other` 
 
 ## Citation / credit
 
-Please cite the [vf-brick-library](https://github.com/CMiller56/vf-brick-library) and VectorForge Pro if you use these for papers, leaderboards, or product evals.
+Please cite the [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) and VectorForge Pro if you use these for papers, leaderboards, or product evals.
 
 - Builder: **CMiller56** / [@VectorForgePro](https://x.com/VectorForgePro)
-- Brick library: https://github.com/CMiller56/vf-brick-library
+- Brick library: https://github.com/CMiller56/kbmill-brick-library
 
 ## Build
 
@@ -425,7 +425,7 @@ python3 scripts/build_hf_retrieval_dataset.py
 
 def write_loader_script() -> None:
     text = r'''#!/usr/bin/env python3
-"""Minimal load / cosine re-rank sketch for CMiller/vf-brick-retrieval."""
+"""Minimal load / cosine re-rank sketch for CMiller/kbmill-brick-retrieval."""
 
 from __future__ import annotations
 
@@ -462,8 +462,8 @@ def load_qrels_tsv(path: str | Path) -> dict[str, set[str]]:
 def load_from_hub(config: str = "ardupilot_plane"):
     from datasets import load_dataset
 
-    corpus = load_dataset("CMiller/vf-brick-retrieval", config, split="corpus")
-    queries = load_dataset("CMiller/vf-brick-retrieval", config, split="queries")
+    corpus = load_dataset("CMiller/kbmill-brick-retrieval", config, split="corpus")
+    queries = load_dataset("CMiller/kbmill-brick-retrieval", config, split="queries")
     return corpus, queries
 
 
@@ -513,7 +513,7 @@ def evaluate_embeddings(
 
 
 if __name__ == "__main__":
-    print("Loader helper for CMiller/vf-brick-retrieval")
+    print("Loader helper for CMiller/kbmill-brick-retrieval")
     print("Example:")
     print('  from load_vf_brick_retrieval import load_from_hub')
     print('  corpus, queries = load_from_hub("ardupilot_plane")')

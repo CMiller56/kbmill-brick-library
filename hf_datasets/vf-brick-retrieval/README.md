@@ -1,7 +1,7 @@
 ---
 license: other
 license_name: composite-upstream-and-brick-packaging
-license_link: https://github.com/CMiller56/vf-brick-library
+license_link: https://github.com/CMiller56/kbmill-brick-library
 task_categories:
 - text-retrieval
 - question-answering
@@ -53,17 +53,17 @@ configs:
 
 # KBMill Brick Retrieval Demos
 
-Portable, **residual-honest** knowledge bricks turned into retrieval evaluation sets for **[KBMill](https://kbmill.com)** — the public mill at kbmill.com. Shelf packages live in [vf-brick-library](https://github.com/CMiller56/vf-brick-library).
+Portable, **residual-honest** knowledge bricks turned into retrieval evaluation sets for **[KBMill](https://kbmill.com)** — the public mill at kbmill.com. Shelf packages live in [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library).
 
 These are **not** unbounded wiki dumps or synthetic QA. They come from real **KBMill** manufacturing: bounded packages with muted residual junk filtered where applicable, craft notes, security report in the ZIP, and **published, re-runnable cosine retrieval evidence**.
 
 | Config | Queries | Corpus docs (eligible) | Source brick |
 |--------|--------:|-----------------------:|--------------|
-| `ardupilot_plane` | 20 | 332 | [ArduPilot_Plane](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane) (ops wiki) |
-| `ardupilot_plane_params` | 15 | 1781 | [ArduPilot_Plane_Params](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/ArduPilot_Plane_Params) (dense param tables) |
-| `nasa_skylab` | 15 | 1141 | [NASA_Skylab_History_Living_Working_Space](https://github.com/CMiller56/vf-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space) |
+| `ardupilot_plane` | 20 | 332 | [ArduPilot_Plane](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane) (ops wiki) |
+| `ardupilot_plane_params` | 15 | 1781 | [ArduPilot_Plane_Params](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane_Params) (dense param tables) |
+| `nasa_skylab` | 15 | 1141 | [NASA_Skylab_History_Living_Working_Space](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space) |
 
-**Compose, don’t melt:** ops vs params are separate packages — [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md).
+**Compose, don’t melt:** ops vs params are separate packages — [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md).
 
 ## If your local model is up and answers from your docs are still junk
 
@@ -73,9 +73,9 @@ A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: shaped
 
 **Mill:** **[https://kbmill.com](https://kbmill.com)** — drop the pile. **Small $149 / Medium $399 / Hard $999** is craft load, not page count. You **pay only if we produce** a usable ZIP. After Ready, download within 72 hours, then we purge. Point *your* existing model at the package.
 
-These evals and the [vf-brick-library](https://github.com/CMiller56/vf-brick-library) shelf are the public proof next to the mill.
+These evals and the [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) shelf are the public proof next to the mill.
 
-**Look, don’t trust me:** [ArduPilot Plane retrieval demo](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions). This dataset is the machine twin.
+**Look, don’t trust me:** [ArduPilot Plane retrieval demo](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions). This dataset is the machine twin.
 
 ## Design intent (the differentiator)
 
@@ -107,12 +107,12 @@ Configs publish top-3 cosine results with chunk IDs, headings, sources, and exce
 
 Full write-ups:
 
-- [RETRIEVAL_DEMO_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md)
-- [RETRIEVAL_DEMO_ArduPilot_Plane_Params.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane_Params.md)
-- [RETRIEVAL_DEMO_NASA_Skylab_History.md](https://github.com/CMiller56/vf-brick-library/blob/main/RETRIEVAL_DEMO_NASA_Skylab_History.md)
-- [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/vf-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md)
+- [RETRIEVAL_DEMO_ArduPilot_Plane.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md)
+- [RETRIEVAL_DEMO_ArduPilot_Plane_Params.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane_Params.md)
+- [RETRIEVAL_DEMO_NASA_Skylab_History.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_NASA_Skylab_History.md)
+- [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md)
 
-Full portable ZIPs (Markdown + chunks + embeddings + cards) live in the [vf-brick-library](https://github.com/CMiller56/vf-brick-library).
+Full portable ZIPs (Markdown + chunks + embeddings + cards) live in the [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library).
 
 ## Dataset layout (BEIR-compatible)
 
@@ -133,8 +133,8 @@ nasa_skylab/
 ```python
 from datasets import load_dataset
 
-corpus = load_dataset("CMiller/vf-brick-retrieval", "ardupilot_plane", split="corpus")
-queries = load_dataset("CMiller/vf-brick-retrieval", "ardupilot_plane", split="queries")
+corpus = load_dataset("CMiller/kbmill-brick-retrieval", "ardupilot_plane", split="corpus")
+queries = load_dataset("CMiller/kbmill-brick-retrieval", "ardupilot_plane", split="queries")
 
 # qrels are TSV (not a datasets split by default) — parse locally:
 # ardupilot_plane/qrels/test.tsv
@@ -179,10 +179,10 @@ If you need a single SPDX tag for tooling, treat this card’s `license: other` 
 
 ## Citation / credit
 
-Please cite [KBMill](https://kbmill.com) and the [public brick shelf](https://github.com/CMiller56/vf-brick-library) if you use these for papers, leaderboards, or product evals.
+Please cite [KBMill](https://kbmill.com) and the [public brick shelf](https://github.com/CMiller56/kbmill-brick-library) if you use these for papers, leaderboards, or product evals.
 
 - Product: **[KBMill](https://kbmill.com)** · X [@VectorForgePro](https://x.com/VectorForgePro) · GitHub **CMiller56**
-- Brick library: https://github.com/CMiller56/vf-brick-library
+- Brick library: https://github.com/CMiller56/kbmill-brick-library
 
 ## Build
 

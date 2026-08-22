@@ -75,7 +75,7 @@ Dense param tables are a **different stress** from wiki ops or OCR history (Skyl
 
 HF retrieval set today ships the **ops** facet (`ardupilot_plane` config). Params can be added as a second ArduPilot config later if needed; full portable ZIPs remain the leave-behind.
 
-Hub: [CMiller/vf-brick-retrieval](https://huggingface.co/datasets/CMiller/vf-brick-retrieval) · Contract: [BRICK_SPEC.md](BRICK_SPEC.md)
+Hub: [CMiller/kbmill-brick-retrieval](https://huggingface.co/datasets/CMiller/kbmill-brick-retrieval) · Contract: [BRICK_SPEC.md](BRICK_SPEC.md)
 
 ---
 

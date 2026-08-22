@@ -52,6 +52,6 @@ Students of small-unit tactics, military history, and anyone testing residual-ho
 
 ## Feedback
 
-Open an issue on [vf-brick-library](https://github.com/CMiller56/vf-brick-library) with brick name + query that failed. Bricks improve over factory re-cuts.
+Open an issue on [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) with brick name + query that failed. Bricks improve over factory re-cuts.
 
 Built: 2026-07-29 20:15:06 · campaign: 100-brick B2-class · residual craft magazine applied  

@@ -51,7 +51,7 @@ Propulsion / mission design readers and integrators testing a **compact NASA tec
 
 ## Feedback
 
-Open an issue on [vf-brick-library](https://github.com/CMiller56/vf-brick-library) with brick name + failing query.
+Open an issue on [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) with brick name + failing query.
 
 Built: 2026-07-31 13:39 · public gallery · figure-magazine ready · KBM Factory dogfood
 

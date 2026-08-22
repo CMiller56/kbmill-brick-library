@@ -58,7 +58,7 @@ Students of marksmanship doctrine, veterans refreshing fundamentals, integrators
 
 ## Feedback
 
-Open an issue on [vf-brick-library](https://github.com/CMiller56/vf-brick-library) with brick name + failing query.
+Open an issue on [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) with brick name + failing query.
 
 Built: 2026-07-30 21:04:54 · 100-brick B2 · figure-magazine profile=gov_fm · MCRP 3-01A
 

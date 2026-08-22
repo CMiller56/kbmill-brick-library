@@ -53,7 +53,7 @@ Space history readers, veterans of the AAP/Skylab era, and integrators testing *
 
 ## Feedback
 
-Open an issue on [vf-brick-library](https://github.com/CMiller56/vf-brick-library) with brick name + failing query.
+Open an issue on [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) with brick name + failing query.
 
 Built: 2026-07-31 09:32:40 · 100-brick B2 · figure-magazine profile=hard_pdf · Skylab history
 

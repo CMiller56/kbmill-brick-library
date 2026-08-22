@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Tiny baseline retrieval metrics for CMiller/vf-brick-retrieval.
+Tiny baseline retrieval metrics for CMiller/kbmill-brick-retrieval.
 
 Re-embeds HF corpus + queries with a named SentenceTransformer model,
 ranks by cosine similarity, scores against qrels/test.tsv.
