@@ -20,6 +20,8 @@ A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: struct
 
 **Mill:** **[https://kbmill.com](https://kbmill.com)** — drop the files you already have. You **pay only if we produce**. You keep the ZIP. Point your existing local model at that package; do not replace your stack. (Invite / coupon while the door warms up.)
 
+**Teaching (questions we answer):** [kbmill.com/notes#questions](https://kbmill.com/notes#questions) — corpus fitness, fourth-leg ROM gaps, bricks vs melts, what the model may quote, and more. Machine summary: [kbmill.com/llms.txt](https://kbmill.com/llms.txt).
+
 This repo is the **public proof shelf**. The product door is kbmill.com.
 
 **Look, don’t trust me:** the [ArduPilot Plane retrieval demo](RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions, citations). Same eval set: [CMiller/kbmill-brick-retrieval](https://huggingface.co/datasets/CMiller/kbmill-brick-retrieval).
@@ -223,7 +225,7 @@ Honest criticism is more useful than polite praise.
 ## Repo layout
 
 ```
-vf-brick-library/
+kbmill-brick-library/   # (local clone folder may still be named vf-brick-library)
 ├── README.md                 ← you are here
 ├── GETTING_STARTED.md        ← drop-in path (start here)
 ├── PORTABILITY.md            ← load without the mill runtime

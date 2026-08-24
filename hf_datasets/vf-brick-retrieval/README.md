@@ -71,6 +71,8 @@ A **knowledge brick** is a **residual-honest** **portable ZIP** you keep: shaped
 
 **Mill:** **[https://kbmill.com](https://kbmill.com)** — drop the pile. **Small $149 / Medium $399 / Hard $999** is craft load, not page count. You **pay only if we produce** a usable ZIP. After Ready, download within 72 hours, then we purge. Point *your* existing model at the package.
 
+**Questions KBMill answers** (corpus fitness, ROM fourth leg, bricks vs melts, what may be quoted): [kbmill.com/notes#questions](https://kbmill.com/notes#questions). Machine summary: [kbmill.com/llms.txt](https://kbmill.com/llms.txt).
+
 These evals and the [kbmill-brick-library](https://github.com/CMiller56/kbmill-brick-library) shelf are the public proof next to the mill.
 
 **Look, don’t trust me:** [ArduPilot Plane retrieval demo](https://github.com/CMiller56/kbmill-brick-library/blob/main/RETRIEVAL_DEMO_ArduPilot_Plane.md) (20 questions). This dataset is the machine twin.
@@ -161,11 +163,11 @@ This dataset packages **excerpts and structure** from:
 
 | Subset | Upstream material | Packaging |
 |--------|-------------------|-----------|
-| `ardupilot_plane` | ArduPilot wiki / Plane docs (community; check [ArduPilot license / wiki terms](https://ardupilot.org/)) | VF brick packaging by CMiller56 |
-| `ardupilot_plane_params` | ArduPilot Plane parameter / log reference | VF brick packaging by CMiller56 |
+| `ardupilot_plane` | ArduPilot wiki / Plane docs (community; check [ArduPilot license / wiki terms](https://ardupilot.org/)) | KBMill brick packaging by CMiller56 |
+| `ardupilot_plane_params` | ArduPilot Plane parameter / log reference | KBMill brick packaging by CMiller56 |
 | `nasa_skylab` | NASA official history (US government work; generally public domain in the US) | OCR residual craft + brick packaging by CMiller56 |
 
-You are responsible for complying with upstream terms when redistributing full source documents. The **qrels, query list, published hit tables, and VF packaging metadata** are provided to support residual-honest evaluation and citation of the manufacturing method.
+You are responsible for complying with upstream terms when redistributing full source documents. The **qrels, query list, published hit tables, and brick packaging metadata** are provided to support residual-honest evaluation and citation of the manufacturing method.
 
 If you need a single SPDX tag for tooling, treat this card’s `license: other` as intentional: composite upstream + evaluation packaging.
 
