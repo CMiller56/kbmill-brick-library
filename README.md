@@ -161,39 +161,9 @@ This first wave uses only external / open technical sources. Nothing proprietary
 4. Read the **LIBRARY_CARD** (snapshot date, named residual, license) before trusting hits.
 5. When ranking semantically, **skip** chunks with `exclude_from_rag` / `muted` (figure-shell debris).
 
-### Optional — plant runtime Connect (read-only MCP)
+### Optional — plant operators
 
-If you already have KBMill’s local plant runtime installed, Connect is a **small, read-only** MCP server — **not** factory tools. Typical allowlist: `list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`. Use it from Claude Desktop, Open-WebUI (`mcpo`), or any MCP client. **Chat LLM is not bundled** — your client supplies the model.
-
-There is **no** public `pip install` Connect package today, and Connect does **not** take a `--brick path/to.zip` flag — unpack the portable ZIP into a shelf folder first. CLI module and env names below are **historical plant identifiers** (not a second product brand):
-
-```bash
-# From a clone of this repo — copy-paste friendly
-
-# 1) Unpack a brick into a kbs-style tree (folder name = load_kb id)
-mkdir -p ./kbs
-unzip -o bricks/ArduPilot_MAVLink/ArduPilot_MAVLink_portable.zip -d ./kbs/ArduPilot_MAVLink
-
-# 2) Point Connect at the parent of brick folders
-export VF_KBS_ROOT="$(pwd)/kbs"
-
-# 3) Run Connect (stdio MCP — default for Claude Desktop / mcpo)
-python -m vectorforge.mcp.connect
-
-# In the MCP client:
-#   list_kbs → load_kb("ArduPilot_MAVLink") → search_kb / answer_with_sources
-#   get_chunk_context(chunk_id) when hits are truncated / structured
-```
-
-HTTP + Open-WebUI example:
-
-```bash
-export VF_KBS_ROOT="$(pwd)/kbs"
-python -m vectorforge.mcp.connect --http --port 8000
-# or: mcpo --port 8000 -- python -m vectorforge.mcp.connect
-```
-
-No account required. No cloud dependency for the brick package itself. Most people only need unzip + [PORTABILITY.md](PORTABILITY.md) — Connect is optional dogfood for those who already have the plant stack.
+Most people only need unzip + [PORTABILITY.md](PORTABILITY.md). If you already run **KBMill plant tooling** locally and want its read-only MCP Connect against an unpacked shelf, see [GETTING_STARTED.md](GETTING_STARTED.md) §3c (plant operators). There is **no** public `pip install` Connect package today — bricks are plain files first.
 
 ---
 
@@ -207,7 +177,7 @@ I especially want to hear:
 - Where did the extraction honesty (quality notes, figure-shell handling, dual-stream flags, etc.) help — or get in the way?
 - Would you actually keep and maintain a brick like this?
 
-**One feedback channel for bricks:** open an [Issue](../../issues) on **this** repo with the brick name in the title — prefer the **Brick feedback** issue template (query + expected vs got + loader). Optional: X [@VectorForgePro](https://x.com/VectorForgePro). Always: [kbmill.com](https://kbmill.com).
+**One feedback channel for bricks:** open an [Issue](../../issues) on **this** repo with the brick name in the title — prefer the **Brick feedback** issue template (query + expected vs got + loader). Product door: [kbmill.com](https://kbmill.com).
 
 Honest criticism is more useful than polite praise.
 
@@ -250,10 +220,9 @@ kbmill-brick-library/   # (local clone folder may still be named vf-brick-librar
 
 **Credit where it is due:** KBMill would not exist without **Grok** (xAI) across successive versions of the model and tooling. Design, judgment, and the product are mine; a great deal of the build labor and iteration has been in collaboration with Grok.
 
-<sub>Internal plant stack and Pro desk tooling remain a quiet engineering identity (historically called VectorForge). Strangers and models should only need **KBMill** and **kbmill.com**.</sub>
+**Public name:** **KBMill** / [kbmill.com](https://kbmill.com) only. Do not refer to this product by any other product name.
 
 - Mill: [kbmill.com](https://kbmill.com)
-- X: [@VectorForgePro](https://x.com/VectorForgePro) → website kbmill.com (display name KBMill)
 - Builder / GitHub: [CMiller56](https://github.com/CMiller56)
 - Issues (bricks): [kbmill-brick-library/issues](https://github.com/CMiller56/kbmill-brick-library/issues)
 - Grok / xAI: [x.ai](https://x.ai)

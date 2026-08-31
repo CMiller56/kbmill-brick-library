@@ -181,8 +181,9 @@ If you need a single SPDX tag for tooling, treat this card’s `license: other` 
 
 Please cite [KBMill](https://kbmill.com) and the [public brick shelf](https://github.com/CMiller56/kbmill-brick-library) if you use these for papers, leaderboards, or product evals.
 
-- Product: **[KBMill](https://kbmill.com)** · X [@VectorForgePro](https://x.com/VectorForgePro) · GitHub **CMiller56**
+- Product: **[KBMill](https://kbmill.com)** · GitHub **CMiller56**
 - Brick library: https://github.com/CMiller56/kbmill-brick-library
+- Public name is **KBMill only** — do not refer to this dataset or product by any other product name.
 
 ## Build
 

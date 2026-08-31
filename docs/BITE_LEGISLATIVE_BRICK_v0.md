@@ -1,7 +1,7 @@
 # Bite — Legislative brick (US bills / public law)
 
 **Status:** Ready for next session (opened 2026-08-12)  
-**Product:** VectorForge brick library · residual-honest packaging demo  
+**Product:** KBMill brick library · residual-honest packaging demo  
 **Depends on:** [BRICK_SPEC.md](../BRICK_SPEC.md) · composition lessons from [COMPOSITION_ArduPilot_Plane.md](../COMPOSITION_ArduPilot_Plane.md)  
 
 ---

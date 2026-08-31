@@ -1,6 +1,6 @@
 # US Founding Documents
 
-**First federated shelf** for VectorForge public library dogfood.
+**First federated shelf** for KBMill public library dogfood.
 
 Primary-source bricks (public domain texts), not modern commentary.  
 **Not legal advice.** Historical instruments for study, retrieval, and multi-brick open-set.
@@ -32,8 +32,8 @@ Suggested seeds: Constitution + Federalist for ratification themes; Articles + C
 ## Build
 
 ```bash
-cd VectorForge-Pro
-export PYTHONPATH="$PWD:../VectorForge-Project:$PYTHONPATH"
-export VECTORFORGE_EMBEDDING_DEVICE=cpu
+cd <your-local-plant-monorepo>
+export PYTHONPATH="$PWD:<plant-engine-checkout>:$PYTHONPATH"
+export KBMILL_EMBEDDING_DEVICE=cpu  # or plant-local embedding device env
 python scripts/build_us_founding_documents_shelf.py --force
 ```

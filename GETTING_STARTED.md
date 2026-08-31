@@ -39,20 +39,11 @@ Same embed family as the brick (**nomic-embed-text**, 768-d). See **[PORTABILITY
 
 **RAG path honesty:** skip chunks with `exclude_from_rag: true` or `muted: true` (figure-shell / imprint debris). Your ranker should filter them the same way a production loader would.
 
-## 3c. Optional — local runtime Connect
+## 3c. Optional — KBMill plant operators only
 
-If you already have the plant’s local runtime / Engine installed (air-gap pack or site install). Connect is **optional** and **read-only** (no factory tools): `list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`. Bricks are not locked to any one runtime — plain files first.
+If you already run **KBMill plant tooling** locally, Connect is an optional **read-only** MCP surface (`list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`). Strangers and models do **not** need this — use §3a/§3b + [PORTABILITY.md](PORTABILITY.md).
 
-**Not** a public `pip install` Connect package today. **Not** `python -m vectorforge.mcp.connect --brick …zip` (no `--brick` flag). Unzip first, then set `VF_KBS_ROOT` (env name is historical).
-
-```bash
-# From a clone of this repo — copy-paste
-mkdir -p ./kbs
-unzip -o bricks/ArduPilot_Plane/ArduPilot_Plane_portable.zip -d ./kbs/ArduPilot_Plane
-export VF_KBS_ROOT="$(pwd)/kbs"
-python -m vectorforge.mcp.connect
-# MCP client: list_kbs → load_kb("ArduPilot_Plane") → search_kb / answer_with_sources
-```
+There is **no** public `pip install` Connect package. Unpack the ZIP first (Connect does not take a brick ZIP path). Exact CLI/module paths ship with the plant install docs — not repeated here so public copy stays **KBMill-only**.
 
 ## 4. Read craft notes first
 

@@ -16,7 +16,7 @@ Students, citizens, educators, and integrators testing multi-brick open-set on c
 ## Sources / provenance
 
 See source markdown header in `docs/library/US_Founding_Documents/Federalist_Papers/`.  
-Packaging: VectorForge knowledge brick (retrieval package).
+Packaging: KBMill knowledge brick (retrieval package).
 
 ## License / rights
 

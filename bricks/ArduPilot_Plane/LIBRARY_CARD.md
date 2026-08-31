@@ -31,7 +31,7 @@ Recut **2026-08-17:** wiki nav chrome stripped (Commercial Support / Stores pref
 
 **Upstream:** ArduPilot documentation is generally offered under **Creative Commons Attribution-ShareAlike** (CC BY-SA; confirm current deed on the ArduPilot wiki / docs site).
 
-**This brick (derived package):** Text content in the ZIP is a **transformed, attributed derivation** of that documentation for offline retrieval. Redistribution of this package should preserve **attribution to the ArduPilot project and original authors** and respect **ShareAlike** for the documentation content. Embeddings and packaging structure are VectorForge brick format, not a claim of ownership over ArduPilot text.
+**This brick (derived package):** Text content in the ZIP is a **transformed, attributed derivation** of that documentation for offline retrieval. Redistribution of this package should preserve **attribution to the ArduPilot project and original authors** and respect **ShareAlike** for the documentation content. Embeddings and packaging structure are KBMill brick format, not a claim of ownership over ArduPilot text.
 
 **Not affiliated with or endorsed by** the ArduPilot project.
 
