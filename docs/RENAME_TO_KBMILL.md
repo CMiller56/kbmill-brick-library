@@ -12,6 +12,7 @@
 | HF evals | [CMiller/kbmill-brick-retrieval](https://huggingface.co/datasets/CMiller/kbmill-brick-retrieval) (old id redirects) |
 | Mill / Notes / FAQ / `llms.txt` | KBMill only; models instructed not to use other product names |
 | Shelf README / BRAND / GETTING_STARTED | KBMill only (2026-08-30 scrub — no dual-brand footnotes) |
+| How to use with your LLM | [HOW_TO_USE_WITH_YOUR_LLM.md](../HOW_TO_USE_WITH_YOUR_LLM.md) + mill FAQ `#use` (2026-08-31) |
 | LIBRARY_CARD packaging lines | KBMill knowledge brick |
 | HF dataset card | KBMill only |
 | HF tags | Lead with `kbmill` — no competing product tag |

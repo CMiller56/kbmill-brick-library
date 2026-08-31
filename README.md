@@ -63,7 +63,7 @@ Ten minutes of reading beats any claim that “bricks retrieve well.” If a hit
 
 Fitted stone units, not a poured slab — the same bet as knowledge bricks: bounded modules, honest residual gaps, composed programs.
 
-Load how-to: [GETTING_STARTED.md](GETTING_STARTED.md) · matrix sketch: [PORTABILITY.md](PORTABILITY.md).
+Load how-to: [HOW_TO_USE_WITH_YOUR_LLM.md](HOW_TO_USE_WITH_YOUR_LLM.md) · [GETTING_STARTED.md](GETTING_STARTED.md) · [PORTABILITY.md](PORTABILITY.md).
 
 <sub>Photo: [Christophe Meneboeuf](https://www.xtof.photo) · [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) · via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sacsayhuaman_(pixinn.net).jpg) (trimmed web-small; credit: [docs/saqsayhuaman.CREDIT.md](docs/saqsayhuaman.CREDIT.md))</sub>
 
@@ -157,13 +157,14 @@ This first wave uses only external / open technical sources. Nothing proprietary
 
 1. Download the `*_portable.zip` (or clone this repo and use `bricks/<Name>/`)
 2. Unzip so you have a folder with `kb.json`, `chunks.jsonl`, `embeddings.npy`
-3. Load it **without the mill runtime** — plain Markdown, `chunks.jsonl`, or embeddings cosine rank. Worked notes: [PORTABILITY.md](PORTABILITY.md).
-4. Read the **LIBRARY_CARD** (snapshot date, named residual, license) before trusting hits.
-5. When ranking semantically, **skip** chunks with `exclude_from_rag` / `muted` (figure-shell debris).
+3. **Try it with your own LLM** — attach/paste the Markdown + craft brief (no plant install). Walkthrough: [HOW_TO_USE_WITH_YOUR_LLM.md](HOW_TO_USE_WITH_YOUR_LLM.md).  
+4. Or load **without the mill runtime** — plain Markdown, `chunks.jsonl`, or embeddings cosine rank: [PORTABILITY.md](PORTABILITY.md).  
+5. Read the **LIBRARY_CARD** (snapshot date, named residual, license) before trusting hits.  
+6. When ranking semantically, **skip** chunks with `exclude_from_rag` / `muted` (figure-shell debris).
 
 ### Optional — plant operators
 
-Most people only need unzip + [PORTABILITY.md](PORTABILITY.md). If you already run **KBMill plant tooling** locally and want its read-only MCP Connect against an unpacked shelf, see [GETTING_STARTED.md](GETTING_STARTED.md) §3c (plant operators). There is **no** public `pip install` Connect package today — bricks are plain files first.
+Most people only need [HOW_TO_USE_WITH_YOUR_LLM.md](HOW_TO_USE_WITH_YOUR_LLM.md) or [PORTABILITY.md](PORTABILITY.md). If you already run **KBMill plant tooling** locally and want its read-only MCP Connect against an unpacked shelf, see [GETTING_STARTED.md](GETTING_STARTED.md) §3d. There is **no** public `pip install` Connect package today — bricks are plain files first.
 
 ---
 
@@ -198,6 +199,7 @@ Honest criticism is more useful than polite praise.
 kbmill-brick-library/   # (local clone folder may still be named vf-brick-library)
 ├── README.md                 ← you are here
 ├── GETTING_STARTED.md        ← drop-in path (start here)
+├── HOW_TO_USE_WITH_YOUR_LLM.md ← chat path: attach Markdown to your model
 ├── PORTABILITY.md            ← load without the mill runtime
 ├── RETRIEVAL_DEMO_*.md       ← published Q&A evidence
 ├── catalog.json              ← machine-readable index

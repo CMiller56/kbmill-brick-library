@@ -23,9 +23,19 @@ cd ArduPilot_Plane
 ls   # kb.json  chunks.jsonl  embeddings.npy  HANDOFF_README.md  *.md …
 ```
 
-You need at least: `kb.json`, `chunks.jsonl`, `embeddings.npy`, `HANDOFF_README.md`.
+You need at least: primary `*.md`, `craft_brief.md` (when present), `chunks.jsonl`, `kb.json`, `embeddings.npy`, `HANDOFF_README.md`.
 
-## 3a. Plain text (zero ML)
+## 3a. Chat with your LLM (start here — no code)
+
+**Full walkthrough:** **[HOW_TO_USE_WITH_YOUR_LLM.md](HOW_TO_USE_WITH_YOUR_LLM.md)**
+
+1. Open the primary `*.md` and skim `craft_brief.md`.  
+2. In ChatGPT / Claude / Grok / Gemini / Open-WebUI / LM Studio / etc.: **attach** those files or **paste** a section + the craft brief.  
+3. Ask questions; ask the model to answer only from the package.
+
+That is enough for a first real test in *your* environment. The ZIP does not auto-wire itself — someone opens the files once.
+
+## 3b. Plain text search (zero ML)
 
 ```bash
 rg -n "FBWA|first flight" chunks.jsonl | head
@@ -33,17 +43,17 @@ rg -n "FBWA|first flight" chunks.jsonl | head
 
 Good for reading and grep. No semantic ranking.
 
-## 3b. Semantic rank without the mill runtime
+## 3c. Semantic rank / RAG without the mill runtime
 
 Same embed family as the brick (**nomic-embed-text**, 768-d). See **[PORTABILITY.md](PORTABILITY.md)** for a minimal cosine sketch.
 
 **RAG path honesty:** skip chunks with `exclude_from_rag: true` or `muted: true` (figure-shell / imprint debris). Your ranker should filter them the same way a production loader would.
 
-## 3c. Optional — KBMill plant operators only
+## 3d. Optional — KBMill plant operators only
 
-If you already run **KBMill plant tooling** locally, Connect is an optional **read-only** MCP surface (`list_kbs`, `load_kb`, `search_kb`, `answer_with_sources`, `get_chunk_context`). Strangers and models do **not** need this — use §3a/§3b + [PORTABILITY.md](PORTABILITY.md).
+If you already run **KBMill plant tooling** locally, Connect is an optional **read-only** MCP surface. Strangers do **not** need this — use §3a–3c.
 
-There is **no** public `pip install` Connect package. Unpack the ZIP first (Connect does not take a brick ZIP path). Exact CLI/module paths ship with the plant install docs — not repeated here so public copy stays **KBMill-only**.
+There is **no** public `pip install` Connect package. Unpack the ZIP first. Exact CLI/module paths ship with the plant install docs — not repeated here so public copy stays **KBMill-only**.
 
 ## 4. Read craft notes first
 
