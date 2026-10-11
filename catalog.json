@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-08-19",
+  "updated": "2026-10-10",
   "library": "kbmill-brick-library",
   "product": "KBMill",
   "product_url": "https://kbmill.com",
@@ -385,6 +385,23 @@
       "has_handoff": false,
       "public_gallery": true,
       "language": "it"
+    },
+    {
+      "name": "KBMill_Desktop_Install",
+      "title": "KBMill Desktop install and troubleshooting",
+      "chunks": 13,
+      "zip": "bricks/KBMill_Desktop_Install/KBMill_Desktop_Install_portable.zip",
+      "size_bytes": 54179,
+      "card": "bricks/KBMill_Desktop_Install/LIBRARY_CARD.md",
+      "spec": "bricks/KBMill_Desktop_Install/SPEC.md",
+      "license": "bricks/KBMill_Desktop_Install/LICENSE.md",
+      "family": "kbmill",
+      "rights_class": "kbmill",
+      "disc_name": "KBMill_Desktop_Install",
+      "residual_one_liner": "13 chunks, none muted; install paper for the desk image; agreement is LICENSE.md",
+      "search_smoke": "PASS",
+      "has_handoff": false,
+      "public_gallery": false
     }
   ],
   "series": {
