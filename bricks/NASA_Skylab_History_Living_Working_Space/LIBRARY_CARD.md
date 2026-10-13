@@ -62,7 +62,8 @@ Built: 2026-07-31 09:32:40 · 100-brick B2 · figure-magazine profile=hard_pdf �
 - Paper-capture OCR: **396** figure shells promoted; shells/plot-debris muted.  
 - **Post-promote soft-hyphen** magazine step: 357 chunks joined (finish A3c alone runs *before* promote).  
 - Index mute + heading sanitize on finish path.  
-- Active muted: **108** of 1207. Soft ship warnings may remain.
+- Active muted: **120** of 1260. Soft ship warnings may remain.
+- Eligible `chunk-0023` is still headed "Page intentionally left blank."
 
 ## Portable package policy
 

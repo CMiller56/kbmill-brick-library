@@ -59,7 +59,7 @@ These are **not** unbounded wiki dumps or synthetic QA. They come from real **KB
 |--------|--------:|-----------------------:|--------------|
 | `ardupilot_plane` | 20 | 332 | [ArduPilot_Plane](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane) (ops wiki) |
 | `ardupilot_plane_params` | 15 | 1781 | [ArduPilot_Plane_Params](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/ArduPilot_Plane_Params) (dense param tables) |
-| `nasa_skylab` | 15 | 1141 | [NASA_Skylab_History_Living_Working_Space](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space) |
+| `nasa_skylab` | 15 | 1140 | [NASA_Skylab_History_Living_Working_Space](https://github.com/CMiller56/kbmill-brick-library/tree/main/bricks/NASA_Skylab_History_Living_Working_Space) |
 
 **Compose, don’t melt:** ops vs params are separate packages — [COMPOSITION_ArduPilot_Plane.md](https://github.com/CMiller56/kbmill-brick-library/blob/main/COMPOSITION_ArduPilot_Plane.md).
 
@@ -195,6 +195,7 @@ python3 scripts/build_hf_retrieval_dataset.py
 
 ## Changelog
 
+- 2026-10-02: Re-ran the 15 Skylab questions against the published ZIP (1,260 chunks, 120 muted, 1,140 eligible). Corpus and published hits match that ranking. `baseline_results.json` is still the earlier measurement.
 - 2026-08-19: Rebuild corpus after Camelot-fix gallery remill (Skylab eligible docs 1099→1141; Plane/Params unchanged). Package claims aligned with ZIP reality (`SECURITY_REPORT.md` + `craft_brief.md`; no invented `MILL_RECEIPT` / `residual_board.md` on every brick). Catalog/LIBRARY_CARD chunk counts synced to ZIPs.
 - 2026-08-17: Rebuild corpus from remilled gallery ZIPs (wiki-nav strip + false-heading mop + `SECURITY_REPORT.md` in the brick). Card names KBMill, brick-vs-parse, pay-on-success. Published hits may still quote pre-remill excerpts until the Plane/Params/Skylab *eval JSON* is re-run.
 - 2026-08-12: Clarify middle position — neither lab-clean nor raw dump; residual-honest real source material.
