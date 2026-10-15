@@ -3,7 +3,7 @@
 **Brick id (folder):** `FM_3_90_Tactics`  
 **Chunks:** 1142  
 **Muted / exclude_from_rag:** 186  
-**Package:** `FM_3_90_Tactics_portable.zip` (8379 KB)  
+**Package:** `FM_3_90_Tactics_portable.zip` (8588 KB)  
 **Search smoke:** PASS  
 **Public gallery:** **yes** (US Government work)  
 **Family:** doctrine  
@@ -48,11 +48,20 @@ Students of land tactics, veterans refreshing doctrine vocabulary, integrators s
 - Built with **`figure-magazine --profile gov_fm`** (multi_section re-pass included).  
 - Layout, tables, and illustrations may lose fidelity in plain text.  
 - Soft ship gates (human Mark Ready) may remain; high-priority residual cleared when possible.  
-- Sidecars: `finish_report.json`, `figure_magazine.json`, `figure_index.json`, `job_b_recheck.json`, `_full_build.log`.
+
+## Feed
+
+Lists beside this card, packed from the zip. Stamp: **us-government**.
+
+- `kept.jsonl` — 956 chunks kept  
+- `excluded.jsonl` — 186 refused, each with a reason  
+- `COUNTS.md` — the same counts  
+
+Refused: 174 figure shells, 11 plot debris, 1 garbled line. `SECURITY_REPORT.md` and `craft_brief.md` are inside the zip. The security file is the plant's own scan.
 
 ## How to use
 
-1. Unzip `FM_3_90_Tactics_portable.zip` (or load per `HANDOFF_README.md`).  
+1. Unzip `FM_3_90_Tactics_portable.zip`. The kept and refused lists are the jsonl files in this folder.  
 2. `load_kb("FM_3_90_Tactics")` in VF Runtime Connect / Engine.  
 3. Prefer questions grounded in offensive/defensive tactics — cite chunks; verify residual.  
 4. Chat LLM is **not** bundled.

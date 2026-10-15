@@ -147,9 +147,11 @@
       "card": "bricks/FM_3_90_Tactics/LIBRARY_CARD.md",
       "family": "doctrine",
       "rights_class": "us_government",
-      "residual_one_liner": "Large FM; figure shells muted via gov_fm magazine; residual soft craft may remain; remill 2026-08-19 tables=21 (camelot=7, md=14)",
+      "residual_one_liner": "186 muted of 1142; large FM; figure shells muted via gov_fm magazine; residual soft craft may remain; remill 2026-08-19 tables=21 (camelot=7, md=14)",
       "search_smoke": "PASS",
-      "has_handoff": true
+      "has_handoff": true,
+      "has_embeddings": true,
+      "public_gallery": true
     },
     {
       "name": "FM_7_85_Ranger_Unit_Operations",
